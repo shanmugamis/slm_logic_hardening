@@ -105,9 +105,45 @@ def preprocess_proofwriter(dataset: Any) -> Any:
     )
     return dataset.map(format_proofwriter, load_from_cache_file=False)
 
+def format_ruletaker(example: dict[str, Any]) -> dict[str, Any]:
+    """Format an allenai/ruletaker example into the same schema as FOLIO.
+
+    Fields: context (premises), question (hypothesis), answer (bool True/False — no Uncertain).
+    """
+    premises = example.get("context", "")
+    hypothesis = example.get("question", "")
+
+    prompt = (
+        "You are a Logical Reasoning System.\n\n"
+        f"Premises:\n{premises}\n\n"
+        f"Hypothesis:\n{hypothesis}\n\n"
+        "Question:\n"
+        "Is the hypothesis True, False, or Uncertain?\n\n"
+        "Answer:\n"
+    )
+
+    raw_answer = example.get("answer", False)
+    normalized_label = "true" if raw_answer else "false"
+    target_text = LABEL_TO_TARGET[normalized_label]
+
+    return {
+        "prompt": prompt,
+        "label": normalized_label,
+        "label_id": LABEL_TO_ID[normalized_label],
+        "target_text": target_text,
+        "full_text": prompt + target_text,
+        "no_of_premises": get_no_of_premises(premises),
+    }
+
+
+def preprocess_ruletaker(dataset: Any) -> Any:
+    return dataset.map(format_ruletaker, load_from_cache_file=False)
+
+
 DATASET_PREPROCESSORS: dict = {
     "folio": preprocess_folio,
     "proofwriter": preprocess_proofwriter,
+    "ruletaker": preprocess_ruletaker,
 }
 
 def get_tokenizer(model_id: str = "microsoft/Phi-3.5-mini-instruct"):
