@@ -122,8 +122,8 @@ def format_ruletaker(example: dict[str, Any]) -> dict[str, Any]:
         "Answer:\n"
     )
 
-    raw_answer = example.get("answer", False)
-    normalized_label = "true" if raw_answer else "false"
+    raw_label = str(example.get("label", "")).strip().lower()
+    normalized_label = "true" if raw_label == "entailment" else "false"
     target_text = LABEL_TO_TARGET[normalized_label]
 
     return {

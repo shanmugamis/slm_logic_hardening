@@ -47,9 +47,12 @@ def load_proofwriter(sample_size: int = 10000, seed: int = 42) -> Any:
     return dataset
 
 
-def load_ruletaker() -> Any:
-    """Load RuleTaker — rule-based deduction, True/False/Unknown."""
-    return _load_hf("allenai/ruletaker", name="depth-5")
+def load_ruletaker(sample_size: int = 10000, seed: int = 42) -> Any:
+    """Load RuleTaker from tasksource — rule-based deduction, entailment/not entailment."""
+    dataset = _load_hf("tasksource/ruletaker")
+    if sample_size and len(dataset["train"]) > sample_size:
+        dataset["train"] = dataset["train"].shuffle(seed=seed).select(range(sample_size))
+    return dataset
 
 
 def load_prontoqa() -> Any:
