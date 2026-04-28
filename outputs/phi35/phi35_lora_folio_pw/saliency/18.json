@@ -1,0 +1,649 @@
+{
+  "experiment_id": "phi35_lora_folio_pw",
+  "index": 18,
+  "ground_truth": "True",
+  "no_of_premises": 6,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll rabbits that can be spotted near the campus are cute. \nSome turtles can be spotted near the campus. \nThe only animals that can be spotted near the campus are rabbits and squirrels.\nIf something is skittish, then it is not calm.\nAll the squirrels that can be spotted near the campus are skittish.\nRockie can be spotted near the campus, and it is calm.\n\nHypothesis:\nRockie is a turtle or cute.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 485.113586
+    },
+    {
+      "token": "\u2581are",
+      "score": 270.955597
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.781734
+    },
+    {
+      "token": "\u2581Log",
+      "score": 711.330872
+    },
+    {
+      "token": "ical",
+      "score": 563.390808
+    },
+    {
+      "token": "\u2581Re",
+      "score": 739.530334
+    },
+    {
+      "token": "ason",
+      "score": 2.610054
+    },
+    {
+      "token": "ing",
+      "score": 32.28236
+    },
+    {
+      "token": "\u2581System",
+      "score": 7.272524
+    },
+    {
+      "token": ".",
+      "score": 79.613052
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.17407
+    },
+    {
+      "token": "<0x0A>",
+      "score": 15.577298
+    },
+    {
+      "token": "P",
+      "score": 28.5432
+    },
+    {
+      "token": "rem",
+      "score": 53.765984
+    },
+    {
+      "token": "ises",
+      "score": 289.431274
+    },
+    {
+      "token": ":",
+      "score": 18.506273
+    },
+    {
+      "token": "<0x0A>",
+      "score": 16.048323
+    },
+    {
+      "token": "All",
+      "score": 42.496746
+    },
+    {
+      "token": "\u2581rabb",
+      "score": 84.514572
+    },
+    {
+      "token": "its",
+      "score": 8.798684
+    },
+    {
+      "token": "\u2581that",
+      "score": 96.8069
+    },
+    {
+      "token": "\u2581can",
+      "score": 25.38591
+    },
+    {
+      "token": "\u2581be",
+      "score": 9.711796
+    },
+    {
+      "token": "\u2581sp",
+      "score": 104.017082
+    },
+    {
+      "token": "otted",
+      "score": 1.459561
+    },
+    {
+      "token": "\u2581near",
+      "score": 37.751099
+    },
+    {
+      "token": "\u2581the",
+      "score": 48.587265
+    },
+    {
+      "token": "\u2581campus",
+      "score": 37.023582
+    },
+    {
+      "token": "\u2581are",
+      "score": 93.133987
+    },
+    {
+      "token": "\u2581c",
+      "score": 136.074356
+    },
+    {
+      "token": "ute",
+      "score": 768.633789
+    },
+    {
+      "token": ".",
+      "score": 99.473038
+    },
+    {
+      "token": "\u2581",
+      "score": 204.807129
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.108588
+    },
+    {
+      "token": "Some",
+      "score": 55.101643
+    },
+    {
+      "token": "\u2581t",
+      "score": 10.653767
+    },
+    {
+      "token": "urt",
+      "score": 1.629019
+    },
+    {
+      "token": "les",
+      "score": 3.055969
+    },
+    {
+      "token": "\u2581can",
+      "score": 6.315114
+    },
+    {
+      "token": "\u2581be",
+      "score": 14.910645
+    },
+    {
+      "token": "\u2581sp",
+      "score": 7.124001
+    },
+    {
+      "token": "otted",
+      "score": 2.671946
+    },
+    {
+      "token": "\u2581near",
+      "score": 1.357307
+    },
+    {
+      "token": "\u2581the",
+      "score": 4.113797
+    },
+    {
+      "token": "\u2581campus",
+      "score": 2.45663
+    },
+    {
+      "token": ".",
+      "score": 0.415837
+    },
+    {
+      "token": "\u2581",
+      "score": 0.221094
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.861232
+    },
+    {
+      "token": "The",
+      "score": 0.005065
+    },
+    {
+      "token": "\u2581only",
+      "score": 8.082115
+    },
+    {
+      "token": "\u2581animals",
+      "score": 8.56404
+    },
+    {
+      "token": "\u2581that",
+      "score": 2.530268
+    },
+    {
+      "token": "\u2581can",
+      "score": 3.086853
+    },
+    {
+      "token": "\u2581be",
+      "score": 7.027685
+    },
+    {
+      "token": "\u2581sp",
+      "score": 20.998001
+    },
+    {
+      "token": "otted",
+      "score": 3.665934
+    },
+    {
+      "token": "\u2581near",
+      "score": 0.747989
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.530281
+    },
+    {
+      "token": "\u2581campus",
+      "score": 4.367546
+    },
+    {
+      "token": "\u2581are",
+      "score": 15.425556
+    },
+    {
+      "token": "\u2581rabb",
+      "score": 4.419343
+    },
+    {
+      "token": "its",
+      "score": 9.019673
+    },
+    {
+      "token": "\u2581and",
+      "score": 1.696245
+    },
+    {
+      "token": "\u2581squ",
+      "score": 4.552821
+    },
+    {
+      "token": "ir",
+      "score": 2.627799
+    },
+    {
+      "token": "rel",
+      "score": 1.237795
+    },
+    {
+      "token": "s",
+      "score": 4.697932
+    },
+    {
+      "token": ".",
+      "score": 3.824259
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.859527
+    },
+    {
+      "token": "If",
+      "score": 1.152091
+    },
+    {
+      "token": "\u2581something",
+      "score": 13.007885
+    },
+    {
+      "token": "\u2581is",
+      "score": 6.249573
+    },
+    {
+      "token": "\u2581sk",
+      "score": 6.093646
+    },
+    {
+      "token": "itt",
+      "score": 1.29203
+    },
+    {
+      "token": "ish",
+      "score": 56.771618
+    },
+    {
+      "token": ",",
+      "score": 4.110975
+    },
+    {
+      "token": "\u2581then",
+      "score": 3.661814
+    },
+    {
+      "token": "\u2581it",
+      "score": 5.845198
+    },
+    {
+      "token": "\u2581is",
+      "score": 0.12699
+    },
+    {
+      "token": "\u2581not",
+      "score": 7.059232
+    },
+    {
+      "token": "\u2581calm",
+      "score": 16.898281
+    },
+    {
+      "token": ".",
+      "score": 6.793437
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.304871
+    },
+    {
+      "token": "All",
+      "score": 2.2849
+    },
+    {
+      "token": "\u2581the",
+      "score": 3.790785
+    },
+    {
+      "token": "\u2581squ",
+      "score": 10.622536
+    },
+    {
+      "token": "ir",
+      "score": 68.919403
+    },
+    {
+      "token": "rel",
+      "score": 22.846149
+    },
+    {
+      "token": "s",
+      "score": 40.319775
+    },
+    {
+      "token": "\u2581that",
+      "score": 36.355873
+    },
+    {
+      "token": "\u2581can",
+      "score": 62.235413
+    },
+    {
+      "token": "\u2581be",
+      "score": 13.380385
+    },
+    {
+      "token": "\u2581sp",
+      "score": 21.758461
+    },
+    {
+      "token": "otted",
+      "score": 2.088794
+    },
+    {
+      "token": "\u2581near",
+      "score": 88.58815
+    },
+    {
+      "token": "\u2581the",
+      "score": 3.991351
+    },
+    {
+      "token": "\u2581campus",
+      "score": 1.818145
+    },
+    {
+      "token": "\u2581are",
+      "score": 1.105143
+    },
+    {
+      "token": "\u2581sk",
+      "score": 2.781914
+    },
+    {
+      "token": "itt",
+      "score": 2.972502
+    },
+    {
+      "token": "ish",
+      "score": 9.862285
+    },
+    {
+      "token": ".",
+      "score": 0.861468
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.975798
+    },
+    {
+      "token": "R",
+      "score": 4.380584
+    },
+    {
+      "token": "ock",
+      "score": 4.534035
+    },
+    {
+      "token": "ie",
+      "score": 17.686909
+    },
+    {
+      "token": "\u2581can",
+      "score": 9.894333
+    },
+    {
+      "token": "\u2581be",
+      "score": 0.953519
+    },
+    {
+      "token": "\u2581sp",
+      "score": 3.205658
+    },
+    {
+      "token": "otted",
+      "score": 2.890639
+    },
+    {
+      "token": "\u2581near",
+      "score": 1.364086
+    },
+    {
+      "token": "\u2581the",
+      "score": 2.405354
+    },
+    {
+      "token": "\u2581campus",
+      "score": 1.53786
+    },
+    {
+      "token": ",",
+      "score": 2.272779
+    },
+    {
+      "token": "\u2581and",
+      "score": 6.869547
+    },
+    {
+      "token": "\u2581it",
+      "score": 0.884398
+    },
+    {
+      "token": "\u2581is",
+      "score": 5.596437
+    },
+    {
+      "token": "\u2581calm",
+      "score": 6.723102
+    },
+    {
+      "token": ".",
+      "score": 0.810246
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.250519
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.466613
+    },
+    {
+      "token": "H",
+      "score": 0.997308
+    },
+    {
+      "token": "yp",
+      "score": 0.646384
+    },
+    {
+      "token": "oth",
+      "score": 1.158122
+    },
+    {
+      "token": "esis",
+      "score": 3.372921
+    },
+    {
+      "token": ":",
+      "score": 3.547914
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.542979
+    },
+    {
+      "token": "R",
+      "score": 4.62755
+    },
+    {
+      "token": "ock",
+      "score": 5.370218
+    },
+    {
+      "token": "ie",
+      "score": 21.678425
+    },
+    {
+      "token": "\u2581is",
+      "score": 2.359703
+    },
+    {
+      "token": "\u2581a",
+      "score": 4.864747
+    },
+    {
+      "token": "\u2581t",
+      "score": 3.738891
+    },
+    {
+      "token": "urt",
+      "score": 1.399109
+    },
+    {
+      "token": "le",
+      "score": 70.482437
+    },
+    {
+      "token": "\u2581or",
+      "score": 9.566029
+    },
+    {
+      "token": "\u2581c",
+      "score": 2.182356
+    },
+    {
+      "token": "ute",
+      "score": 0.231943
+    },
+    {
+      "token": ".",
+      "score": 1.647543
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.627954
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.511306
+    },
+    {
+      "token": "Question",
+      "score": 0.528618
+    },
+    {
+      "token": ":",
+      "score": 8.074489
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.847758
+    },
+    {
+      "token": "Is",
+      "score": 4.096748
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.932738
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 0.008436
+    },
+    {
+      "token": "\u2581True",
+      "score": 1.924455
+    },
+    {
+      "token": ",",
+      "score": 0.822808
+    },
+    {
+      "token": "\u2581False",
+      "score": 1.735841
+    },
+    {
+      "token": ",",
+      "score": 0.21605
+    },
+    {
+      "token": "\u2581or",
+      "score": 1.271014
+    },
+    {
+      "token": "\u2581Un",
+      "score": 0.227608
+    },
+    {
+      "token": "certain",
+      "score": 0.993491
+    },
+    {
+      "token": "?",
+      "score": 0.120134
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.019139
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.794727
+    },
+    {
+      "token": "Answer",
+      "score": 3.293648
+    },
+    {
+      "token": ":",
+      "score": 7.3208
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.055151
+    }
+  ]
+}

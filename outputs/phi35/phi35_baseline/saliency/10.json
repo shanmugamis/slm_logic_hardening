@@ -1,0 +1,689 @@
+{
+  "experiment_id": "phi35_baseline",
+  "index": 10,
+  "ground_truth": "False",
+  "no_of_premises": 6,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nThere are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould\u2019s wild turkey, Merriam\u2019s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.\nTom is not an Eastern wild turkey.\nTom is not an Osceola wild turkey.\nTom is not a Gould's wild turkey.\nTom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.\nTom is a wild turkey.\n\nHypothesis:\nTom is an Eastern wild turkey.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 48.566669
+    },
+    {
+      "token": "\u2581are",
+      "score": 21.729349
+    },
+    {
+      "token": "\u2581a",
+      "score": 13.251037
+    },
+    {
+      "token": "\u2581Log",
+      "score": 89.132446
+    },
+    {
+      "token": "ical",
+      "score": 38.142929
+    },
+    {
+      "token": "\u2581Re",
+      "score": 40.427414
+    },
+    {
+      "token": "ason",
+      "score": 0.275447
+    },
+    {
+      "token": "ing",
+      "score": 0.53395
+    },
+    {
+      "token": "\u2581System",
+      "score": 3.658481
+    },
+    {
+      "token": ".",
+      "score": 7.525836
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.457151
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.063699
+    },
+    {
+      "token": "P",
+      "score": 6.999224
+    },
+    {
+      "token": "rem",
+      "score": 0.317526
+    },
+    {
+      "token": "ises",
+      "score": 22.565323
+    },
+    {
+      "token": ":",
+      "score": 40.670364
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.898847
+    },
+    {
+      "token": "There",
+      "score": 10.569942
+    },
+    {
+      "token": "\u2581are",
+      "score": 13.310722
+    },
+    {
+      "token": "\u2581six",
+      "score": 9.738649
+    },
+    {
+      "token": "\u2581types",
+      "score": 1.07782
+    },
+    {
+      "token": "\u2581of",
+      "score": 3.327488
+    },
+    {
+      "token": "\u2581wild",
+      "score": 1.701334
+    },
+    {
+      "token": "\u2581tur",
+      "score": 1.951304
+    },
+    {
+      "token": "keys",
+      "score": 1.41607
+    },
+    {
+      "token": ":",
+      "score": 2.429363
+    },
+    {
+      "token": "\u2581Eastern",
+      "score": 1.068425
+    },
+    {
+      "token": "\u2581wild",
+      "score": 2.872427
+    },
+    {
+      "token": "\u2581tur",
+      "score": 4.373245
+    },
+    {
+      "token": "key",
+      "score": 1.844699
+    },
+    {
+      "token": ",",
+      "score": 1.429081
+    },
+    {
+      "token": "\u2581Os",
+      "score": 0.547076
+    },
+    {
+      "token": "ce",
+      "score": 1.247436
+    },
+    {
+      "token": "ola",
+      "score": 8.001664
+    },
+    {
+      "token": "\u2581wild",
+      "score": 8.09271
+    },
+    {
+      "token": "\u2581tur",
+      "score": 4.035719
+    },
+    {
+      "token": "key",
+      "score": 0.431252
+    },
+    {
+      "token": ",",
+      "score": 0.696067
+    },
+    {
+      "token": "\u2581G",
+      "score": 3.750851
+    },
+    {
+      "token": "ould",
+      "score": 2.667321
+    },
+    {
+      "token": "\u2019",
+      "score": 1.582929
+    },
+    {
+      "token": "s",
+      "score": 6.112057
+    },
+    {
+      "token": "\u2581wild",
+      "score": 0.157964
+    },
+    {
+      "token": "\u2581tur",
+      "score": 3.782718
+    },
+    {
+      "token": "key",
+      "score": 6.71311
+    },
+    {
+      "token": ",",
+      "score": 3.67176
+    },
+    {
+      "token": "\u2581Mer",
+      "score": 2.283961
+    },
+    {
+      "token": "ri",
+      "score": 2.146578
+    },
+    {
+      "token": "am",
+      "score": 8.543615
+    },
+    {
+      "token": "\u2019",
+      "score": 0.657204
+    },
+    {
+      "token": "s",
+      "score": 2.025174
+    },
+    {
+      "token": "\u2581wild",
+      "score": 4.676908
+    },
+    {
+      "token": "\u2581tur",
+      "score": 2.068016
+    },
+    {
+      "token": "key",
+      "score": 4.335613
+    },
+    {
+      "token": ",",
+      "score": 1.165956
+    },
+    {
+      "token": "\u2581Rio",
+      "score": 0.443222
+    },
+    {
+      "token": "\u2581Grande",
+      "score": 0.809996
+    },
+    {
+      "token": "\u2581wild",
+      "score": 0.80418
+    },
+    {
+      "token": "\u2581tur",
+      "score": 0.120476
+    },
+    {
+      "token": "key",
+      "score": 0.91517
+    },
+    {
+      "token": ",",
+      "score": 1.992856
+    },
+    {
+      "token": "\u2581and",
+      "score": 1.67953
+    },
+    {
+      "token": "\u2581O",
+      "score": 1.467239
+    },
+    {
+      "token": "cell",
+      "score": 0.644793
+    },
+    {
+      "token": "ated",
+      "score": 6.568222
+    },
+    {
+      "token": "\u2581wild",
+      "score": 7.719903
+    },
+    {
+      "token": "\u2581tur",
+      "score": 6.342541
+    },
+    {
+      "token": "key",
+      "score": 2.358427
+    },
+    {
+      "token": ".",
+      "score": 0.208558
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.240137
+    },
+    {
+      "token": "Tom",
+      "score": 0.915362
+    },
+    {
+      "token": "\u2581is",
+      "score": 0.340134
+    },
+    {
+      "token": "\u2581not",
+      "score": 1.077747
+    },
+    {
+      "token": "\u2581an",
+      "score": 2.361554
+    },
+    {
+      "token": "\u2581Eastern",
+      "score": 0.453455
+    },
+    {
+      "token": "\u2581wild",
+      "score": 2.109007
+    },
+    {
+      "token": "\u2581tur",
+      "score": 5.409972
+    },
+    {
+      "token": "key",
+      "score": 1.410742
+    },
+    {
+      "token": ".",
+      "score": 0.891353
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.680524
+    },
+    {
+      "token": "Tom",
+      "score": 0.166023
+    },
+    {
+      "token": "\u2581is",
+      "score": 0.732156
+    },
+    {
+      "token": "\u2581not",
+      "score": 0.710983
+    },
+    {
+      "token": "\u2581an",
+      "score": 2.426866
+    },
+    {
+      "token": "\u2581Os",
+      "score": 0.208671
+    },
+    {
+      "token": "ce",
+      "score": 0.727415
+    },
+    {
+      "token": "ola",
+      "score": 6.459593
+    },
+    {
+      "token": "\u2581wild",
+      "score": 0.178029
+    },
+    {
+      "token": "\u2581tur",
+      "score": 2.146686
+    },
+    {
+      "token": "key",
+      "score": 0.001299
+    },
+    {
+      "token": ".",
+      "score": 0.056044
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.505338
+    },
+    {
+      "token": "Tom",
+      "score": 1.042269
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.103056
+    },
+    {
+      "token": "\u2581not",
+      "score": 0.138065
+    },
+    {
+      "token": "\u2581a",
+      "score": 4.809947
+    },
+    {
+      "token": "\u2581G",
+      "score": 0.702385
+    },
+    {
+      "token": "ould",
+      "score": 0.497218
+    },
+    {
+      "token": "'",
+      "score": 0.157774
+    },
+    {
+      "token": "s",
+      "score": 1.811583
+    },
+    {
+      "token": "\u2581wild",
+      "score": 1.005281
+    },
+    {
+      "token": "\u2581tur",
+      "score": 4.89968
+    },
+    {
+      "token": "key",
+      "score": 0.417282
+    },
+    {
+      "token": ".",
+      "score": 1.272063
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.769368
+    },
+    {
+      "token": "Tom",
+      "score": 0.39484
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.548232
+    },
+    {
+      "token": "\u2581neither",
+      "score": 1.355267
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.051165
+    },
+    {
+      "token": "\u2581Mer",
+      "score": 0.939504
+    },
+    {
+      "token": "ri",
+      "score": 0.629347
+    },
+    {
+      "token": "am",
+      "score": 1.849553
+    },
+    {
+      "token": "'",
+      "score": 3.165083
+    },
+    {
+      "token": "s",
+      "score": 1.579001
+    },
+    {
+      "token": "\u2581wild",
+      "score": 1.408093
+    },
+    {
+      "token": "\u2581tur",
+      "score": 1.077235
+    },
+    {
+      "token": "key",
+      "score": 0.948078
+    },
+    {
+      "token": "\u2581nor",
+      "score": 5.890924
+    },
+    {
+      "token": "\u2581a",
+      "score": 5.141162
+    },
+    {
+      "token": "\u2581Rio",
+      "score": 1.197574
+    },
+    {
+      "token": "\u2581Grande",
+      "score": 0.162898
+    },
+    {
+      "token": "\u2581wild",
+      "score": 2.695095
+    },
+    {
+      "token": "\u2581tur",
+      "score": 2.585275
+    },
+    {
+      "token": "key",
+      "score": 1.452603
+    },
+    {
+      "token": ".",
+      "score": 1.049221
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.894466
+    },
+    {
+      "token": "Tom",
+      "score": 1.591647
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.189935
+    },
+    {
+      "token": "\u2581a",
+      "score": 3.32381
+    },
+    {
+      "token": "\u2581wild",
+      "score": 1.054497
+    },
+    {
+      "token": "\u2581tur",
+      "score": 1.812855
+    },
+    {
+      "token": "key",
+      "score": 2.603077
+    },
+    {
+      "token": ".",
+      "score": 2.112175
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.753552
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.931397
+    },
+    {
+      "token": "H",
+      "score": 1.514364
+    },
+    {
+      "token": "yp",
+      "score": 0.69524
+    },
+    {
+      "token": "oth",
+      "score": 4.575121
+    },
+    {
+      "token": "esis",
+      "score": 1.890855
+    },
+    {
+      "token": ":",
+      "score": 1.484025
+    },
+    {
+      "token": "<0x0A>",
+      "score": 8.901676
+    },
+    {
+      "token": "Tom",
+      "score": 0.144634
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.608495
+    },
+    {
+      "token": "\u2581an",
+      "score": 2.005752
+    },
+    {
+      "token": "\u2581Eastern",
+      "score": 1.129681
+    },
+    {
+      "token": "\u2581wild",
+      "score": 0.721861
+    },
+    {
+      "token": "\u2581tur",
+      "score": 1.581272
+    },
+    {
+      "token": "key",
+      "score": 2.973814
+    },
+    {
+      "token": ".",
+      "score": 1.611683
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.481968
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.60734
+    },
+    {
+      "token": "Question",
+      "score": 3.376531
+    },
+    {
+      "token": ":",
+      "score": 4.820737
+    },
+    {
+      "token": "<0x0A>",
+      "score": 11.575899
+    },
+    {
+      "token": "Is",
+      "score": 8.580919
+    },
+    {
+      "token": "\u2581the",
+      "score": 2.667819
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 1.161197
+    },
+    {
+      "token": "\u2581True",
+      "score": 0.292081
+    },
+    {
+      "token": ",",
+      "score": 1.728899
+    },
+    {
+      "token": "\u2581False",
+      "score": 17.307476
+    },
+    {
+      "token": ",",
+      "score": 5.928661
+    },
+    {
+      "token": "\u2581or",
+      "score": 22.502745
+    },
+    {
+      "token": "\u2581Un",
+      "score": 9.42918
+    },
+    {
+      "token": "certain",
+      "score": 4.897753
+    },
+    {
+      "token": "?",
+      "score": 18.309284
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.707569
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.515587
+    },
+    {
+      "token": "Answer",
+      "score": 7.253517
+    },
+    {
+      "token": ":",
+      "score": 3.378678
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.525615
+    }
+  ]
+}

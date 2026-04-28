@@ -1,0 +1,17 @@
+torch>=2.2
+transformers>=4.40
+datasets>=2.18
+accelerate>=0.27
+peft>=0.10
+
+scikit-learn>=1.3
+evaluate>=0.4
+
+captum>=0.7
+
+sentencepiece
+numpy
+pandas
+tqdm
+pyyaml>=6.0
+matplotlib>=3.7

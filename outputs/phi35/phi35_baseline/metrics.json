@@ -1,0 +1,95 @@
+{
+  "experiment_id": "phi35_baseline",
+  "model_id": "microsoft/Phi-3.5-mini-instruct",
+  "model_key": "phi35",
+  "mode": "baseline",
+  "prompting": "standard",
+  "accuracy": 58.128078817733986,
+  "n_correct": 118,
+  "n_total": 203,
+  "n_invalid": 10,
+  "invalid_rate": 4.93,
+  "classification_report": {
+    "True": {
+      "precision": 0.6842105263157895,
+      "recall": 0.7222222222222222,
+      "f1-score": 0.7027027027027027,
+      "support": 72.0
+    },
+    "False": {
+      "precision": 0.6808510638297872,
+      "recall": 0.5161290322580645,
+      "f1-score": 0.5871559633027523,
+      "support": 62.0
+    },
+    "Uncertain": {
+      "precision": 0.4857142857142857,
+      "recall": 0.4927536231884058,
+      "f1-score": 0.4892086330935252,
+      "support": 69.0
+    },
+    "micro avg": {
+      "precision": 0.6113989637305699,
+      "recall": 0.5812807881773399,
+      "f1-score": 0.5959595959595959,
+      "support": 203.0
+    },
+    "macro avg": {
+      "precision": 0.6169252919532875,
+      "recall": 0.5770349592228975,
+      "f1-score": 0.5930224330329934,
+      "support": 203.0
+    },
+    "weighted avg": {
+      "precision": 0.6157153180614254,
+      "recall": 0.5812807881773399,
+      "f1-score": 0.5948456157774309,
+      "support": 203.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      52,
+      3,
+      15
+    ],
+    [
+      9,
+      32,
+      21
+    ],
+    [
+      15,
+      12,
+      34
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "True",
+    "False",
+    "Uncertain"
+  ],
+  "prediction_distribution": {
+    "True": 76,
+    "False": 47,
+    "Uncertain": 70,
+    "invalid": 10
+  },
+  "deductive_consistency": {
+    "1-2": {
+      "accuracy": 81.81818181818183,
+      "correct": 9,
+      "total": 11
+    },
+    "3-4": {
+      "accuracy": 80.64516129032258,
+      "correct": 25,
+      "total": 31
+    },
+    "5+": {
+      "accuracy": 52.17391304347826,
+      "correct": 84,
+      "total": 161
+    }
+  }
+}

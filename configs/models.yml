@@ -1,0 +1,27 @@
+models:
+  phi35:
+    model_id: "microsoft/Phi-3.5-mini-instruct"
+    display_name: "Phi-3.5-mini"
+    torch_dtype: "float16"
+    use_chat_template: false
+    embed_layer_name: "model.embed_tokens"
+    max_new_tokens: 15
+    max_new_tokens_cot: 600
+
+  llama8b:
+    model_id: "meta-llama/Meta-Llama-3-8B-Instruct"
+    display_name: "LLaMA-3-8B"
+    torch_dtype: "float16"
+    use_chat_template: true
+    embed_layer_name: "model.model.embed_tokens"
+    max_new_tokens: 600
+    max_new_tokens_cot: 600
+
+  mistral7b:
+    model_id: "mistralai/Mistral-7B-Instruct-v0.3"
+    display_name: "Mistral-7B"
+    torch_dtype: "float16"
+    use_chat_template: true
+    embed_layer_name: "model.model.embed_tokens"
+    max_new_tokens: 200
+    max_new_tokens_cot: 400

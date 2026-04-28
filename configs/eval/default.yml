@@ -1,0 +1,7 @@
+split: validation
+max_new_tokens: 15
+do_sample: false
+valid_labels:
+  - "True"
+  - "False"
+  - "Uncertain"

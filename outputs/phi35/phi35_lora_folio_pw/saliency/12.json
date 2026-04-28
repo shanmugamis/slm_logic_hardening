@@ -1,0 +1,533 @@
+{
+  "experiment_id": "phi35_lora_folio_pw",
+  "index": 12,
+  "ground_truth": "True",
+  "no_of_premises": 4,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nA Japanese game company created the game the Legend of Zelda.\nAll games on the Top 10 list are made by Japanese game companies.\nIf a game sells more than one million copies, then it will be included in the Top 10 list.\nThe Legend of Zelda sold more than one million copies.\n\nHypothesis:\nThe Legend of Zelda is on the Top 10 list.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 0.775495
+    },
+    {
+      "token": "\u2581are",
+      "score": 1.047445
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.552716
+    },
+    {
+      "token": "\u2581Log",
+      "score": 17.156118
+    },
+    {
+      "token": "ical",
+      "score": 5.15694
+    },
+    {
+      "token": "\u2581Re",
+      "score": 3.578935
+    },
+    {
+      "token": "ason",
+      "score": 2.770374
+    },
+    {
+      "token": "ing",
+      "score": 5.450707
+    },
+    {
+      "token": "\u2581System",
+      "score": 3.667851
+    },
+    {
+      "token": ".",
+      "score": 1.43199
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.558166
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.265397
+    },
+    {
+      "token": "P",
+      "score": 1.421381
+    },
+    {
+      "token": "rem",
+      "score": 3.800198
+    },
+    {
+      "token": "ises",
+      "score": 29.869038
+    },
+    {
+      "token": ":",
+      "score": 4.344058
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.796968
+    },
+    {
+      "token": "A",
+      "score": 0.322992
+    },
+    {
+      "token": "\u2581Japanese",
+      "score": 3.115412
+    },
+    {
+      "token": "\u2581game",
+      "score": 0.120805
+    },
+    {
+      "token": "\u2581company",
+      "score": 0.609779
+    },
+    {
+      "token": "\u2581created",
+      "score": 0.095153
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.179417
+    },
+    {
+      "token": "\u2581game",
+      "score": 1.070431
+    },
+    {
+      "token": "\u2581the",
+      "score": 5.295735
+    },
+    {
+      "token": "\u2581Leg",
+      "score": 0.067055
+    },
+    {
+      "token": "end",
+      "score": 0.154548
+    },
+    {
+      "token": "\u2581of",
+      "score": 6.054699
+    },
+    {
+      "token": "\u2581Zel",
+      "score": 1.460083
+    },
+    {
+      "token": "da",
+      "score": 2.14802
+    },
+    {
+      "token": ".",
+      "score": 0.373431
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.006833
+    },
+    {
+      "token": "All",
+      "score": 0.208844
+    },
+    {
+      "token": "\u2581games",
+      "score": 0.916347
+    },
+    {
+      "token": "\u2581on",
+      "score": 6.300623
+    },
+    {
+      "token": "\u2581the",
+      "score": 15.714184
+    },
+    {
+      "token": "\u2581Top",
+      "score": 1.858205
+    },
+    {
+      "token": "\u2581",
+      "score": 2.668266
+    },
+    {
+      "token": "1",
+      "score": 1.003328
+    },
+    {
+      "token": "0",
+      "score": 0.306476
+    },
+    {
+      "token": "\u2581list",
+      "score": 4.757674
+    },
+    {
+      "token": "\u2581are",
+      "score": 2.402563
+    },
+    {
+      "token": "\u2581made",
+      "score": 0.437592
+    },
+    {
+      "token": "\u2581by",
+      "score": 2.125679
+    },
+    {
+      "token": "\u2581Japanese",
+      "score": 1.050719
+    },
+    {
+      "token": "\u2581game",
+      "score": 1.065381
+    },
+    {
+      "token": "\u2581companies",
+      "score": 1.085916
+    },
+    {
+      "token": ".",
+      "score": 0.967128
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.263953
+    },
+    {
+      "token": "If",
+      "score": 0.752776
+    },
+    {
+      "token": "\u2581a",
+      "score": 0.021991
+    },
+    {
+      "token": "\u2581game",
+      "score": 1.248916
+    },
+    {
+      "token": "\u2581s",
+      "score": 3.586823
+    },
+    {
+      "token": "ells",
+      "score": 0.870216
+    },
+    {
+      "token": "\u2581more",
+      "score": 0.435322
+    },
+    {
+      "token": "\u2581than",
+      "score": 2.015379
+    },
+    {
+      "token": "\u2581one",
+      "score": 0.70306
+    },
+    {
+      "token": "\u2581million",
+      "score": 0.574487
+    },
+    {
+      "token": "\u2581copies",
+      "score": 1.365378
+    },
+    {
+      "token": ",",
+      "score": 0.785504
+    },
+    {
+      "token": "\u2581then",
+      "score": 1.303741
+    },
+    {
+      "token": "\u2581it",
+      "score": 0.273618
+    },
+    {
+      "token": "\u2581will",
+      "score": 1.455496
+    },
+    {
+      "token": "\u2581be",
+      "score": 2.756076
+    },
+    {
+      "token": "\u2581included",
+      "score": 0.247665
+    },
+    {
+      "token": "\u2581in",
+      "score": 3.590433
+    },
+    {
+      "token": "\u2581the",
+      "score": 17.578003
+    },
+    {
+      "token": "\u2581Top",
+      "score": 2.217921
+    },
+    {
+      "token": "\u2581",
+      "score": 1.753431
+    },
+    {
+      "token": "1",
+      "score": 0.737522
+    },
+    {
+      "token": "0",
+      "score": 0.520875
+    },
+    {
+      "token": "\u2581list",
+      "score": 3.506952
+    },
+    {
+      "token": ".",
+      "score": 0.325196
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.179006
+    },
+    {
+      "token": "The",
+      "score": 0.750222
+    },
+    {
+      "token": "\u2581Leg",
+      "score": 1.730954
+    },
+    {
+      "token": "end",
+      "score": 0.794031
+    },
+    {
+      "token": "\u2581of",
+      "score": 1.496729
+    },
+    {
+      "token": "\u2581Zel",
+      "score": 2.047075
+    },
+    {
+      "token": "da",
+      "score": 0.643311
+    },
+    {
+      "token": "\u2581sold",
+      "score": 0.169301
+    },
+    {
+      "token": "\u2581more",
+      "score": 0.221905
+    },
+    {
+      "token": "\u2581than",
+      "score": 2.301879
+    },
+    {
+      "token": "\u2581one",
+      "score": 0.05078
+    },
+    {
+      "token": "\u2581million",
+      "score": 0.33011
+    },
+    {
+      "token": "\u2581copies",
+      "score": 0.361024
+    },
+    {
+      "token": ".",
+      "score": 1.040111
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.043067
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.336241
+    },
+    {
+      "token": "H",
+      "score": 1.313378
+    },
+    {
+      "token": "yp",
+      "score": 1.374727
+    },
+    {
+      "token": "oth",
+      "score": 3.271974
+    },
+    {
+      "token": "esis",
+      "score": 5.980207
+    },
+    {
+      "token": ":",
+      "score": 3.804904
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.326026
+    },
+    {
+      "token": "The",
+      "score": 8.248363
+    },
+    {
+      "token": "\u2581Leg",
+      "score": 3.330152
+    },
+    {
+      "token": "end",
+      "score": 0.9122
+    },
+    {
+      "token": "\u2581of",
+      "score": 0.850371
+    },
+    {
+      "token": "\u2581Zel",
+      "score": 2.546495
+    },
+    {
+      "token": "da",
+      "score": 1.23899
+    },
+    {
+      "token": "\u2581is",
+      "score": 0.968733
+    },
+    {
+      "token": "\u2581on",
+      "score": 9.607549
+    },
+    {
+      "token": "\u2581the",
+      "score": 23.304268
+    },
+    {
+      "token": "\u2581Top",
+      "score": 1.565128
+    },
+    {
+      "token": "\u2581",
+      "score": 0.604163
+    },
+    {
+      "token": "1",
+      "score": 3.392699
+    },
+    {
+      "token": "0",
+      "score": 2.205423
+    },
+    {
+      "token": "\u2581list",
+      "score": 1.234193
+    },
+    {
+      "token": ".",
+      "score": 0.72639
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.734276
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.699688
+    },
+    {
+      "token": "Question",
+      "score": 5.016516
+    },
+    {
+      "token": ":",
+      "score": 1.344096
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.297368
+    },
+    {
+      "token": "Is",
+      "score": 2.641362
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.436447
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 0.655018
+    },
+    {
+      "token": "\u2581True",
+      "score": 0.754874
+    },
+    {
+      "token": ",",
+      "score": 2.776605
+    },
+    {
+      "token": "\u2581False",
+      "score": 7.696461
+    },
+    {
+      "token": ",",
+      "score": 1.690832
+    },
+    {
+      "token": "\u2581or",
+      "score": 1.684446
+    },
+    {
+      "token": "\u2581Un",
+      "score": 1.204533
+    },
+    {
+      "token": "certain",
+      "score": 3.790523
+    },
+    {
+      "token": "?",
+      "score": 16.789268
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.80109
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.425862
+    },
+    {
+      "token": "Answer",
+      "score": 1.82381
+    },
+    {
+      "token": ":",
+      "score": 5.956287
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.805873
+    }
+  ]
+}

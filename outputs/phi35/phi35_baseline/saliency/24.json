@@ -1,0 +1,737 @@
+{
+  "experiment_id": "phi35_baseline",
+  "index": 24,
+  "ground_truth": "True",
+  "no_of_premises": 6,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nBeijing is the capital of the People's Republic of China. \nBeijing is the capital city of the world's most populous nation.\nBeijing is located in Northern China.\nBeijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.\nBeijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.\nMany of Beijing's 91 universities consistently rank among the best universities in the world.\n\nHypothesis:\nBeijing hosted both the 2008 Summer Olympics and the Winter Olympics.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 352.635498
+    },
+    {
+      "token": "\u2581are",
+      "score": 40.394165
+    },
+    {
+      "token": "\u2581a",
+      "score": 216.411331
+    },
+    {
+      "token": "\u2581Log",
+      "score": 914.05719
+    },
+    {
+      "token": "ical",
+      "score": 961.677002
+    },
+    {
+      "token": "\u2581Re",
+      "score": 1332.943115
+    },
+    {
+      "token": "ason",
+      "score": 88.597183
+    },
+    {
+      "token": "ing",
+      "score": 66.158714
+    },
+    {
+      "token": "\u2581System",
+      "score": 65.521942
+    },
+    {
+      "token": ".",
+      "score": 143.448029
+    },
+    {
+      "token": "<0x0A>",
+      "score": 69.612328
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.937948
+    },
+    {
+      "token": "P",
+      "score": 10.229891
+    },
+    {
+      "token": "rem",
+      "score": 14.706396
+    },
+    {
+      "token": "ises",
+      "score": 32.474854
+    },
+    {
+      "token": ":",
+      "score": 22.465002
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.588568
+    },
+    {
+      "token": "Be",
+      "score": 19.856968
+    },
+    {
+      "token": "ij",
+      "score": 23.169621
+    },
+    {
+      "token": "ing",
+      "score": 35.840721
+    },
+    {
+      "token": "\u2581is",
+      "score": 29.06847
+    },
+    {
+      "token": "\u2581the",
+      "score": 25.217897
+    },
+    {
+      "token": "\u2581capital",
+      "score": 5.466996
+    },
+    {
+      "token": "\u2581of",
+      "score": 26.409462
+    },
+    {
+      "token": "\u2581the",
+      "score": 44.773331
+    },
+    {
+      "token": "\u2581People",
+      "score": 2.481324
+    },
+    {
+      "token": "'",
+      "score": 1.987711
+    },
+    {
+      "token": "s",
+      "score": 3.646301
+    },
+    {
+      "token": "\u2581Republic",
+      "score": 4.015829
+    },
+    {
+      "token": "\u2581of",
+      "score": 6.243166
+    },
+    {
+      "token": "\u2581China",
+      "score": 0.254138
+    },
+    {
+      "token": ".",
+      "score": 4.774342
+    },
+    {
+      "token": "\u2581",
+      "score": 11.588161
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.720385
+    },
+    {
+      "token": "Be",
+      "score": 5.066953
+    },
+    {
+      "token": "ij",
+      "score": 1.368022
+    },
+    {
+      "token": "ing",
+      "score": 3.256248
+    },
+    {
+      "token": "\u2581is",
+      "score": 9.8029
+    },
+    {
+      "token": "\u2581the",
+      "score": 2.296753
+    },
+    {
+      "token": "\u2581capital",
+      "score": 1.006259
+    },
+    {
+      "token": "\u2581city",
+      "score": 1.416253
+    },
+    {
+      "token": "\u2581of",
+      "score": 23.545111
+    },
+    {
+      "token": "\u2581the",
+      "score": 36.015347
+    },
+    {
+      "token": "\u2581world",
+      "score": 2.190911
+    },
+    {
+      "token": "'",
+      "score": 8.704735
+    },
+    {
+      "token": "s",
+      "score": 1.714681
+    },
+    {
+      "token": "\u2581most",
+      "score": 2.749066
+    },
+    {
+      "token": "\u2581popul",
+      "score": 0.185126
+    },
+    {
+      "token": "ous",
+      "score": 10.254675
+    },
+    {
+      "token": "\u2581nation",
+      "score": 0.643175
+    },
+    {
+      "token": ".",
+      "score": 1.041162
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.265814
+    },
+    {
+      "token": "Be",
+      "score": 5.573973
+    },
+    {
+      "token": "ij",
+      "score": 7.388247
+    },
+    {
+      "token": "ing",
+      "score": 21.486053
+    },
+    {
+      "token": "\u2581is",
+      "score": 11.635841
+    },
+    {
+      "token": "\u2581located",
+      "score": 2.234161
+    },
+    {
+      "token": "\u2581in",
+      "score": 7.477908
+    },
+    {
+      "token": "\u2581Northern",
+      "score": 1.797972
+    },
+    {
+      "token": "\u2581China",
+      "score": 1.851488
+    },
+    {
+      "token": ".",
+      "score": 0.68826
+    },
+    {
+      "token": "<0x0A>",
+      "score": 9.74083
+    },
+    {
+      "token": "Be",
+      "score": 3.471216
+    },
+    {
+      "token": "ij",
+      "score": 0.832092
+    },
+    {
+      "token": "ing",
+      "score": 14.945286
+    },
+    {
+      "token": "\u2581hosted",
+      "score": 3.344957
+    },
+    {
+      "token": "\u2581the",
+      "score": 17.7307
+    },
+    {
+      "token": "\u2581",
+      "score": 11.831039
+    },
+    {
+      "token": "2",
+      "score": 7.723206
+    },
+    {
+      "token": "0",
+      "score": 2.160571
+    },
+    {
+      "token": "0",
+      "score": 1.766075
+    },
+    {
+      "token": "8",
+      "score": 2.750443
+    },
+    {
+      "token": "\u2581Summer",
+      "score": 5.005147
+    },
+    {
+      "token": "\u2581Olympics",
+      "score": 6.875635
+    },
+    {
+      "token": "\u2581and",
+      "score": 0.435417
+    },
+    {
+      "token": "\u2581",
+      "score": 0.279321
+    },
+    {
+      "token": "2",
+      "score": 6.104653
+    },
+    {
+      "token": "0",
+      "score": 1.519865
+    },
+    {
+      "token": "0",
+      "score": 1.426255
+    },
+    {
+      "token": "8",
+      "score": 1.414928
+    },
+    {
+      "token": "\u2581Summer",
+      "score": 3.105682
+    },
+    {
+      "token": "\u2581Par",
+      "score": 8.483256
+    },
+    {
+      "token": "al",
+      "score": 1.612093
+    },
+    {
+      "token": "ym",
+      "score": 4.71021
+    },
+    {
+      "token": "p",
+      "score": 3.784593
+    },
+    {
+      "token": "ics",
+      "score": 6.336338
+    },
+    {
+      "token": "\u2581Games",
+      "score": 3.206844
+    },
+    {
+      "token": ".",
+      "score": 2.477357
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.920378
+    },
+    {
+      "token": "Be",
+      "score": 3.010227
+    },
+    {
+      "token": "ij",
+      "score": 0.911214
+    },
+    {
+      "token": "ing",
+      "score": 0.796843
+    },
+    {
+      "token": "\u2581has",
+      "score": 6.365964
+    },
+    {
+      "token": "\u2581hosted",
+      "score": 4.736834
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.161615
+    },
+    {
+      "token": "\u2581Summer",
+      "score": 0.748154
+    },
+    {
+      "token": "\u2581and",
+      "score": 8.032143
+    },
+    {
+      "token": "\u2581Winter",
+      "score": 0.249653
+    },
+    {
+      "token": "\u2581Olympics",
+      "score": 6.112899
+    },
+    {
+      "token": "\u2581and",
+      "score": 8.161085
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.526528
+    },
+    {
+      "token": "\u2581Summer",
+      "score": 3.528736
+    },
+    {
+      "token": "\u2581and",
+      "score": 3.19641
+    },
+    {
+      "token": "\u2581Winter",
+      "score": 0.646919
+    },
+    {
+      "token": "\u2581Par",
+      "score": 1.061267
+    },
+    {
+      "token": "al",
+      "score": 3.705456
+    },
+    {
+      "token": "ym",
+      "score": 7.056742
+    },
+    {
+      "token": "p",
+      "score": 2.989261
+    },
+    {
+      "token": "ics",
+      "score": 19.290142
+    },
+    {
+      "token": ".",
+      "score": 0.1695
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.247072
+    },
+    {
+      "token": "Many",
+      "score": 9.926438
+    },
+    {
+      "token": "\u2581of",
+      "score": 4.191063
+    },
+    {
+      "token": "\u2581Be",
+      "score": 4.993992
+    },
+    {
+      "token": "ij",
+      "score": 1.910777
+    },
+    {
+      "token": "ing",
+      "score": 3.246157
+    },
+    {
+      "token": "'",
+      "score": 1.200102
+    },
+    {
+      "token": "s",
+      "score": 3.124319
+    },
+    {
+      "token": "\u2581",
+      "score": 1.660735
+    },
+    {
+      "token": "9",
+      "score": 3.99234
+    },
+    {
+      "token": "1",
+      "score": 2.131119
+    },
+    {
+      "token": "\u2581univers",
+      "score": 0.446912
+    },
+    {
+      "token": "ities",
+      "score": 2.083593
+    },
+    {
+      "token": "\u2581consist",
+      "score": 1.682928
+    },
+    {
+      "token": "ently",
+      "score": 8.507191
+    },
+    {
+      "token": "\u2581rank",
+      "score": 2.373431
+    },
+    {
+      "token": "\u2581among",
+      "score": 9.838078
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.34602
+    },
+    {
+      "token": "\u2581best",
+      "score": 0.825778
+    },
+    {
+      "token": "\u2581univers",
+      "score": 4.190137
+    },
+    {
+      "token": "ities",
+      "score": 3.485353
+    },
+    {
+      "token": "\u2581in",
+      "score": 12.12895
+    },
+    {
+      "token": "\u2581the",
+      "score": 13.506802
+    },
+    {
+      "token": "\u2581world",
+      "score": 9.106411
+    },
+    {
+      "token": ".",
+      "score": 6.686959
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.320878
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.517751
+    },
+    {
+      "token": "H",
+      "score": 0.561907
+    },
+    {
+      "token": "yp",
+      "score": 0.192107
+    },
+    {
+      "token": "oth",
+      "score": 0.880502
+    },
+    {
+      "token": "esis",
+      "score": 2.962633
+    },
+    {
+      "token": ":",
+      "score": 9.685139
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.868563
+    },
+    {
+      "token": "Be",
+      "score": 0.181399
+    },
+    {
+      "token": "ij",
+      "score": 0.2681
+    },
+    {
+      "token": "ing",
+      "score": 1.164862
+    },
+    {
+      "token": "\u2581hosted",
+      "score": 0.93295
+    },
+    {
+      "token": "\u2581both",
+      "score": 1.826761
+    },
+    {
+      "token": "\u2581the",
+      "score": 8.233914
+    },
+    {
+      "token": "\u2581",
+      "score": 2.568546
+    },
+    {
+      "token": "2",
+      "score": 2.89807
+    },
+    {
+      "token": "0",
+      "score": 0.730183
+    },
+    {
+      "token": "0",
+      "score": 1.320017
+    },
+    {
+      "token": "8",
+      "score": 1.032393
+    },
+    {
+      "token": "\u2581Summer",
+      "score": 2.060498
+    },
+    {
+      "token": "\u2581Olympics",
+      "score": 5.955912
+    },
+    {
+      "token": "\u2581and",
+      "score": 10.711916
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.311524
+    },
+    {
+      "token": "\u2581Winter",
+      "score": 0.02011
+    },
+    {
+      "token": "\u2581Olympics",
+      "score": 1.763456
+    },
+    {
+      "token": ".",
+      "score": 0.984855
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.518031
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.598236
+    },
+    {
+      "token": "Question",
+      "score": 7.329684
+    },
+    {
+      "token": ":",
+      "score": 35.734005
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.452541
+    },
+    {
+      "token": "Is",
+      "score": 0.142872
+    },
+    {
+      "token": "\u2581the",
+      "score": 2.064987
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 0.539231
+    },
+    {
+      "token": "\u2581True",
+      "score": 4.70939
+    },
+    {
+      "token": ",",
+      "score": 5.767299
+    },
+    {
+      "token": "\u2581False",
+      "score": 1.046698
+    },
+    {
+      "token": ",",
+      "score": 0.890359
+    },
+    {
+      "token": "\u2581or",
+      "score": 8.495567
+    },
+    {
+      "token": "\u2581Un",
+      "score": 1.409104
+    },
+    {
+      "token": "certain",
+      "score": 1.546074
+    },
+    {
+      "token": "?",
+      "score": 4.240981
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.079426
+    },
+    {
+      "token": "<0x0A>",
+      "score": 13.505792
+    },
+    {
+      "token": "Answer",
+      "score": 8.321252
+    },
+    {
+      "token": ":",
+      "score": 9.330695
+    },
+    {
+      "token": "<0x0A>",
+      "score": 16.546085
+    }
+  ]
+}

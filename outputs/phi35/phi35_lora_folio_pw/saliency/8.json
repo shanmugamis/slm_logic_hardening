@@ -1,0 +1,589 @@
+{
+  "experiment_id": "phi35_lora_folio_pw",
+  "index": 8,
+  "ground_truth": "Uncertain",
+  "no_of_premises": 6,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nWhen the Monkeypox virus occurs in a being, it may get Monkeypox. \nMonkeypox virus can occur in certain animals.\nHumans are mammals.\nMammals are animals.\nSymptoms of Monkeypox include fever, headache, muscle pains, and tiredness. \nPeople feel tired when they get the flu.\n\nHypothesis:\nSymptoms of Monkeypox include coughing.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 139.769226
+    },
+    {
+      "token": "\u2581are",
+      "score": 297.53894
+    },
+    {
+      "token": "\u2581a",
+      "score": 168.745667
+    },
+    {
+      "token": "\u2581Log",
+      "score": 238.836914
+    },
+    {
+      "token": "ical",
+      "score": 823.0354
+    },
+    {
+      "token": "\u2581Re",
+      "score": 987.822876
+    },
+    {
+      "token": "ason",
+      "score": 34.294159
+    },
+    {
+      "token": "ing",
+      "score": 1.399582
+    },
+    {
+      "token": "\u2581System",
+      "score": 1.261508
+    },
+    {
+      "token": ".",
+      "score": 53.377655
+    },
+    {
+      "token": "<0x0A>",
+      "score": 37.075111
+    },
+    {
+      "token": "<0x0A>",
+      "score": 18.704733
+    },
+    {
+      "token": "P",
+      "score": 55.73848
+    },
+    {
+      "token": "rem",
+      "score": 66.173706
+    },
+    {
+      "token": "ises",
+      "score": 140.48996
+    },
+    {
+      "token": ":",
+      "score": 14.265409
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.174305
+    },
+    {
+      "token": "When",
+      "score": 31.789047
+    },
+    {
+      "token": "\u2581the",
+      "score": 24.266569
+    },
+    {
+      "token": "\u2581Mon",
+      "score": 80.80159
+    },
+    {
+      "token": "key",
+      "score": 59.269718
+    },
+    {
+      "token": "po",
+      "score": 15.728196
+    },
+    {
+      "token": "x",
+      "score": 301.647064
+    },
+    {
+      "token": "\u2581virus",
+      "score": 17.36944
+    },
+    {
+      "token": "\u2581occurs",
+      "score": 7.584579
+    },
+    {
+      "token": "\u2581in",
+      "score": 15.342795
+    },
+    {
+      "token": "\u2581a",
+      "score": 35.527672
+    },
+    {
+      "token": "\u2581being",
+      "score": 11.715176
+    },
+    {
+      "token": ",",
+      "score": 13.744699
+    },
+    {
+      "token": "\u2581it",
+      "score": 2.956346
+    },
+    {
+      "token": "\u2581may",
+      "score": 0.236357
+    },
+    {
+      "token": "\u2581get",
+      "score": 62.15699
+    },
+    {
+      "token": "\u2581Mon",
+      "score": 49.853081
+    },
+    {
+      "token": "key",
+      "score": 15.406342
+    },
+    {
+      "token": "po",
+      "score": 5.904696
+    },
+    {
+      "token": "x",
+      "score": 77.431389
+    },
+    {
+      "token": ".",
+      "score": 2.753376
+    },
+    {
+      "token": "\u2581",
+      "score": 2.626841
+    },
+    {
+      "token": "<0x0A>",
+      "score": 16.063391
+    },
+    {
+      "token": "Mon",
+      "score": 19.320824
+    },
+    {
+      "token": "key",
+      "score": 33.199249
+    },
+    {
+      "token": "po",
+      "score": 19.791031
+    },
+    {
+      "token": "x",
+      "score": 40.289425
+    },
+    {
+      "token": "\u2581virus",
+      "score": 33.782379
+    },
+    {
+      "token": "\u2581can",
+      "score": 1.498231
+    },
+    {
+      "token": "\u2581occur",
+      "score": 0.669445
+    },
+    {
+      "token": "\u2581in",
+      "score": 1.71411
+    },
+    {
+      "token": "\u2581certain",
+      "score": 1.282362
+    },
+    {
+      "token": "\u2581animals",
+      "score": 2.640611
+    },
+    {
+      "token": ".",
+      "score": 0.45297
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.54799
+    },
+    {
+      "token": "H",
+      "score": 15.637373
+    },
+    {
+      "token": "um",
+      "score": 67.123482
+    },
+    {
+      "token": "ans",
+      "score": 7.831575
+    },
+    {
+      "token": "\u2581are",
+      "score": 4.51854
+    },
+    {
+      "token": "\u2581m",
+      "score": 30.506901
+    },
+    {
+      "token": "amm",
+      "score": 12.193615
+    },
+    {
+      "token": "als",
+      "score": 39.537674
+    },
+    {
+      "token": ".",
+      "score": 14.362148
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.726481
+    },
+    {
+      "token": "M",
+      "score": 8.450542
+    },
+    {
+      "token": "amm",
+      "score": 13.053547
+    },
+    {
+      "token": "als",
+      "score": 53.235489
+    },
+    {
+      "token": "\u2581are",
+      "score": 35.389778
+    },
+    {
+      "token": "\u2581animals",
+      "score": 31.566154
+    },
+    {
+      "token": ".",
+      "score": 22.599174
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.562867
+    },
+    {
+      "token": "Sym",
+      "score": 96.682297
+    },
+    {
+      "token": "pt",
+      "score": 23.608089
+    },
+    {
+      "token": "oms",
+      "score": 228.660187
+    },
+    {
+      "token": "\u2581of",
+      "score": 148.401886
+    },
+    {
+      "token": "\u2581Mon",
+      "score": 90.743271
+    },
+    {
+      "token": "key",
+      "score": 65.421928
+    },
+    {
+      "token": "po",
+      "score": 1.316622
+    },
+    {
+      "token": "x",
+      "score": 26.073101
+    },
+    {
+      "token": "\u2581include",
+      "score": 2.790493
+    },
+    {
+      "token": "\u2581fe",
+      "score": 15.845804
+    },
+    {
+      "token": "ver",
+      "score": 0.308896
+    },
+    {
+      "token": ",",
+      "score": 1.515149
+    },
+    {
+      "token": "\u2581head",
+      "score": 3.947341
+    },
+    {
+      "token": "ache",
+      "score": 1.47187
+    },
+    {
+      "token": ",",
+      "score": 1.492015
+    },
+    {
+      "token": "\u2581mus",
+      "score": 50.158146
+    },
+    {
+      "token": "cle",
+      "score": 2.547606
+    },
+    {
+      "token": "\u2581p",
+      "score": 6.701589
+    },
+    {
+      "token": "ains",
+      "score": 2.198224
+    },
+    {
+      "token": ",",
+      "score": 2.635149
+    },
+    {
+      "token": "\u2581and",
+      "score": 0.123132
+    },
+    {
+      "token": "\u2581tired",
+      "score": 2.332491
+    },
+    {
+      "token": "ness",
+      "score": 8.546457
+    },
+    {
+      "token": ".",
+      "score": 10.116438
+    },
+    {
+      "token": "\u2581",
+      "score": 4.971469
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.246947
+    },
+    {
+      "token": "Pe",
+      "score": 2.812466
+    },
+    {
+      "token": "ople",
+      "score": 0.355974
+    },
+    {
+      "token": "\u2581feel",
+      "score": 2.854198
+    },
+    {
+      "token": "\u2581tired",
+      "score": 2.899024
+    },
+    {
+      "token": "\u2581when",
+      "score": 0.045049
+    },
+    {
+      "token": "\u2581they",
+      "score": 2.093591
+    },
+    {
+      "token": "\u2581get",
+      "score": 3.012103
+    },
+    {
+      "token": "\u2581the",
+      "score": 11.744631
+    },
+    {
+      "token": "\u2581flu",
+      "score": 4.312866
+    },
+    {
+      "token": ".",
+      "score": 13.383842
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.967901
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.544106
+    },
+    {
+      "token": "H",
+      "score": 0.078329
+    },
+    {
+      "token": "yp",
+      "score": 5.832166
+    },
+    {
+      "token": "oth",
+      "score": 11.767145
+    },
+    {
+      "token": "esis",
+      "score": 20.05212
+    },
+    {
+      "token": ":",
+      "score": 7.986686
+    },
+    {
+      "token": "<0x0A>",
+      "score": 12.126981
+    },
+    {
+      "token": "Sym",
+      "score": 7.325689
+    },
+    {
+      "token": "pt",
+      "score": 2.080482
+    },
+    {
+      "token": "oms",
+      "score": 19.2164
+    },
+    {
+      "token": "\u2581of",
+      "score": 10.920144
+    },
+    {
+      "token": "\u2581Mon",
+      "score": 68.249725
+    },
+    {
+      "token": "key",
+      "score": 40.319469
+    },
+    {
+      "token": "po",
+      "score": 13.632078
+    },
+    {
+      "token": "x",
+      "score": 9.334314
+    },
+    {
+      "token": "\u2581include",
+      "score": 2.96287
+    },
+    {
+      "token": "\u2581c",
+      "score": 1.619636
+    },
+    {
+      "token": "ough",
+      "score": 0.01506
+    },
+    {
+      "token": "ing",
+      "score": 0.379495
+    },
+    {
+      "token": ".",
+      "score": 2.860095
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.28251
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.050974
+    },
+    {
+      "token": "Question",
+      "score": 1.691517
+    },
+    {
+      "token": ":",
+      "score": 12.519022
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.311673
+    },
+    {
+      "token": "Is",
+      "score": 1.894499
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.343385
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 0.165521
+    },
+    {
+      "token": "\u2581True",
+      "score": 2.16262
+    },
+    {
+      "token": ",",
+      "score": 1.511255
+    },
+    {
+      "token": "\u2581False",
+      "score": 5.813658
+    },
+    {
+      "token": ",",
+      "score": 3.253971
+    },
+    {
+      "token": "\u2581or",
+      "score": 6.239702
+    },
+    {
+      "token": "\u2581Un",
+      "score": 0.530176
+    },
+    {
+      "token": "certain",
+      "score": 1.397417
+    },
+    {
+      "token": "?",
+      "score": 25.486612
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.184258
+    },
+    {
+      "token": "<0x0A>",
+      "score": 11.808434
+    },
+    {
+      "token": "Answer",
+      "score": 1.873822
+    },
+    {
+      "token": ":",
+      "score": 5.35593
+    },
+    {
+      "token": "<0x0A>",
+      "score": 11.278059
+    }
+  ]
+}

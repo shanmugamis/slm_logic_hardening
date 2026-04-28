@@ -1,0 +1,13 @@
+id: mistral7b_baseline
+display_name: "Mistral-7B Baseline"
+short_name: "Mistral Base"
+description: >
+  Mistral-7B Instruct zero-shot, no fine-tuning.
+model_key: mistral7b
+prompting: standard
+training_datasets: []
+lora_config: null
+color: "#f97316"
+ablation_order: 1
+group: scale_comparison
+tags: [mistral7b, baseline, standard]

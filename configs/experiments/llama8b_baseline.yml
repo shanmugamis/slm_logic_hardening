@@ -1,0 +1,14 @@
+id: llama8b_baseline
+display_name: "LLaMA-3 8B Baseline"
+short_name: "LLaMA Base"
+description: >
+  LLaMA-3 8B Instruct zero-shot, no fine-tuning.
+  Model generates chain-of-thought reasoning automatically due to instruct training.
+model_key: llama8b
+prompting: standard
+training_datasets: []
+lora_config: null
+color: "#ef4444"
+ablation_order: 0
+group: scale_comparison
+tags: [llama8b, baseline, standard, autocot]

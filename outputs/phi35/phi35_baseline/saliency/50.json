@@ -1,0 +1,481 @@
+{
+  "experiment_id": "phi35_baseline",
+  "index": 50,
+  "ground_truth": "True",
+  "no_of_premises": 5,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nNo digital media are analog.\nEvery printed text is analog media.\nAll streaming services are digital media.\nIf an object is a hardcover book, then it is printed text.\nIf 1984 is a streaming service, then 1984 is a hardcover book.\n\nHypothesis:\n1984 is not a streaming service.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 1.044798
+    },
+    {
+      "token": "\u2581are",
+      "score": 75.165985
+    },
+    {
+      "token": "\u2581a",
+      "score": 16.552788
+    },
+    {
+      "token": "\u2581Log",
+      "score": 171.261948
+    },
+    {
+      "token": "ical",
+      "score": 260.62088
+    },
+    {
+      "token": "\u2581Re",
+      "score": 331.516052
+    },
+    {
+      "token": "ason",
+      "score": 2.326748
+    },
+    {
+      "token": "ing",
+      "score": 3.535609
+    },
+    {
+      "token": "\u2581System",
+      "score": 5.51942
+    },
+    {
+      "token": ".",
+      "score": 10.223951
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.242371
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.442865
+    },
+    {
+      "token": "P",
+      "score": 15.618114
+    },
+    {
+      "token": "rem",
+      "score": 6.647192
+    },
+    {
+      "token": "ises",
+      "score": 63.151314
+    },
+    {
+      "token": ":",
+      "score": 15.525265
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.975296
+    },
+    {
+      "token": "No",
+      "score": 36.492611
+    },
+    {
+      "token": "\u2581digital",
+      "score": 72.547821
+    },
+    {
+      "token": "\u2581media",
+      "score": 5.486372
+    },
+    {
+      "token": "\u2581are",
+      "score": 30.274471
+    },
+    {
+      "token": "\u2581analog",
+      "score": 60.223358
+    },
+    {
+      "token": ".",
+      "score": 5.982483
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.807559
+    },
+    {
+      "token": "Every",
+      "score": 6.04617
+    },
+    {
+      "token": "\u2581printed",
+      "score": 1.585673
+    },
+    {
+      "token": "\u2581text",
+      "score": 21.469204
+    },
+    {
+      "token": "\u2581is",
+      "score": 9.032399
+    },
+    {
+      "token": "\u2581analog",
+      "score": 2.943179
+    },
+    {
+      "token": "\u2581media",
+      "score": 2.149227
+    },
+    {
+      "token": ".",
+      "score": 0.76489
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.169201
+    },
+    {
+      "token": "All",
+      "score": 6.777768
+    },
+    {
+      "token": "\u2581streaming",
+      "score": 6.456751
+    },
+    {
+      "token": "\u2581services",
+      "score": 7.38383
+    },
+    {
+      "token": "\u2581are",
+      "score": 18.775869
+    },
+    {
+      "token": "\u2581digital",
+      "score": 3.146972
+    },
+    {
+      "token": "\u2581media",
+      "score": 3.931435
+    },
+    {
+      "token": ".",
+      "score": 4.710653
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.529055
+    },
+    {
+      "token": "If",
+      "score": 13.854068
+    },
+    {
+      "token": "\u2581an",
+      "score": 17.102736
+    },
+    {
+      "token": "\u2581object",
+      "score": 9.283095
+    },
+    {
+      "token": "\u2581is",
+      "score": 7.224242
+    },
+    {
+      "token": "\u2581a",
+      "score": 6.142445
+    },
+    {
+      "token": "\u2581hard",
+      "score": 3.165123
+    },
+    {
+      "token": "cover",
+      "score": 2.519825
+    },
+    {
+      "token": "\u2581book",
+      "score": 8.817307
+    },
+    {
+      "token": ",",
+      "score": 4.170429
+    },
+    {
+      "token": "\u2581then",
+      "score": 1.069341
+    },
+    {
+      "token": "\u2581it",
+      "score": 12.91623
+    },
+    {
+      "token": "\u2581is",
+      "score": 32.794029
+    },
+    {
+      "token": "\u2581printed",
+      "score": 0.076244
+    },
+    {
+      "token": "\u2581text",
+      "score": 20.092808
+    },
+    {
+      "token": ".",
+      "score": 4.740297
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.384833
+    },
+    {
+      "token": "If",
+      "score": 7.685353
+    },
+    {
+      "token": "\u2581",
+      "score": 17.103746
+    },
+    {
+      "token": "1",
+      "score": 6.178591
+    },
+    {
+      "token": "9",
+      "score": 13.017421
+    },
+    {
+      "token": "8",
+      "score": 2.697812
+    },
+    {
+      "token": "4",
+      "score": 7.298397
+    },
+    {
+      "token": "\u2581is",
+      "score": 0.720302
+    },
+    {
+      "token": "\u2581a",
+      "score": 9.136089
+    },
+    {
+      "token": "\u2581streaming",
+      "score": 12.971568
+    },
+    {
+      "token": "\u2581service",
+      "score": 14.333599
+    },
+    {
+      "token": ",",
+      "score": 1.747637
+    },
+    {
+      "token": "\u2581then",
+      "score": 12.183853
+    },
+    {
+      "token": "\u2581",
+      "score": 10.506989
+    },
+    {
+      "token": "1",
+      "score": 8.399179
+    },
+    {
+      "token": "9",
+      "score": 9.437393
+    },
+    {
+      "token": "8",
+      "score": 1.824254
+    },
+    {
+      "token": "4",
+      "score": 21.230234
+    },
+    {
+      "token": "\u2581is",
+      "score": 28.301233
+    },
+    {
+      "token": "\u2581a",
+      "score": 8.79735
+    },
+    {
+      "token": "\u2581hard",
+      "score": 33.320961
+    },
+    {
+      "token": "cover",
+      "score": 1.067454
+    },
+    {
+      "token": "\u2581book",
+      "score": 3.017175
+    },
+    {
+      "token": ".",
+      "score": 2.045515
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.577359
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.776811
+    },
+    {
+      "token": "H",
+      "score": 0.87684
+    },
+    {
+      "token": "yp",
+      "score": 1.851353
+    },
+    {
+      "token": "oth",
+      "score": 6.306358
+    },
+    {
+      "token": "esis",
+      "score": 14.360428
+    },
+    {
+      "token": ":",
+      "score": 22.759563
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.830149
+    },
+    {
+      "token": "1",
+      "score": 1.1013
+    },
+    {
+      "token": "9",
+      "score": 4.221049
+    },
+    {
+      "token": "8",
+      "score": 1.05735
+    },
+    {
+      "token": "4",
+      "score": 3.491434
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.409453
+    },
+    {
+      "token": "\u2581not",
+      "score": 7.343301
+    },
+    {
+      "token": "\u2581a",
+      "score": 7.812394
+    },
+    {
+      "token": "\u2581streaming",
+      "score": 4.655526
+    },
+    {
+      "token": "\u2581service",
+      "score": 5.177871
+    },
+    {
+      "token": ".",
+      "score": 5.950261
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.378034
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.287752
+    },
+    {
+      "token": "Question",
+      "score": 5.760951
+    },
+    {
+      "token": ":",
+      "score": 31.130527
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.108564
+    },
+    {
+      "token": "Is",
+      "score": 1.842592
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.605875
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 0.241881
+    },
+    {
+      "token": "\u2581True",
+      "score": 3.398592
+    },
+    {
+      "token": ",",
+      "score": 2.458261
+    },
+    {
+      "token": "\u2581False",
+      "score": 8.838123
+    },
+    {
+      "token": ",",
+      "score": 0.405976
+    },
+    {
+      "token": "\u2581or",
+      "score": 6.581775
+    },
+    {
+      "token": "\u2581Un",
+      "score": 0.872155
+    },
+    {
+      "token": "certain",
+      "score": 1.324689
+    },
+    {
+      "token": "?",
+      "score": 6.171737
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.628783
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.334104
+    },
+    {
+      "token": "Answer",
+      "score": 2.129514
+    },
+    {
+      "token": ":",
+      "score": 1.352629
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.339655
+    }
+  ]
+}

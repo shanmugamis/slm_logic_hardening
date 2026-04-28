@@ -1,0 +1,14 @@
+id: phi35_lora_folio_pw_cot
+display_name: "Phi-3.5 LoRA (FOLIO+ProofWriter) + CoT"
+short_name: "Phi+LoRA+PW+CoT"
+description: >
+  Phi-3.5-mini fine-tuned with LoRA on FOLIO + ProofWriter training data,
+  evaluated with chain-of-thought prompting.
+model_key: phi35
+prompting: cot
+training_datasets: [folio, proofwriter]
+lora_config: configs/lora/phi35.yml
+color: "#3b82f6"
+ablation_order: 3
+group: phi35_ablation
+tags: [phi35, lora, folio, proofwriter, cot]

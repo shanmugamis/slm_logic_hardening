@@ -1,0 +1,705 @@
+{
+  "experiment_id": "phi35_baseline",
+  "index": 4,
+  "ground_truth": "Uncertain",
+  "no_of_premises": 7,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll employees who schedule a meeting with their customers will go to the company building today. \nEveryone who has lunch in the company building schedules meetings with their customers. \nEmployees have lunch either in the company building or at home.\nIf an employee has lunch at home, they are working remotely from home.\nAll employees who are in other countries work remotely from home. \nNo managers work remotely from home. \nJames will appear in the company today if and only if he is a manager.\n\nHypothesis:\nJames does not have lunch in the company.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 6.896388
+    },
+    {
+      "token": "\u2581are",
+      "score": 47.680626
+    },
+    {
+      "token": "\u2581a",
+      "score": 0.071283
+    },
+    {
+      "token": "\u2581Log",
+      "score": 114.182175
+    },
+    {
+      "token": "ical",
+      "score": 137.988556
+    },
+    {
+      "token": "\u2581Re",
+      "score": 161.81073
+    },
+    {
+      "token": "ason",
+      "score": 0.698271
+    },
+    {
+      "token": "ing",
+      "score": 3.04607
+    },
+    {
+      "token": "\u2581System",
+      "score": 1.30436
+    },
+    {
+      "token": ".",
+      "score": 1.257172
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.636001
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.50721
+    },
+    {
+      "token": "P",
+      "score": 2.868445
+    },
+    {
+      "token": "rem",
+      "score": 1.729609
+    },
+    {
+      "token": "ises",
+      "score": 5.480342
+    },
+    {
+      "token": ":",
+      "score": 1.967969
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.533421
+    },
+    {
+      "token": "All",
+      "score": 2.928938
+    },
+    {
+      "token": "\u2581employees",
+      "score": 4.651152
+    },
+    {
+      "token": "\u2581who",
+      "score": 0.824005
+    },
+    {
+      "token": "\u2581schedule",
+      "score": 1.267
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.619233
+    },
+    {
+      "token": "\u2581meeting",
+      "score": 1.07985
+    },
+    {
+      "token": "\u2581with",
+      "score": 6.058033
+    },
+    {
+      "token": "\u2581their",
+      "score": 10.660604
+    },
+    {
+      "token": "\u2581customers",
+      "score": 3.516285
+    },
+    {
+      "token": "\u2581will",
+      "score": 1.318091
+    },
+    {
+      "token": "\u2581go",
+      "score": 0.270231
+    },
+    {
+      "token": "\u2581to",
+      "score": 0.793299
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.83488
+    },
+    {
+      "token": "\u2581company",
+      "score": 1.476046
+    },
+    {
+      "token": "\u2581building",
+      "score": 1.183078
+    },
+    {
+      "token": "\u2581today",
+      "score": 1.428481
+    },
+    {
+      "token": ".",
+      "score": 0.489561
+    },
+    {
+      "token": "\u2581",
+      "score": 5.049695
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.776924
+    },
+    {
+      "token": "Every",
+      "score": 0.597102
+    },
+    {
+      "token": "one",
+      "score": 5.201928
+    },
+    {
+      "token": "\u2581who",
+      "score": 4.18126
+    },
+    {
+      "token": "\u2581has",
+      "score": 3.29216
+    },
+    {
+      "token": "\u2581l",
+      "score": 0.770656
+    },
+    {
+      "token": "unch",
+      "score": 0.801007
+    },
+    {
+      "token": "\u2581in",
+      "score": 0.843775
+    },
+    {
+      "token": "\u2581the",
+      "score": 4.455473
+    },
+    {
+      "token": "\u2581company",
+      "score": 0.585221
+    },
+    {
+      "token": "\u2581building",
+      "score": 2.355283
+    },
+    {
+      "token": "\u2581sched",
+      "score": 1.246568
+    },
+    {
+      "token": "ules",
+      "score": 1.726904
+    },
+    {
+      "token": "\u2581meet",
+      "score": 1.904919
+    },
+    {
+      "token": "ings",
+      "score": 3.592759
+    },
+    {
+      "token": "\u2581with",
+      "score": 1.908957
+    },
+    {
+      "token": "\u2581their",
+      "score": 7.482255
+    },
+    {
+      "token": "\u2581customers",
+      "score": 2.328941
+    },
+    {
+      "token": ".",
+      "score": 1.762501
+    },
+    {
+      "token": "\u2581",
+      "score": 1.508823
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.539857
+    },
+    {
+      "token": "Emp",
+      "score": 1.223289
+    },
+    {
+      "token": "loy",
+      "score": 0.986287
+    },
+    {
+      "token": "ees",
+      "score": 7.207475
+    },
+    {
+      "token": "\u2581have",
+      "score": 2.280367
+    },
+    {
+      "token": "\u2581l",
+      "score": 4.624827
+    },
+    {
+      "token": "unch",
+      "score": 1.29798
+    },
+    {
+      "token": "\u2581either",
+      "score": 0.375857
+    },
+    {
+      "token": "\u2581in",
+      "score": 1.228681
+    },
+    {
+      "token": "\u2581the",
+      "score": 3.930442
+    },
+    {
+      "token": "\u2581company",
+      "score": 0.010003
+    },
+    {
+      "token": "\u2581building",
+      "score": 0.528754
+    },
+    {
+      "token": "\u2581or",
+      "score": 1.396395
+    },
+    {
+      "token": "\u2581at",
+      "score": 1.062462
+    },
+    {
+      "token": "\u2581home",
+      "score": 0.639343
+    },
+    {
+      "token": ".",
+      "score": 1.173559
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.543829
+    },
+    {
+      "token": "If",
+      "score": 0.293025
+    },
+    {
+      "token": "\u2581an",
+      "score": 0.400201
+    },
+    {
+      "token": "\u2581employee",
+      "score": 4.789357
+    },
+    {
+      "token": "\u2581has",
+      "score": 2.437953
+    },
+    {
+      "token": "\u2581l",
+      "score": 1.163118
+    },
+    {
+      "token": "unch",
+      "score": 0.08526
+    },
+    {
+      "token": "\u2581at",
+      "score": 0.492368
+    },
+    {
+      "token": "\u2581home",
+      "score": 1.221997
+    },
+    {
+      "token": ",",
+      "score": 1.325364
+    },
+    {
+      "token": "\u2581they",
+      "score": 1.179718
+    },
+    {
+      "token": "\u2581are",
+      "score": 11.673256
+    },
+    {
+      "token": "\u2581working",
+      "score": 0.893843
+    },
+    {
+      "token": "\u2581rem",
+      "score": 23.577597
+    },
+    {
+      "token": "ot",
+      "score": 2.944886
+    },
+    {
+      "token": "ely",
+      "score": 9.148469
+    },
+    {
+      "token": "\u2581from",
+      "score": 0.036235
+    },
+    {
+      "token": "\u2581home",
+      "score": 0.434958
+    },
+    {
+      "token": ".",
+      "score": 0.862195
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.629233
+    },
+    {
+      "token": "All",
+      "score": 0.538313
+    },
+    {
+      "token": "\u2581employees",
+      "score": 2.476693
+    },
+    {
+      "token": "\u2581who",
+      "score": 0.505742
+    },
+    {
+      "token": "\u2581are",
+      "score": 1.410655
+    },
+    {
+      "token": "\u2581in",
+      "score": 1.323593
+    },
+    {
+      "token": "\u2581other",
+      "score": 0.118555
+    },
+    {
+      "token": "\u2581countries",
+      "score": 1.448853
+    },
+    {
+      "token": "\u2581work",
+      "score": 2.382409
+    },
+    {
+      "token": "\u2581rem",
+      "score": 7.90799
+    },
+    {
+      "token": "ot",
+      "score": 3.64284
+    },
+    {
+      "token": "ely",
+      "score": 33.673168
+    },
+    {
+      "token": "\u2581from",
+      "score": 1.507813
+    },
+    {
+      "token": "\u2581home",
+      "score": 1.5019
+    },
+    {
+      "token": ".",
+      "score": 7.630643
+    },
+    {
+      "token": "\u2581",
+      "score": 2.462191
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.247582
+    },
+    {
+      "token": "No",
+      "score": 0.371103
+    },
+    {
+      "token": "\u2581man",
+      "score": 0.814958
+    },
+    {
+      "token": "agers",
+      "score": 0.945476
+    },
+    {
+      "token": "\u2581work",
+      "score": 2.849839
+    },
+    {
+      "token": "\u2581rem",
+      "score": 4.952729
+    },
+    {
+      "token": "ot",
+      "score": 0.776227
+    },
+    {
+      "token": "ely",
+      "score": 3.196611
+    },
+    {
+      "token": "\u2581from",
+      "score": 0.921243
+    },
+    {
+      "token": "\u2581home",
+      "score": 0.903156
+    },
+    {
+      "token": ".",
+      "score": 1.436956
+    },
+    {
+      "token": "\u2581",
+      "score": 0.614463
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.581028
+    },
+    {
+      "token": "James",
+      "score": 1.514166
+    },
+    {
+      "token": "\u2581will",
+      "score": 0.141933
+    },
+    {
+      "token": "\u2581appear",
+      "score": 2.126514
+    },
+    {
+      "token": "\u2581in",
+      "score": 1.191917
+    },
+    {
+      "token": "\u2581the",
+      "score": 9.032596
+    },
+    {
+      "token": "\u2581company",
+      "score": 2.786599
+    },
+    {
+      "token": "\u2581today",
+      "score": 1.830237
+    },
+    {
+      "token": "\u2581if",
+      "score": 0.829922
+    },
+    {
+      "token": "\u2581and",
+      "score": 0.706035
+    },
+    {
+      "token": "\u2581only",
+      "score": 5.123363
+    },
+    {
+      "token": "\u2581if",
+      "score": 0.611421
+    },
+    {
+      "token": "\u2581he",
+      "score": 1.038175
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.623931
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.210894
+    },
+    {
+      "token": "\u2581manager",
+      "score": 0.20576
+    },
+    {
+      "token": ".",
+      "score": 0.737953
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.299791
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.988655
+    },
+    {
+      "token": "H",
+      "score": 0.060329
+    },
+    {
+      "token": "yp",
+      "score": 0.99365
+    },
+    {
+      "token": "oth",
+      "score": 2.222523
+    },
+    {
+      "token": "esis",
+      "score": 0.683685
+    },
+    {
+      "token": ":",
+      "score": 0.517445
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.696579
+    },
+    {
+      "token": "James",
+      "score": 1.704096
+    },
+    {
+      "token": "\u2581does",
+      "score": 1.530002
+    },
+    {
+      "token": "\u2581not",
+      "score": 0.238312
+    },
+    {
+      "token": "\u2581have",
+      "score": 1.560331
+    },
+    {
+      "token": "\u2581l",
+      "score": 1.22695
+    },
+    {
+      "token": "unch",
+      "score": 0.184435
+    },
+    {
+      "token": "\u2581in",
+      "score": 3.093441
+    },
+    {
+      "token": "\u2581the",
+      "score": 3.163958
+    },
+    {
+      "token": "\u2581company",
+      "score": 1.865291
+    },
+    {
+      "token": ".",
+      "score": 1.280316
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.183272
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.095159
+    },
+    {
+      "token": "Question",
+      "score": 1.714424
+    },
+    {
+      "token": ":",
+      "score": 1.459433
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.975665
+    },
+    {
+      "token": "Is",
+      "score": 3.498149
+    },
+    {
+      "token": "\u2581the",
+      "score": 5.732472
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 0.013461
+    },
+    {
+      "token": "\u2581True",
+      "score": 2.045738
+    },
+    {
+      "token": ",",
+      "score": 4.933542
+    },
+    {
+      "token": "\u2581False",
+      "score": 10.72477
+    },
+    {
+      "token": ",",
+      "score": 1.797788
+    },
+    {
+      "token": "\u2581or",
+      "score": 5.001124
+    },
+    {
+      "token": "\u2581Un",
+      "score": 7.790253
+    },
+    {
+      "token": "certain",
+      "score": 0.102451
+    },
+    {
+      "token": "?",
+      "score": 3.061189
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.981385
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.185043
+    },
+    {
+      "token": "Answer",
+      "score": 4.55562
+    },
+    {
+      "token": ":",
+      "score": 0.907942
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.127019
+    }
+  ]
+}

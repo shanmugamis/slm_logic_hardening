@@ -1,0 +1,13 @@
+id: phi35_lora_folio
+display_name: "Phi-3.5 LoRA (FOLIO)"
+short_name: "Phi+LoRA"
+description: >
+  Phi-3.5-mini fine-tuned with LoRA on FOLIO training set (1001 examples),
+model_key: phi35
+prompting: standard
+training_datasets: [folio]
+lora_config: configs/lora/phi35.yml
+color: "#10b981"
+ablation_order: 2
+group: phi35_ablation
+tags: [phi35, lora, folio]

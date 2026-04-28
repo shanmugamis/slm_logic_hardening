@@ -1,0 +1,16 @@
+{
+  "experiment_id": "phi35_baseline",
+  "model_id": "microsoft/Phi-3.5-mini-instruct",
+  "model_key": "phi35",
+  "mode": "baseline",
+  "n_examples": 203,
+  "avg_output_tokens": 15.0,
+  "device": "cuda",
+  "total_time_sec": 129.04,
+  "peak_gpu_memory_mb": 7440.0,
+  "cpu_ram_mb": 2691.4,
+  "throughput_per_sec": 1.573,
+  "avg_latency_ms": 626.2,
+  "min_latency_ms": 565.58,
+  "max_latency_ms": 1605.39
+}

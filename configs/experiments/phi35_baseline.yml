@@ -1,0 +1,14 @@
+id: phi35_baseline
+display_name: "Phi-3.5 Baseline"
+short_name: "Phi Base"
+description: >
+  Phi-3.5-mini zero-shot, no fine-tuning, no chain-of-thought.
+  Direct answer to the logical reasoning prompt.
+model_key: phi35
+prompting: standard
+training_datasets: []
+lora_config: null
+color: "#6366f1"
+ablation_order: 0
+group: phi35_ablation
+tags: [phi35, baseline, standard]

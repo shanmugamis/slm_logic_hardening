@@ -1,0 +1,16 @@
+{
+  "experiment_id": "llama8b_baseline",
+  "model_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "model_key": "llama8b",
+  "mode": "baseline",
+  "n_examples": 203,
+  "avg_output_tokens": 261.0,
+  "device": "cuda",
+  "total_time_sec": 3400.87,
+  "peak_gpu_memory_mb": 15454.6,
+  "cpu_ram_mb": 3247.4,
+  "throughput_per_sec": 0.06,
+  "avg_latency_ms": 16736.92,
+  "min_latency_ms": 4808.13,
+  "max_latency_ms": 38596.3
+}
