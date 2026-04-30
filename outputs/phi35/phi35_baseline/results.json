@@ -5,9 +5,9 @@
   "mode": "baseline",
   "prompting": "standard",
   "training_datasets": [],
-  "adapter_path": null,
-  "accuracy": 58.128078817733986,
-  "n_correct": 118,
+  "adapter_path": "outputs/phi35/phi35_lora_folio/final_adapter",
+  "accuracy": 57.14285714285714,
+  "n_correct": 116,
   "n_total": 203,
   "n_invalid": 10,
   "results": [
@@ -157,7 +157,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nA Japanese game company created the game the Legend of Zelda.\nAll games on the Top 10 list are made by Japanese game companies.\nIf a game sells more than one million copies, then it will be included in the Top 10 list.\nThe Legend of Zelda sold more than one million copies.\n\nHypothesis:\nThe Legend of Zelda is not on the Top 10 list.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
       "predicted": "False",
-      "raw_output": "The hypothesis is False.\n\nHere's the reasoning:\n\n",
+      "raw_output": "The hypothesis is False.\n\nExplanation:\nAccording to",
       "reasoning_chain": "",
       "no_of_premises": 4
     },
@@ -457,7 +457,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf someone is ranked highly by the Women's Tennis Association, then they are one of the most active players in major tennis. \nEveryone who lost to Iga \u015awi\u0105tek at Roland Garros 2022 is ranked highly by the Women's Tennis Association.\nAll female tennis players at Roland Garros 2022 lost to Iga \u015awi\u0105tek.\nAll tennis players at Roland Garros 2022 are either female or male.\nAll male tennis players at Roland Garros in 2022 lost to Rafael Nadal.\nIf Coco Gauff is ranked highly by the Women's Tennis Association or lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.\nCoco Gauff is at Roland Garros 2022.\n\nHypothesis:\nCoco Gauff is not both a player who lost to Iga \u015awi\u0105tek at Roland Garros 2022 and one of the most active players in major tennis.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
       "predicted": "True",
-      "raw_output": "True.\n\nThe premises establish that anyone who lost to Iga",
+      "raw_output": "The hypothesis is True.\n\nHere's the reasoning:\n\n",
       "reasoning_chain": "",
       "no_of_premises": 7
     },
@@ -847,7 +847,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf a restaurant is listed in Yelp\u2019s recommendations, then the restaurant has not received many negative reviews.\nAll restaurants with a rating greater than four are listed in Yelp\u2019s recommendations.\nSome restaurants that do not provide take-out service receive many negative reviews.\nAll restaurants that are popular among local residents have ratings greater than four.\nThe Hamden Plaza Subway store has a rating greater than four, or it is popular among local residents.\n\nHypothesis:\nIf the Hamden Plaza Subway store provides take-out service and receives many negative reviews, then its rating is greater than 4 and it does not provide take-out service.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
       "predicted": "Uncertain",
-      "raw_output": "The hypothesis is Uncertain.\n\nExplanation:\nFrom the",
+      "raw_output": "The hypothesis is Uncertain.\n\nExplanation:\nThe prem",
       "reasoning_chain": "",
       "no_of_premises": 5
     },
@@ -896,7 +896,7 @@
       "story_id": 58,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nBooks contain tons of knowledge.\nWhen a person reads a book, that person gains knowledge. \nIf a person gains knowledge, they become smarter.\nHarry read the book \u201cWalden\u201d by Henry Thoreau.\n\nHypothesis:\nHarry is smarter than before.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
-      "predicted": "True",
+      "predicted": "Uncertain",
       "raw_output": "The hypothesis is Uncertain.\n\nWhile it is true that Harry",
       "reasoning_chain": "",
       "no_of_premises": 4
@@ -1406,8 +1406,8 @@
       "story_id": 460,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf a film is appropriate for people of all ages, then children can watch it without guidance from parents.\nIf a film contains excessive erotic and violent content, children cannot watch it without guidance from their parents.\nIf a film is rated General Audience, then it is appropriate for people of all ages.\nAll family-friendly animated films are rated General Audience.\nAll movies in the Frozen series are family-friendly animated films.\n\u201cHachi: A dog\u2019s Tale\u201d is a film.\n\u201cHachi: A dog\u2019s Tale\u201d  is either a family-friendly animated film or is appropriate for people of all ages. \n\nHypothesis:\n\"Hachi: A dog's Tale\" is rated General Audience.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "Uncertain",
-      "predicted": "Uncertain",
-      "raw_output": "The hypothesis is Uncertain.\n\nExplanation:\nFrom the",
+      "predicted": "True",
+      "raw_output": "The hypothesis is True.\n\nHere's the reasoning:\n\n",
       "reasoning_chain": "",
       "no_of_premises": 7
     },
@@ -1447,7 +1447,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nBreeding back is a form of artificial selection by the deliberate selective breeding of domestic animals.\nHeck cattle were bred back in the 1920s to resemble the aurochs.\nHeck cattle are animals.\nAurochs are animals.\nSome animals to be bred back resemble extinct animals.\n\nHypothesis:\nAurochs are extinct.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "Uncertain",
       "predicted": "True",
-      "raw_output": "True\n\nExplanation:\nThe premises provided give us the",
+      "raw_output": "True\n\nThe premises provided lead to the conclusion that aurochs",
       "reasoning_chain": "",
       "no_of_premises": 5
     },

@@ -7,9 +7,9 @@
   "training_datasets": [
     "folio"
   ],
-  "adapter_path": "/content/drive/MyDrive/slm_logic_hardening/outputs/phi35/phi35_lora_folio_pw/final_adapter",
-  "accuracy": 61.57635467980296,
-  "n_correct": 125,
+  "adapter_path": "outputs/phi35/phi35_lora_folio_pw/final_adapter",
+  "accuracy": 62.06896551724138,
+  "n_correct": 126,
   "n_total": 203,
   "n_invalid": 0,
   "results": [
@@ -58,8 +58,8 @@
       "story_id": 426,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll employees who schedule a meeting with their customers will go to the company building today. \nEveryone who has lunch in the company building schedules meetings with their customers. \nEmployees have lunch either in the company building or at home.\nIf an employee has lunch at home, they are working remotely from home.\nAll employees who are in other countries work remotely from home. \nNo managers work remotely from home. \nJames will appear in the company today if and only if he is a manager.\n\nHypothesis:\nJames does not have lunch in the company.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "Uncertain",
-      "predicted": "False",
-      "raw_output": "False\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "predicted": "True",
+      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
       "reasoning_chain": "",
       "no_of_premises": 7
     },
@@ -69,7 +69,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll employees who schedule a meeting with their customers will go to the company building today. \nEveryone who has lunch in the company building schedules meetings with their customers. \nEmployees have lunch either in the company building or at home.\nIf an employee has lunch at home, they are working remotely from home.\nAll employees who are in other countries work remotely from home. \nNo managers work remotely from home. \nJames will appear in the company today if and only if he is a manager.\n\nHypothesis:\nIf James is either a manager or in other countries,  then James does not either has lunch at home or work remotely from home. If James either has lunch at home or works remotely from home, then he is neither a manager nor does he work in other countries. [contrapositive is more natural]\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
       "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "raw_output": "True\n\nExplanation:\nIf James is a manager, then",
       "reasoning_chain": "",
       "no_of_premises": 7
     },
@@ -78,8 +78,8 @@
       "story_id": 198,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nWhen the Monkeypox virus occurs in a being, it may get Monkeypox. \nMonkeypox virus can occur in certain animals.\nHumans are mammals.\nMammals are animals.\nSymptoms of Monkeypox include fever, headache, muscle pains, and tiredness. \nPeople feel tired when they get the flu.\n\nHypothesis:\nThere is an animal.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
-      "predicted": "Uncertain",
-      "raw_output": "Uncertain\n\n\nQuestion:\nIs the hypothesis True, False,",
+      "predicted": "True",
+      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -329,7 +329,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nEveryone at the mixer is a Grand Slam champion or an Oscar-nominated actor.\nEvery Grand Slam champion at the mixer is a professional tennis player.\nAll Oscar-nominated actors at the mixer are celebrities.\nAll professional tennis players at the mixer are athletes.\nIf a person at the mixer is a celebrity, then they are well paid.\nIf a person at the mixer is an athlete, then they are famous.\nAll well-paid people at the mixer live in tax havens.\nDjokovic is at the mixer: if Djokovic is a famous athlete, then Djokovic is well-paid.\n\nHypothesis:\nDjokovic lives in a tax haven.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
       "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "raw_output": "True\n\n\nQuestion:\nIf Djokovic is a Grand",
       "reasoning_chain": "",
       "no_of_premises": 8
     },
@@ -419,7 +419,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll of Zaha Hadid's design styles that Max adores have interesting geometries.\nNo brutalist buildings that Max adores have interesting geometries.\nEvery style that Max adores is either Zaha Hadid's design style or Kelly Wearstler's design style. \nAll of Kelly Wearstler's design styles that Max adores are evocative.\nAll of Kelly Wearstler's design styles that Max adores are dreamy.\nIf a design by Max that he adores has interesting geometries, then the design is a brutalist building and evocative.\n\nHypothesis:\nA design by Max is evocative and dreamy.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
       "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "raw_output": "True\n\nExplanation:\nIf a design by Max is ev",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -588,8 +588,8 @@
       "story_id": 2,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nBillings is a city in the state of Montana in U.S.\nThe state of Montana includes the cities of Butte, Helena, and Missoula.\nWhite Sulphur Springs and Butte are cities in the same state in U.S.\nThe city of St Pierre is not in the state of Montana.\nAny city in Butte is not in St Pierre.\nA city can only be in one state in U.S.  except for Bristol, Texarkana, Texhoma and Union City.\n\nHypothesis:\nButte and St Pierre are in the same state.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
-      "predicted": "False",
-      "raw_output": "False\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "predicted": "True",
+      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
       "reasoning_chain": "",
       "no_of_premises": 10
     },
@@ -639,7 +639,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll Brown Swiss cattle are cows.\nSome pets are Brown Swiss Cattle.\nAll cows are domesticated animals.\nAlligators are not domesticated animals.\nTed is an alligator.\n\nHypothesis:\nTed is a pet.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "Uncertain",
       "predicted": "Uncertain",
-      "raw_output": "Uncertain\n\n\nQuestion:\nIs the hypothesis True, False,",
+      "raw_output": "Uncertain\n\nExplanation:\nThe hypothesis is uncertain because while",
       "reasoning_chain": "",
       "no_of_premises": 5
     },
@@ -789,7 +789,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf people at Mary's school work in student jobs on campus, then they need to earn money to help pay for their college tuition.\nIf people at Mary's school order takeout frequently in college, then they work in student jobs on campus.\nPeople at Mary's school order takeout frequently in college or enjoy the dining hall meals and recipes.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they are not picky eaters.\nIf people at Mary's school enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.\nHannah is at Mary's school.\nHannah works in student jobs on campus and if she needs to earn money to help pay for her college tuition, then she is neither picky nor needs to earn money to help pay for her college tuition.\n\nHypothesis:\nHannah is at Mary's school and she either is not a picky eater or, if she is, then she spends a lot of her time eating and catching up with friends in the campus dining halls.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
       "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIf Hannah is at Mary's",
+      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
       "reasoning_chain": "",
       "no_of_premises": 7
     },
@@ -859,7 +859,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf a restaurant is listed in Yelp\u2019s recommendations, then the restaurant has not received many negative reviews.\nAll restaurants with a rating greater than four are listed in Yelp\u2019s recommendations.\nSome restaurants that do not provide take-out service receive many negative reviews.\nAll restaurants that are popular among local residents have ratings greater than four.\nThe Hamden Plaza Subway store has a rating greater than four, or it is popular among local residents.\n\nHypothesis:\nThe Hamden Plaza Subway store provides take-out service or does not receive many negative reviews.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
       "predicted": "Uncertain",
-      "raw_output": "Uncertain\n\n\nQuestion:\nIs the hypothesis True, False,",
+      "raw_output": "Uncertain\n\nExplanation:\nThe premises do not provide",
       "reasoning_chain": "",
       "no_of_premises": 5
     },
@@ -1038,8 +1038,8 @@
       "story_id": 379,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nPeople who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.\nIf people have siblings who were born together, then they were born in a multiple birth.\nIf people complain often about annoying siblings, then they have siblings who were born together.\nIf people live at home, then they do not live with strangers.\nIf people spend a lot of time hanging out with and playing with their siblings, then they often live at home. \nLuke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers\n\nHypothesis:\nLuke complains often about annoying siblings.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
-      "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "predicted": "Uncertain",
+      "raw_output": "Uncertain\n\n\nQuestion:\nIs the hypothesis True, False,",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -1179,7 +1179,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf a man is taller than another man, the taller one can block the other's shooting.\nMichael is a man who is taller than everyone else in his class.\nIf person x is taller than person y, and person y is taller than person z, then x is taller than z\nPeter is a man who is taller than Michael.\nMichael can block any shooting from a person as long as the person does not jump when shooting.\nMichael cannot block Windy's shooting.\nEvery shooter who can jump when shooting is a great shooter.\n\nHypothesis:\nPeter can block Windy's shooting.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "Uncertain",
       "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIf the hypothesis is True, is the",
+      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -1238,8 +1238,8 @@
       "story_id": 315,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf something can transport multiple passengers, then they are not one-seaters.\nAll Tesla Model 3 can transport multiple passengers.\nAll single-seat electric cars are one-seaters.\nAll Solo EV cars are single-seat electric cars. \nIf John's car is not a Tesla Model 3, then John's car is not a Tesla Model 3 or a single-seat electric car. \n\nHypothesis:\nJohn's car is a Solo EV.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
-      "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "predicted": "Uncertain",
+      "raw_output": "Uncertain\n\n\nQuestion:\nIs the hypothesis True, False,",
       "reasoning_chain": "",
       "no_of_premises": 5
     },
@@ -1299,7 +1299,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll people who make wedding plans are people who are engaged.\nAll people who invite others to come to their ceremony make wedding plans.\nAnyone who has a well-attended wedding invites others to come to their ceremony.\nSome people that have well-attended weddings have larger families.\nIf John is engaged, then John does not invite friends to their ceremony and make wedding plans.\nIf John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. \n\nHypothesis:\nJohn does not have a larger family.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
       "predicted": "False",
-      "raw_output": "False\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "raw_output": "False\n\nQuestion:\nIs the hypothesis True, False, or Un",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -1309,7 +1309,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll people who make wedding plans are people who are engaged.\nAll people who invite others to come to their ceremony make wedding plans.\nAnyone who has a well-attended wedding invites others to come to their ceremony.\nSome people that have well-attended weddings have larger families.\nIf John is engaged, then John does not invite friends to their ceremony and make wedding plans.\nIf John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. \n\nHypothesis:\nJohn is engaged.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "Uncertain",
       "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "raw_output": "True\n\nQuestion:\nIs the hypothesis True, False, or Un",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -1318,8 +1318,8 @@
       "story_id": 330,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll people who make wedding plans are people who are engaged.\nAll people who invite others to come to their ceremony make wedding plans.\nAnyone who has a well-attended wedding invites others to come to their ceremony.\nSome people that have well-attended weddings have larger families.\nIf John is engaged, then John does not invite friends to their ceremony and make wedding plans.\nIf John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. \n\nHypothesis:\nJohn neither has a larger family nor does he invite others to his wedding.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
-      "predicted": "False",
-      "raw_output": "False\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "predicted": "True",
+      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -1379,7 +1379,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nPlungers suck.\nVacuums suck.\nVampires suck.\nSpace is a vacuum.\nA duster is a household appliance that doesn't suck.\n\nHypothesis:\nIf something is a household appliance, it sucks.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
       "predicted": "Uncertain",
-      "raw_output": "Uncertain\n\n\nQuestion:\nIs the hypothesis True, False,",
+      "raw_output": "Uncertain\n\nExplanation:\nThe hypothesis states that \"if",
       "reasoning_chain": "",
       "no_of_premises": 5
     },
@@ -1619,7 +1619,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf George likes music, he wants to compose.\nIf George has access to a program, he can compose.\nIf George can compose and wants to compose, he will compose.\n\nHypothesis:\nIf George likes music and has access to a program, he will compose.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
       "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIf George likes music and has access",
+      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
       "reasoning_chain": "",
       "no_of_premises": 3
     },
@@ -1658,8 +1658,8 @@
       "story_id": 318,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nSome show airing at 8 pm on Monday gives out roses on TV.\nIf a show gives out roses on TV, then the show is an episode of The Bachelor.\nThe Bachelor portrays the lives of real people.\nAll shows portraying the lives of real people are reality TV shows.\nBreaking Bad is a show.\nBreaking Bad is not a reality TV show.\n\nHypothesis:\nBreaking Bad is a TV show in which roses are given out on Monday at 8 pm.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
-      "predicted": "False",
-      "raw_output": "False\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "predicted": "Uncertain",
+      "raw_output": "Uncertain\n\nExplanation:\nThe hypothesis is uncertain because while",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -1718,8 +1718,8 @@
       "story_id": 386,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf something is a deadly disease, then it comes with a low survival rate. \nSevere cancers are deadly diseases.\nBile duct cancer is a severe form cancer. \nAll Cholangiocarcinoma is bile duct cancer.\nMild flu comes with a low survival rate.\nColorectal cancer is not both a bile duct cancer and with a low survival rate.\n\nHypothesis:\nIf colorectal cancer is a kind of bile duct cancer or a form of Cholangiocarcinoma, then colorectal cancer is a kind of bile duct cancer and a kind of mild flu.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "True",
-      "predicted": "False",
-      "raw_output": "False\n\nQuestion:\nIs the hypothesis True, False, or Un",
+      "predicted": "True",
+      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -1739,7 +1739,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll people who eat salads regularly are very conscious about their health and eating habits.\nAll people who grew up in health-conscious childhood homes eat salads regularly.\nAll people who fulfill their daily nutritional intakes grew up in health-conscious childhood homes.\nAll people who disregard their physical well-being are not very conscious about their health and eating habits.\nIf people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.\nTaylor either grew up in a health-conscious childhood home and disregard her physical well-being, or she did neither.\n\nHypothesis:\nTaylor eats salads regularly.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "Uncertain",
       "predicted": "Uncertain",
-      "raw_output": "Uncertain\n\n\nQuestion:\nIs the hypothesis True, False,",
+      "raw_output": "Uncertain\n\nExplanation:\nIf Taylor grew up in a",
       "reasoning_chain": "",
       "no_of_premises": 6
     },
@@ -1808,8 +1808,8 @@
       "story_id": 152,
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nSusan flies to LGA airport.\nThe departure and arrival can not be at the same airport.\nJohn flies from LGA airport.\n\nHypothesis:\nSusan flies from LGA airport.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
-      "predicted": "True",
-      "raw_output": "True\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "predicted": "Uncertain",
+      "raw_output": "Uncertain\n\n\nQuestion:\nIs the hypothesis True, False,",
       "reasoning_chain": "",
       "no_of_premises": 3
     },
@@ -1979,7 +1979,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nJane does not like any animals that bark.\nAll dogs are animals that bark.\nJane likes all animals that jump.\nIf an animal has legs, then it jumps.\nIf an animal is terricolous, then it has legs. \nKiKi is an animal.\nIf KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.\n\nHypothesis:\nKiKi is a barking dog.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "False",
       "predicted": "False",
-      "raw_output": "False\n\n\nQuestion:\nIs the hypothesis True, False, or",
+      "raw_output": "False\n\nQuestion:\nIs the hypothesis True, False, or Un",
       "reasoning_chain": "",
       "no_of_premises": 7
     },
@@ -2029,7 +2029,7 @@
       "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAilton Silva, born in 1995, is commonly known as Ailton.\nAilton is a football player who was loaned out to Braga.\nAilton Silva is a Brazilian footballer who plays for N\u00e1utico.\nN\u00e1utico is a football club along with Braga.\nFluminense is a football club.\n\nHypothesis:\nAilton Silva played for Fluminense.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
       "ground_truth": "Uncertain",
       "predicted": "Uncertain",
-      "raw_output": "Uncertain.\n\n\nQuestion:\nIs the hypothesis True, False",
+      "raw_output": "Uncertain\n\n\nQuestion:\nIs the hypothesis True, False,",
       "reasoning_chain": "",
       "no_of_premises": 5
     },

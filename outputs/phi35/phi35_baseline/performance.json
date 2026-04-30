@@ -6,11 +6,11 @@
   "n_examples": 203,
   "avg_output_tokens": 15.0,
   "device": "cuda",
-  "total_time_sec": 129.04,
-  "peak_gpu_memory_mb": 7440.0,
-  "cpu_ram_mb": 2691.4,
-  "throughput_per_sec": 1.573,
-  "avg_latency_ms": 626.2,
-  "min_latency_ms": 565.58,
-  "max_latency_ms": 1605.39
+  "total_time_sec": 52.98,
+  "peak_gpu_memory_mb": 7439.9,
+  "cpu_ram_mb": 1654.2,
+  "throughput_per_sec": 3.832,
+  "avg_latency_ms": 255.91,
+  "min_latency_ms": 225.32,
+  "max_latency_ms": 4551.22
 }

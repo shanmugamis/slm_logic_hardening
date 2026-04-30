@@ -4,13 +4,13 @@
   "model_key": "phi35",
   "mode": "baseline",
   "n_examples": 203,
-  "avg_output_tokens": 241.7,
+  "avg_output_tokens": 236.7,
   "device": "cuda",
-  "total_time_sec": 1934.49,
-  "peak_gpu_memory_mb": 7650.6,
-  "cpu_ram_mb": 3167.0,
-  "throughput_per_sec": 0.105,
-  "avg_latency_ms": 9518.94,
-  "min_latency_ms": 4041.2,
-  "max_latency_ms": 25263.94
+  "total_time_sec": 754.56,
+  "peak_gpu_memory_mb": 7650.5,
+  "cpu_ram_mb": 2242.4,
+  "throughput_per_sec": 0.269,
+  "avg_latency_ms": 3698.27,
+  "min_latency_ms": 1434.08,
+  "max_latency_ms": 9883.66
 }

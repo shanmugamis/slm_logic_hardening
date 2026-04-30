@@ -4,16 +4,16 @@
   "model_key": "phi35",
   "mode": "baseline",
   "prompting": "standard",
-  "accuracy": 58.128078817733986,
-  "n_correct": 118,
+  "accuracy": 57.14285714285714,
+  "n_correct": 116,
   "n_total": 203,
   "n_invalid": 10,
   "invalid_rate": 4.93,
   "classification_report": {
     "True": {
-      "precision": 0.6842105263157895,
-      "recall": 0.7222222222222222,
-      "f1-score": 0.7027027027027027,
+      "precision": 0.6710526315789473,
+      "recall": 0.7083333333333334,
+      "f1-score": 0.6891891891891891,
       "support": 72.0
     },
     "False": {
@@ -23,35 +23,35 @@
       "support": 62.0
     },
     "Uncertain": {
-      "precision": 0.4857142857142857,
-      "recall": 0.4927536231884058,
-      "f1-score": 0.4892086330935252,
+      "precision": 0.4714285714285714,
+      "recall": 0.4782608695652174,
+      "f1-score": 0.4748201438848921,
       "support": 69.0
     },
     "micro avg": {
-      "precision": 0.6113989637305699,
-      "recall": 0.5812807881773399,
-      "f1-score": 0.5959595959595959,
+      "precision": 0.6010362694300518,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.5858585858585859,
       "support": 203.0
     },
     "macro avg": {
-      "precision": 0.6169252919532875,
-      "recall": 0.5770349592228975,
-      "f1-score": 0.5930224330329934,
+      "precision": 0.607777422279102,
+      "recall": 0.5675744117188718,
+      "f1-score": 0.5837217654589445,
       "support": 203.0
     },
     "weighted avg": {
-      "precision": 0.6157153180614254,
-      "recall": 0.5812807881773399,
-      "f1-score": 0.5948456157774309,
+      "precision": 0.6061927431512435,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.5851619767214277,
       "support": 203.0
     }
   },
   "confusion_matrix": [
     [
-      52,
+      51,
       3,
-      15
+      16
     ],
     [
       9,
@@ -59,9 +59,9 @@
       21
     ],
     [
-      15,
+      16,
       12,
-      34
+      33
     ]
   ],
   "confusion_matrix_labels": [
@@ -82,13 +82,13 @@
       "total": 11
     },
     "3-4": {
-      "accuracy": 80.64516129032258,
-      "correct": 25,
+      "accuracy": 77.41935483870968,
+      "correct": 24,
       "total": 31
     },
     "5+": {
-      "accuracy": 52.17391304347826,
-      "correct": 84,
+      "accuracy": 51.5527950310559,
+      "correct": 83,
       "total": 161
     }
   }
