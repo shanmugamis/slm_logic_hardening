@@ -4,59 +4,59 @@
   "model_key": "phi35",
   "mode": "lora",
   "prompting": "standard",
-  "accuracy": 61.57635467980296,
-  "n_correct": 125,
+  "accuracy": 67.48768472906403,
+  "n_correct": 137,
   "n_total": 203,
   "n_invalid": 0,
   "invalid_rate": 0.0,
   "classification_report": {
     "True": {
-      "precision": 0.5904761904761905,
-      "recall": 0.8611111111111112,
-      "f1-score": 0.7005649717514124,
+      "precision": 0.6829268292682927,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.7272727272727273,
       "support": 72.0
     },
     "False": {
-      "precision": 0.8076923076923077,
-      "recall": 0.3387096774193548,
-      "f1-score": 0.4772727272727273,
+      "precision": 0.6530612244897959,
+      "recall": 0.5161290322580645,
+      "f1-score": 0.5765765765765766,
       "support": 62.0
     },
     "Uncertain": {
-      "precision": 0.5833333333333334,
-      "recall": 0.6086956521739131,
-      "f1-score": 0.5957446808510638,
+      "precision": 0.6805555555555556,
+      "recall": 0.7101449275362319,
+      "f1-score": 0.6950354609929078,
       "support": 69.0
     },
-    "accuracy": 0.6157635467980296,
+    "accuracy": 0.6748768472906403,
     "macro avg": {
-      "precision": 0.6605006105006105,
-      "recall": 0.6028388135681263,
-      "f1-score": 0.5911941266250679,
+      "precision": 0.6721812031045481,
+      "recall": 0.668017245857358,
+      "f1-score": 0.6662949216140706,
       "support": 203.0
     },
     "weighted avg": {
-      "precision": 0.6543901910896985,
-      "recall": 0.6157635467980296,
-      "f1-score": 0.5967387686489369,
+      "precision": 0.672999315069053,
+      "recall": 0.6748768472906403,
+      "f1-score": 0.6702898074871664,
       "support": 203.0
     }
   },
   "confusion_matrix": [
     [
-      62,
-      1,
-      9
+      56,
+      6,
+      10
     ],
     [
-      20,
-      21,
-      21
+      17,
+      32,
+      13
     ],
     [
-      23,
-      4,
-      42
+      9,
+      11,
+      49
     ]
   ],
   "confusion_matrix_labels": [
@@ -65,25 +65,25 @@
     "Uncertain"
   ],
   "prediction_distribution": {
-    "True": 105,
-    "False": 26,
+    "True": 82,
+    "False": 49,
     "Uncertain": 72,
     "invalid": 0
   },
   "deductive_consistency": {
     "1-2": {
-      "accuracy": 72.72727272727273,
-      "correct": 8,
+      "accuracy": 90.9090909090909,
+      "correct": 10,
       "total": 11
     },
     "3-4": {
-      "accuracy": 64.51612903225806,
-      "correct": 20,
+      "accuracy": 70.96774193548387,
+      "correct": 22,
       "total": 31
     },
     "5+": {
-      "accuracy": 60.24844720496895,
-      "correct": 97,
+      "accuracy": 65.21739130434783,
+      "correct": 105,
       "total": 161
     }
   }

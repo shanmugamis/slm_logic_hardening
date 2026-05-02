@@ -1,0 +1,753 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "index": 67,
+  "ground_truth": "True",
+  "no_of_premises": 5,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nYale University is a private Ivy League research university.\nYale University moved to New Haven in 1716.\nYale university's endowment was valued at $42.3 billion.\nA list of residential colleges at Yale: Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College, and Trumbull College.\n\nHypothesis:\nPierson College is a residential college at Yale.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 151.263702
+    },
+    {
+      "token": "\u2581are",
+      "score": 7.488947
+    },
+    {
+      "token": "\u2581a",
+      "score": 41.563911
+    },
+    {
+      "token": "\u2581Log",
+      "score": 255.758133
+    },
+    {
+      "token": "ical",
+      "score": 199.554901
+    },
+    {
+      "token": "\u2581Re",
+      "score": 293.367035
+    },
+    {
+      "token": "ason",
+      "score": 4.77105
+    },
+    {
+      "token": "ing",
+      "score": 176.483582
+    },
+    {
+      "token": "\u2581System",
+      "score": 250.426575
+    },
+    {
+      "token": ".",
+      "score": 24.803802
+    },
+    {
+      "token": "<0x0A>",
+      "score": 8.920627
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.059234
+    },
+    {
+      "token": "P",
+      "score": 14.000589
+    },
+    {
+      "token": "rem",
+      "score": 1.870719
+    },
+    {
+      "token": "ises",
+      "score": 19.868214
+    },
+    {
+      "token": ":",
+      "score": 5.268628
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.565063
+    },
+    {
+      "token": "Y",
+      "score": 22.675766
+    },
+    {
+      "token": "ale",
+      "score": 106.704597
+    },
+    {
+      "token": "\u2581University",
+      "score": 3.973834
+    },
+    {
+      "token": "\u2581is",
+      "score": 3.367559
+    },
+    {
+      "token": "\u2581a",
+      "score": 14.928545
+    },
+    {
+      "token": "\u2581private",
+      "score": 1.845658
+    },
+    {
+      "token": "\u2581I",
+      "score": 4.856715
+    },
+    {
+      "token": "vy",
+      "score": 43.86335
+    },
+    {
+      "token": "\u2581League",
+      "score": 31.181778
+    },
+    {
+      "token": "\u2581research",
+      "score": 21.338306
+    },
+    {
+      "token": "\u2581university",
+      "score": 14.117015
+    },
+    {
+      "token": ".",
+      "score": 9.278068
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.164441
+    },
+    {
+      "token": "Y",
+      "score": 20.792931
+    },
+    {
+      "token": "ale",
+      "score": 19.848896
+    },
+    {
+      "token": "\u2581University",
+      "score": 1.832202
+    },
+    {
+      "token": "\u2581moved",
+      "score": 16.136839
+    },
+    {
+      "token": "\u2581to",
+      "score": 8.189744
+    },
+    {
+      "token": "\u2581New",
+      "score": 1.199086
+    },
+    {
+      "token": "\u2581H",
+      "score": 35.504601
+    },
+    {
+      "token": "aven",
+      "score": 1.923673
+    },
+    {
+      "token": "\u2581in",
+      "score": 5.926545
+    },
+    {
+      "token": "\u2581",
+      "score": 8.191713
+    },
+    {
+      "token": "1",
+      "score": 1.860801
+    },
+    {
+      "token": "7",
+      "score": 3.763997
+    },
+    {
+      "token": "1",
+      "score": 1.336213
+    },
+    {
+      "token": "6",
+      "score": 9.18844
+    },
+    {
+      "token": ".",
+      "score": 20.030888
+    },
+    {
+      "token": "<0x0A>",
+      "score": 16.535027
+    },
+    {
+      "token": "Y",
+      "score": 11.365099
+    },
+    {
+      "token": "ale",
+      "score": 156.043732
+    },
+    {
+      "token": "\u2581university",
+      "score": 111.055046
+    },
+    {
+      "token": "'",
+      "score": 88.760033
+    },
+    {
+      "token": "s",
+      "score": 20.047277
+    },
+    {
+      "token": "\u2581end",
+      "score": 3.473153
+    },
+    {
+      "token": "ow",
+      "score": 4.414496
+    },
+    {
+      "token": "ment",
+      "score": 11.719152
+    },
+    {
+      "token": "\u2581was",
+      "score": 5.15681
+    },
+    {
+      "token": "\u2581val",
+      "score": 18.197086
+    },
+    {
+      "token": "ued",
+      "score": 4.66193
+    },
+    {
+      "token": "\u2581at",
+      "score": 6.050667
+    },
+    {
+      "token": "\u2581$",
+      "score": 5.714501
+    },
+    {
+      "token": "4",
+      "score": 3.247021
+    },
+    {
+      "token": "2",
+      "score": 18.979118
+    },
+    {
+      "token": ".",
+      "score": 16.421337
+    },
+    {
+      "token": "3",
+      "score": 2.014074
+    },
+    {
+      "token": "\u2581billion",
+      "score": 19.372997
+    },
+    {
+      "token": ".",
+      "score": 3.591274
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.402081
+    },
+    {
+      "token": "A",
+      "score": 9.191677
+    },
+    {
+      "token": "\u2581list",
+      "score": 12.998749
+    },
+    {
+      "token": "\u2581of",
+      "score": 17.065662
+    },
+    {
+      "token": "\u2581resident",
+      "score": 31.862982
+    },
+    {
+      "token": "ial",
+      "score": 11.743023
+    },
+    {
+      "token": "\u2581colleg",
+      "score": 17.761814
+    },
+    {
+      "token": "es",
+      "score": 9.902714
+    },
+    {
+      "token": "\u2581at",
+      "score": 28.746387
+    },
+    {
+      "token": "\u2581Y",
+      "score": 84.425659
+    },
+    {
+      "token": "ale",
+      "score": 102.378822
+    },
+    {
+      "token": ":",
+      "score": 28.387115
+    },
+    {
+      "token": "\u2581Benjamin",
+      "score": 664.86261
+    },
+    {
+      "token": "\u2581Franklin",
+      "score": 2.172832
+    },
+    {
+      "token": "\u2581College",
+      "score": 2.898262
+    },
+    {
+      "token": ",",
+      "score": 0.375713
+    },
+    {
+      "token": "\u2581Ber",
+      "score": 1.10117
+    },
+    {
+      "token": "keley",
+      "score": 1.833954
+    },
+    {
+      "token": "\u2581College",
+      "score": 3.832621
+    },
+    {
+      "token": ",",
+      "score": 0.676187
+    },
+    {
+      "token": "\u2581Bran",
+      "score": 0.424627
+    },
+    {
+      "token": "ford",
+      "score": 3.24369
+    },
+    {
+      "token": "\u2581College",
+      "score": 3.334209
+    },
+    {
+      "token": ",",
+      "score": 0.098346
+    },
+    {
+      "token": "\u2581D",
+      "score": 0.731195
+    },
+    {
+      "token": "aven",
+      "score": 0.207936
+    },
+    {
+      "token": "port",
+      "score": 1.280412
+    },
+    {
+      "token": "\u2581College",
+      "score": 4.079129
+    },
+    {
+      "token": ",",
+      "score": 0.35058
+    },
+    {
+      "token": "\u2581Ez",
+      "score": 0.174837
+    },
+    {
+      "token": "ra",
+      "score": 1.823505
+    },
+    {
+      "token": "\u2581St",
+      "score": 0.631171
+    },
+    {
+      "token": "iles",
+      "score": 0.209139
+    },
+    {
+      "token": "\u2581College",
+      "score": 2.727559
+    },
+    {
+      "token": ",",
+      "score": 1.702641
+    },
+    {
+      "token": "\u2581Grace",
+      "score": 0.129162
+    },
+    {
+      "token": "\u2581Ho",
+      "score": 0.595731
+    },
+    {
+      "token": "pper",
+      "score": 0.137118
+    },
+    {
+      "token": "\u2581College",
+      "score": 0.090745
+    },
+    {
+      "token": ",",
+      "score": 2.36254
+    },
+    {
+      "token": "\u2581Jonathan",
+      "score": 3.308398
+    },
+    {
+      "token": "\u2581Edwards",
+      "score": 15.46888
+    },
+    {
+      "token": "\u2581College",
+      "score": 2.365976
+    },
+    {
+      "token": ",",
+      "score": 3.412014
+    },
+    {
+      "token": "\u2581Mor",
+      "score": 1.060869
+    },
+    {
+      "token": "se",
+      "score": 1.001374
+    },
+    {
+      "token": "\u2581College",
+      "score": 0.556825
+    },
+    {
+      "token": ",",
+      "score": 3.163059
+    },
+    {
+      "token": "\u2581Paul",
+      "score": 0.373447
+    },
+    {
+      "token": "i",
+      "score": 1.836748
+    },
+    {
+      "token": "\u2581Murray",
+      "score": 8.394909
+    },
+    {
+      "token": "\u2581College",
+      "score": 5.165305
+    },
+    {
+      "token": ",",
+      "score": 2.201479
+    },
+    {
+      "token": "\u2581Pi",
+      "score": 0.656429
+    },
+    {
+      "token": "erson",
+      "score": 1.865015
+    },
+    {
+      "token": "\u2581College",
+      "score": 0.496088
+    },
+    {
+      "token": ",",
+      "score": 2.741746
+    },
+    {
+      "token": "\u2581Say",
+      "score": 1.727839
+    },
+    {
+      "token": "bro",
+      "score": 0.84435
+    },
+    {
+      "token": "ok",
+      "score": 0.312942
+    },
+    {
+      "token": "\u2581College",
+      "score": 0.788538
+    },
+    {
+      "token": ",",
+      "score": 1.598955
+    },
+    {
+      "token": "\u2581S",
+      "score": 2.56331
+    },
+    {
+      "token": "ill",
+      "score": 5.072538
+    },
+    {
+      "token": "iman",
+      "score": 1.425212
+    },
+    {
+      "token": "\u2581College",
+      "score": 4.637878
+    },
+    {
+      "token": ",",
+      "score": 1.228541
+    },
+    {
+      "token": "\u2581Tim",
+      "score": 3.33434
+    },
+    {
+      "token": "othy",
+      "score": 8.988568
+    },
+    {
+      "token": "\u2581D",
+      "score": 10.095495
+    },
+    {
+      "token": "w",
+      "score": 0.379059
+    },
+    {
+      "token": "ight",
+      "score": 0.301173
+    },
+    {
+      "token": "\u2581College",
+      "score": 0.25157
+    },
+    {
+      "token": ",",
+      "score": 3.592053
+    },
+    {
+      "token": "\u2581and",
+      "score": 0.770645
+    },
+    {
+      "token": "\u2581Tr",
+      "score": 5.084996
+    },
+    {
+      "token": "umb",
+      "score": 2.230187
+    },
+    {
+      "token": "ull",
+      "score": 1.764143
+    },
+    {
+      "token": "\u2581College",
+      "score": 3.934806
+    },
+    {
+      "token": ".",
+      "score": 4.117872
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.979165
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.311435
+    },
+    {
+      "token": "H",
+      "score": 3.59571
+    },
+    {
+      "token": "yp",
+      "score": 3.2276
+    },
+    {
+      "token": "oth",
+      "score": 3.888862
+    },
+    {
+      "token": "esis",
+      "score": 1.109551
+    },
+    {
+      "token": ":",
+      "score": 2.983917
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.216143
+    },
+    {
+      "token": "Pi",
+      "score": 1.099281
+    },
+    {
+      "token": "erson",
+      "score": 0.936476
+    },
+    {
+      "token": "\u2581College",
+      "score": 1.525089
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.904211
+    },
+    {
+      "token": "\u2581a",
+      "score": 5.871829
+    },
+    {
+      "token": "\u2581resident",
+      "score": 2.906592
+    },
+    {
+      "token": "ial",
+      "score": 3.301148
+    },
+    {
+      "token": "\u2581college",
+      "score": 1.862268
+    },
+    {
+      "token": "\u2581at",
+      "score": 6.829872
+    },
+    {
+      "token": "\u2581Y",
+      "score": 1.502257
+    },
+    {
+      "token": "ale",
+      "score": 3.87429
+    },
+    {
+      "token": ".",
+      "score": 5.120249
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.250131
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.731154
+    },
+    {
+      "token": "Question",
+      "score": 7.88522
+    },
+    {
+      "token": ":",
+      "score": 6.301259
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.669651
+    },
+    {
+      "token": "Is",
+      "score": 1.993199
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.085107
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 0.142156
+    },
+    {
+      "token": "\u2581True",
+      "score": 2.94576
+    },
+    {
+      "token": ",",
+      "score": 1.468872
+    },
+    {
+      "token": "\u2581False",
+      "score": 3.120679
+    },
+    {
+      "token": ",",
+      "score": 10.005649
+    },
+    {
+      "token": "\u2581or",
+      "score": 12.733749
+    },
+    {
+      "token": "\u2581Un",
+      "score": 1.094791
+    },
+    {
+      "token": "certain",
+      "score": 2.488487
+    },
+    {
+      "token": "?",
+      "score": 10.08543
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.409371
+    },
+    {
+      "token": "<0x0A>",
+      "score": 12.005787
+    },
+    {
+      "token": "Answer",
+      "score": 5.058355
+    },
+    {
+      "token": ":",
+      "score": 0.9298
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.583789
+    }
+  ]
+}

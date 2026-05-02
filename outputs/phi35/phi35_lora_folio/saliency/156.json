@@ -1,0 +1,733 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "index": 156,
+  "ground_truth": "False",
+  "no_of_premises": 7,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nNone of the students who currently work in the library are from the computer science department. \nAll of the students with part-time jobs offered by the university currently work in the library. \nAll of the students who are taking the database course are from the computer science department. \nAll of the students taking a class with Professor David are taking the database course. \nAll students working in the lab are taking a class with Professor David.\nJames is a student working in the lab. \nJames doesn't work in the lab or have a part-time job offered by the university.\n\nHypothesis:\nJames has a part-time job offered by the university.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 54.793411
+    },
+    {
+      "token": "\u2581are",
+      "score": 155.001526
+    },
+    {
+      "token": "\u2581a",
+      "score": 86.275169
+    },
+    {
+      "token": "\u2581Log",
+      "score": 68.39959
+    },
+    {
+      "token": "ical",
+      "score": 169.467178
+    },
+    {
+      "token": "\u2581Re",
+      "score": 170.240234
+    },
+    {
+      "token": "ason",
+      "score": 2.047411
+    },
+    {
+      "token": "ing",
+      "score": 19.255123
+    },
+    {
+      "token": "\u2581System",
+      "score": 15.729656
+    },
+    {
+      "token": ".",
+      "score": 50.586697
+    },
+    {
+      "token": "<0x0A>",
+      "score": 46.071991
+    },
+    {
+      "token": "<0x0A>",
+      "score": 36.227531
+    },
+    {
+      "token": "P",
+      "score": 23.724201
+    },
+    {
+      "token": "rem",
+      "score": 25.583643
+    },
+    {
+      "token": "ises",
+      "score": 24.616814
+    },
+    {
+      "token": ":",
+      "score": 9.256533
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.819686
+    },
+    {
+      "token": "None",
+      "score": 1.258716
+    },
+    {
+      "token": "\u2581of",
+      "score": 0.351251
+    },
+    {
+      "token": "\u2581the",
+      "score": 10.391833
+    },
+    {
+      "token": "\u2581students",
+      "score": 0.628203
+    },
+    {
+      "token": "\u2581who",
+      "score": 0.918344
+    },
+    {
+      "token": "\u2581currently",
+      "score": 2.782788
+    },
+    {
+      "token": "\u2581work",
+      "score": 2.536048
+    },
+    {
+      "token": "\u2581in",
+      "score": 3.382576
+    },
+    {
+      "token": "\u2581the",
+      "score": 11.281834
+    },
+    {
+      "token": "\u2581library",
+      "score": 4.261762
+    },
+    {
+      "token": "\u2581are",
+      "score": 1.605934
+    },
+    {
+      "token": "\u2581from",
+      "score": 0.479286
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.919823
+    },
+    {
+      "token": "\u2581computer",
+      "score": 0.798399
+    },
+    {
+      "token": "\u2581science",
+      "score": 0.371422
+    },
+    {
+      "token": "\u2581department",
+      "score": 5.914381
+    },
+    {
+      "token": ".",
+      "score": 0.558376
+    },
+    {
+      "token": "\u2581",
+      "score": 4.354215
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.680911
+    },
+    {
+      "token": "All",
+      "score": 0.090954
+    },
+    {
+      "token": "\u2581of",
+      "score": 0.904836
+    },
+    {
+      "token": "\u2581the",
+      "score": 5.067366
+    },
+    {
+      "token": "\u2581students",
+      "score": 0.265563
+    },
+    {
+      "token": "\u2581with",
+      "score": 4.405831
+    },
+    {
+      "token": "\u2581part",
+      "score": 0.371048
+    },
+    {
+      "token": "-",
+      "score": 1.192299
+    },
+    {
+      "token": "time",
+      "score": 21.63023
+    },
+    {
+      "token": "\u2581jobs",
+      "score": 16.445198
+    },
+    {
+      "token": "\u2581offered",
+      "score": 0.366488
+    },
+    {
+      "token": "\u2581by",
+      "score": 1.605472
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.382407
+    },
+    {
+      "token": "\u2581university",
+      "score": 3.302682
+    },
+    {
+      "token": "\u2581currently",
+      "score": 3.150982
+    },
+    {
+      "token": "\u2581work",
+      "score": 0.353126
+    },
+    {
+      "token": "\u2581in",
+      "score": 6.798659
+    },
+    {
+      "token": "\u2581the",
+      "score": 4.099215
+    },
+    {
+      "token": "\u2581library",
+      "score": 0.615497
+    },
+    {
+      "token": ".",
+      "score": 5.566301
+    },
+    {
+      "token": "\u2581",
+      "score": 0.125495
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.881321
+    },
+    {
+      "token": "All",
+      "score": 26.628189
+    },
+    {
+      "token": "\u2581of",
+      "score": 38.548286
+    },
+    {
+      "token": "\u2581the",
+      "score": 15.322378
+    },
+    {
+      "token": "\u2581students",
+      "score": 45.158897
+    },
+    {
+      "token": "\u2581who",
+      "score": 1.901137
+    },
+    {
+      "token": "\u2581are",
+      "score": 1.946428
+    },
+    {
+      "token": "\u2581taking",
+      "score": 1.250278
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.107741
+    },
+    {
+      "token": "\u2581database",
+      "score": 5.292583
+    },
+    {
+      "token": "\u2581course",
+      "score": 1.510202
+    },
+    {
+      "token": "\u2581are",
+      "score": 2.30402
+    },
+    {
+      "token": "\u2581from",
+      "score": 3.655397
+    },
+    {
+      "token": "\u2581the",
+      "score": 12.475918
+    },
+    {
+      "token": "\u2581computer",
+      "score": 3.143951
+    },
+    {
+      "token": "\u2581science",
+      "score": 2.622925
+    },
+    {
+      "token": "\u2581department",
+      "score": 3.061779
+    },
+    {
+      "token": ".",
+      "score": 2.234876
+    },
+    {
+      "token": "\u2581",
+      "score": 4.301435
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.218265
+    },
+    {
+      "token": "All",
+      "score": 2.135437
+    },
+    {
+      "token": "\u2581of",
+      "score": 2.56109
+    },
+    {
+      "token": "\u2581the",
+      "score": 7.168179
+    },
+    {
+      "token": "\u2581students",
+      "score": 7.547089
+    },
+    {
+      "token": "\u2581taking",
+      "score": 2.215816
+    },
+    {
+      "token": "\u2581a",
+      "score": 7.215277
+    },
+    {
+      "token": "\u2581class",
+      "score": 2.689775
+    },
+    {
+      "token": "\u2581with",
+      "score": 2.229217
+    },
+    {
+      "token": "\u2581Professor",
+      "score": 7.947825
+    },
+    {
+      "token": "\u2581David",
+      "score": 27.261261
+    },
+    {
+      "token": "\u2581are",
+      "score": 3.787528
+    },
+    {
+      "token": "\u2581taking",
+      "score": 2.840989
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.980401
+    },
+    {
+      "token": "\u2581database",
+      "score": 0.612859
+    },
+    {
+      "token": "\u2581course",
+      "score": 0.010532
+    },
+    {
+      "token": ".",
+      "score": 1.160458
+    },
+    {
+      "token": "\u2581",
+      "score": 2.700692
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.703067
+    },
+    {
+      "token": "All",
+      "score": 0.37495
+    },
+    {
+      "token": "\u2581students",
+      "score": 0.660584
+    },
+    {
+      "token": "\u2581working",
+      "score": 0.984282
+    },
+    {
+      "token": "\u2581in",
+      "score": 4.631844
+    },
+    {
+      "token": "\u2581the",
+      "score": 7.663877
+    },
+    {
+      "token": "\u2581lab",
+      "score": 1.145947
+    },
+    {
+      "token": "\u2581are",
+      "score": 1.833116
+    },
+    {
+      "token": "\u2581taking",
+      "score": 1.865604
+    },
+    {
+      "token": "\u2581a",
+      "score": 7.047631
+    },
+    {
+      "token": "\u2581class",
+      "score": 3.620999
+    },
+    {
+      "token": "\u2581with",
+      "score": 0.043555
+    },
+    {
+      "token": "\u2581Professor",
+      "score": 0.776668
+    },
+    {
+      "token": "\u2581David",
+      "score": 0.147019
+    },
+    {
+      "token": ".",
+      "score": 2.251719
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.797237
+    },
+    {
+      "token": "James",
+      "score": 0.320692
+    },
+    {
+      "token": "\u2581is",
+      "score": 0.629928
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.189384
+    },
+    {
+      "token": "\u2581student",
+      "score": 0.349448
+    },
+    {
+      "token": "\u2581working",
+      "score": 0.09459
+    },
+    {
+      "token": "\u2581in",
+      "score": 1.388958
+    },
+    {
+      "token": "\u2581the",
+      "score": 8.949154
+    },
+    {
+      "token": "\u2581lab",
+      "score": 0.381375
+    },
+    {
+      "token": ".",
+      "score": 1.519261
+    },
+    {
+      "token": "\u2581",
+      "score": 4.457997
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.663359
+    },
+    {
+      "token": "James",
+      "score": 3.800314
+    },
+    {
+      "token": "\u2581doesn",
+      "score": 4.386898
+    },
+    {
+      "token": "'",
+      "score": 3.214095
+    },
+    {
+      "token": "t",
+      "score": 9.773094
+    },
+    {
+      "token": "\u2581work",
+      "score": 2.44612
+    },
+    {
+      "token": "\u2581in",
+      "score": 2.032633
+    },
+    {
+      "token": "\u2581the",
+      "score": 11.9557
+    },
+    {
+      "token": "\u2581lab",
+      "score": 1.084601
+    },
+    {
+      "token": "\u2581or",
+      "score": 8.234545
+    },
+    {
+      "token": "\u2581have",
+      "score": 0.431894
+    },
+    {
+      "token": "\u2581a",
+      "score": 0.553552
+    },
+    {
+      "token": "\u2581part",
+      "score": 0.576744
+    },
+    {
+      "token": "-",
+      "score": 1.709837
+    },
+    {
+      "token": "time",
+      "score": 1.961072
+    },
+    {
+      "token": "\u2581job",
+      "score": 1.424178
+    },
+    {
+      "token": "\u2581offered",
+      "score": 0.010255
+    },
+    {
+      "token": "\u2581by",
+      "score": 1.524545
+    },
+    {
+      "token": "\u2581the",
+      "score": 6.158269
+    },
+    {
+      "token": "\u2581university",
+      "score": 0.614402
+    },
+    {
+      "token": ".",
+      "score": 0.426311
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.447894
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.025376
+    },
+    {
+      "token": "H",
+      "score": 1.720483
+    },
+    {
+      "token": "yp",
+      "score": 1.989059
+    },
+    {
+      "token": "oth",
+      "score": 1.177193
+    },
+    {
+      "token": "esis",
+      "score": 4.042264
+    },
+    {
+      "token": ":",
+      "score": 0.550708
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.058731
+    },
+    {
+      "token": "James",
+      "score": 4.350336
+    },
+    {
+      "token": "\u2581has",
+      "score": 1.984709
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.924633
+    },
+    {
+      "token": "\u2581part",
+      "score": 2.326492
+    },
+    {
+      "token": "-",
+      "score": 1.596682
+    },
+    {
+      "token": "time",
+      "score": 5.351092
+    },
+    {
+      "token": "\u2581job",
+      "score": 0.892543
+    },
+    {
+      "token": "\u2581offered",
+      "score": 0.890547
+    },
+    {
+      "token": "\u2581by",
+      "score": 0.157726
+    },
+    {
+      "token": "\u2581the",
+      "score": 6.794125
+    },
+    {
+      "token": "\u2581university",
+      "score": 2.277257
+    },
+    {
+      "token": ".",
+      "score": 4.268677
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.623509
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.469777
+    },
+    {
+      "token": "Question",
+      "score": 6.288125
+    },
+    {
+      "token": ":",
+      "score": 9.727556
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.772087
+    },
+    {
+      "token": "Is",
+      "score": 6.173514
+    },
+    {
+      "token": "\u2581the",
+      "score": 4.55287
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 2.460945
+    },
+    {
+      "token": "\u2581True",
+      "score": 24.294741
+    },
+    {
+      "token": ",",
+      "score": 0.447995
+    },
+    {
+      "token": "\u2581False",
+      "score": 7.615268
+    },
+    {
+      "token": ",",
+      "score": 3.804765
+    },
+    {
+      "token": "\u2581or",
+      "score": 9.158322
+    },
+    {
+      "token": "\u2581Un",
+      "score": 2.211295
+    },
+    {
+      "token": "certain",
+      "score": 5.021748
+    },
+    {
+      "token": "?",
+      "score": 22.363035
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.197598
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.133419
+    },
+    {
+      "token": "Answer",
+      "score": 5.099276
+    },
+    {
+      "token": ":",
+      "score": 14.907053
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.415366
+    }
+  ]
+}

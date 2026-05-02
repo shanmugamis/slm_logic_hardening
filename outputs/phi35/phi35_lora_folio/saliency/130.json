@@ -1,0 +1,729 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "index": 130,
+  "ground_truth": "True",
+  "no_of_premises": 6,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll people who make wedding plans are people who are engaged.\nAll people who invite others to come to their ceremony make wedding plans.\nAnyone who has a well-attended wedding invites others to come to their ceremony.\nSome people that have well-attended weddings have larger families.\nIf John is engaged, then John does not invite friends to their ceremony and make wedding plans.\nIf John has a larger family, then either John has a well-attended wedding or invites friends to their ceremony. \n\nHypothesis:\nJohn neither has a larger family nor does he invite others to his wedding.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 96.112564
+    },
+    {
+      "token": "\u2581are",
+      "score": 76.938766
+    },
+    {
+      "token": "\u2581a",
+      "score": 0.035854
+    },
+    {
+      "token": "\u2581Log",
+      "score": 41.149033
+    },
+    {
+      "token": "ical",
+      "score": 175.814438
+    },
+    {
+      "token": "\u2581Re",
+      "score": 155.224518
+    },
+    {
+      "token": "ason",
+      "score": 2.699905
+    },
+    {
+      "token": "ing",
+      "score": 0.701637
+    },
+    {
+      "token": "\u2581System",
+      "score": 22.4701
+    },
+    {
+      "token": ".",
+      "score": 50.75655
+    },
+    {
+      "token": "<0x0A>",
+      "score": 26.553991
+    },
+    {
+      "token": "<0x0A>",
+      "score": 16.428072
+    },
+    {
+      "token": "P",
+      "score": 15.793496
+    },
+    {
+      "token": "rem",
+      "score": 26.109034
+    },
+    {
+      "token": "ises",
+      "score": 58.623962
+    },
+    {
+      "token": ":",
+      "score": 27.59203
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.634373
+    },
+    {
+      "token": "All",
+      "score": 2.676778
+    },
+    {
+      "token": "\u2581people",
+      "score": 3.902208
+    },
+    {
+      "token": "\u2581who",
+      "score": 10.333497
+    },
+    {
+      "token": "\u2581make",
+      "score": 1.174039
+    },
+    {
+      "token": "\u2581wed",
+      "score": 10.090979
+    },
+    {
+      "token": "ding",
+      "score": 20.420214
+    },
+    {
+      "token": "\u2581plans",
+      "score": 0.985177
+    },
+    {
+      "token": "\u2581are",
+      "score": 8.058432
+    },
+    {
+      "token": "\u2581people",
+      "score": 1.846567
+    },
+    {
+      "token": "\u2581who",
+      "score": 0.333691
+    },
+    {
+      "token": "\u2581are",
+      "score": 0.143003
+    },
+    {
+      "token": "\u2581engaged",
+      "score": 1.76172
+    },
+    {
+      "token": ".",
+      "score": 5.555054
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.326633
+    },
+    {
+      "token": "All",
+      "score": 1.72699
+    },
+    {
+      "token": "\u2581people",
+      "score": 0.161756
+    },
+    {
+      "token": "\u2581who",
+      "score": 3.893737
+    },
+    {
+      "token": "\u2581inv",
+      "score": 38.169243
+    },
+    {
+      "token": "ite",
+      "score": 2.873865
+    },
+    {
+      "token": "\u2581others",
+      "score": 3.309198
+    },
+    {
+      "token": "\u2581to",
+      "score": 6.474979
+    },
+    {
+      "token": "\u2581come",
+      "score": 3.147935
+    },
+    {
+      "token": "\u2581to",
+      "score": 28.131512
+    },
+    {
+      "token": "\u2581their",
+      "score": 55.076134
+    },
+    {
+      "token": "\u2581ceremony",
+      "score": 12.617168
+    },
+    {
+      "token": "\u2581make",
+      "score": 35.613281
+    },
+    {
+      "token": "\u2581wed",
+      "score": 0.884039
+    },
+    {
+      "token": "ding",
+      "score": 2.981076
+    },
+    {
+      "token": "\u2581plans",
+      "score": 3.612541
+    },
+    {
+      "token": ".",
+      "score": 5.567015
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.803356
+    },
+    {
+      "token": "Any",
+      "score": 3.180687
+    },
+    {
+      "token": "one",
+      "score": 12.370673
+    },
+    {
+      "token": "\u2581who",
+      "score": 10.007641
+    },
+    {
+      "token": "\u2581has",
+      "score": 8.431192
+    },
+    {
+      "token": "\u2581a",
+      "score": 18.633114
+    },
+    {
+      "token": "\u2581well",
+      "score": 8.23209
+    },
+    {
+      "token": "-",
+      "score": 7.780828
+    },
+    {
+      "token": "att",
+      "score": 3.626573
+    },
+    {
+      "token": "ended",
+      "score": 31.183987
+    },
+    {
+      "token": "\u2581wed",
+      "score": 35.394176
+    },
+    {
+      "token": "ding",
+      "score": 13.864685
+    },
+    {
+      "token": "\u2581inv",
+      "score": 42.97493
+    },
+    {
+      "token": "ites",
+      "score": 74.93409
+    },
+    {
+      "token": "\u2581others",
+      "score": 25.898487
+    },
+    {
+      "token": "\u2581to",
+      "score": 10.184855
+    },
+    {
+      "token": "\u2581come",
+      "score": 1.283569
+    },
+    {
+      "token": "\u2581to",
+      "score": 2.760095
+    },
+    {
+      "token": "\u2581their",
+      "score": 1.078226
+    },
+    {
+      "token": "\u2581ceremony",
+      "score": 5.299851
+    },
+    {
+      "token": ".",
+      "score": 3.396845
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.381172
+    },
+    {
+      "token": "Some",
+      "score": 24.501581
+    },
+    {
+      "token": "\u2581people",
+      "score": 7.233242
+    },
+    {
+      "token": "\u2581that",
+      "score": 0.345045
+    },
+    {
+      "token": "\u2581have",
+      "score": 1.196026
+    },
+    {
+      "token": "\u2581well",
+      "score": 0.022183
+    },
+    {
+      "token": "-",
+      "score": 0.303945
+    },
+    {
+      "token": "att",
+      "score": 0.659284
+    },
+    {
+      "token": "ended",
+      "score": 10.494328
+    },
+    {
+      "token": "\u2581wed",
+      "score": 9.581873
+    },
+    {
+      "token": "d",
+      "score": 1.845983
+    },
+    {
+      "token": "ings",
+      "score": 5.723244
+    },
+    {
+      "token": "\u2581have",
+      "score": 3.215212
+    },
+    {
+      "token": "\u2581larger",
+      "score": 1.932316
+    },
+    {
+      "token": "\u2581families",
+      "score": 3.003819
+    },
+    {
+      "token": ".",
+      "score": 5.71172
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.274058
+    },
+    {
+      "token": "If",
+      "score": 0.815285
+    },
+    {
+      "token": "\u2581John",
+      "score": 0.614815
+    },
+    {
+      "token": "\u2581is",
+      "score": 3.797404
+    },
+    {
+      "token": "\u2581engaged",
+      "score": 1.592742
+    },
+    {
+      "token": ",",
+      "score": 7.01224
+    },
+    {
+      "token": "\u2581then",
+      "score": 8.184471
+    },
+    {
+      "token": "\u2581John",
+      "score": 0.786175
+    },
+    {
+      "token": "\u2581does",
+      "score": 4.23664
+    },
+    {
+      "token": "\u2581not",
+      "score": 5.438673
+    },
+    {
+      "token": "\u2581inv",
+      "score": 11.942871
+    },
+    {
+      "token": "ite",
+      "score": 6.530258
+    },
+    {
+      "token": "\u2581friends",
+      "score": 8.165914
+    },
+    {
+      "token": "\u2581to",
+      "score": 2.917051
+    },
+    {
+      "token": "\u2581their",
+      "score": 6.613274
+    },
+    {
+      "token": "\u2581ceremony",
+      "score": 1.237218
+    },
+    {
+      "token": "\u2581and",
+      "score": 8.094767
+    },
+    {
+      "token": "\u2581make",
+      "score": 8.756124
+    },
+    {
+      "token": "\u2581wed",
+      "score": 14.58602
+    },
+    {
+      "token": "ding",
+      "score": 0.451331
+    },
+    {
+      "token": "\u2581plans",
+      "score": 0.873747
+    },
+    {
+      "token": ".",
+      "score": 13.722061
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.111089
+    },
+    {
+      "token": "If",
+      "score": 8.968317
+    },
+    {
+      "token": "\u2581John",
+      "score": 18.62291
+    },
+    {
+      "token": "\u2581has",
+      "score": 5.773793
+    },
+    {
+      "token": "\u2581a",
+      "score": 17.29545
+    },
+    {
+      "token": "\u2581larger",
+      "score": 9.055467
+    },
+    {
+      "token": "\u2581family",
+      "score": 9.636608
+    },
+    {
+      "token": ",",
+      "score": 27.480804
+    },
+    {
+      "token": "\u2581then",
+      "score": 33.100426
+    },
+    {
+      "token": "\u2581either",
+      "score": 0.375149
+    },
+    {
+      "token": "\u2581John",
+      "score": 1.351276
+    },
+    {
+      "token": "\u2581has",
+      "score": 13.988682
+    },
+    {
+      "token": "\u2581a",
+      "score": 4.776421
+    },
+    {
+      "token": "\u2581well",
+      "score": 1.476199
+    },
+    {
+      "token": "-",
+      "score": 0.336387
+    },
+    {
+      "token": "att",
+      "score": 0.145014
+    },
+    {
+      "token": "ended",
+      "score": 4.562682
+    },
+    {
+      "token": "\u2581wed",
+      "score": 5.748834
+    },
+    {
+      "token": "ding",
+      "score": 5.124496
+    },
+    {
+      "token": "\u2581or",
+      "score": 16.579838
+    },
+    {
+      "token": "\u2581inv",
+      "score": 8.121456
+    },
+    {
+      "token": "ites",
+      "score": 7.781848
+    },
+    {
+      "token": "\u2581friends",
+      "score": 4.799597
+    },
+    {
+      "token": "\u2581to",
+      "score": 2.542676
+    },
+    {
+      "token": "\u2581their",
+      "score": 2.837947
+    },
+    {
+      "token": "\u2581ceremony",
+      "score": 12.786987
+    },
+    {
+      "token": ".",
+      "score": 8.06056
+    },
+    {
+      "token": "\u2581",
+      "score": 4.273185
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.732039
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.811496
+    },
+    {
+      "token": "H",
+      "score": 5.937132
+    },
+    {
+      "token": "yp",
+      "score": 2.407934
+    },
+    {
+      "token": "oth",
+      "score": 9.024028
+    },
+    {
+      "token": "esis",
+      "score": 15.118666
+    },
+    {
+      "token": ":",
+      "score": 14.29826
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.641368
+    },
+    {
+      "token": "John",
+      "score": 5.848268
+    },
+    {
+      "token": "\u2581neither",
+      "score": 6.441104
+    },
+    {
+      "token": "\u2581has",
+      "score": 9.060361
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.043973
+    },
+    {
+      "token": "\u2581larger",
+      "score": 1.959665
+    },
+    {
+      "token": "\u2581family",
+      "score": 3.244373
+    },
+    {
+      "token": "\u2581nor",
+      "score": 1.116093
+    },
+    {
+      "token": "\u2581does",
+      "score": 3.466867
+    },
+    {
+      "token": "\u2581he",
+      "score": 2.687171
+    },
+    {
+      "token": "\u2581inv",
+      "score": 16.700134
+    },
+    {
+      "token": "ite",
+      "score": 9.124748
+    },
+    {
+      "token": "\u2581others",
+      "score": 2.558287
+    },
+    {
+      "token": "\u2581to",
+      "score": 1.949564
+    },
+    {
+      "token": "\u2581his",
+      "score": 0.313053
+    },
+    {
+      "token": "\u2581wed",
+      "score": 3.464961
+    },
+    {
+      "token": "ding",
+      "score": 1.090179
+    },
+    {
+      "token": ".",
+      "score": 3.245899
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.404424
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.996918
+    },
+    {
+      "token": "Question",
+      "score": 17.594126
+    },
+    {
+      "token": ":",
+      "score": 28.006176
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.589812
+    },
+    {
+      "token": "Is",
+      "score": 0.079868
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.588094
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 5.425502
+    },
+    {
+      "token": "\u2581True",
+      "score": 8.348742
+    },
+    {
+      "token": ",",
+      "score": 7.028444
+    },
+    {
+      "token": "\u2581False",
+      "score": 13.148212
+    },
+    {
+      "token": ",",
+      "score": 0.717009
+    },
+    {
+      "token": "\u2581or",
+      "score": 10.61051
+    },
+    {
+      "token": "\u2581Un",
+      "score": 0.205257
+    },
+    {
+      "token": "certain",
+      "score": 15.125788
+    },
+    {
+      "token": "?",
+      "score": 28.302965
+    },
+    {
+      "token": "<0x0A>",
+      "score": 9.747224
+    },
+    {
+      "token": "<0x0A>",
+      "score": 13.924483
+    },
+    {
+      "token": "Answer",
+      "score": 19.795935
+    },
+    {
+      "token": ":",
+      "score": 0.336952
+    },
+    {
+      "token": "<0x0A>",
+      "score": 16.676651
+    }
+  ]
+}

@@ -1,0 +1,829 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "index": 102,
+  "ground_truth": "False",
+  "no_of_premises": 6,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nPeople who are born in a multiple birth with siblings spend a lot of time hanging out with and playing with their siblings.\nIf people have siblings who were born together, then they were born in a multiple birth.\nIf people complain often about annoying siblings, then they have siblings who were born together.\nIf people live at home, then they do not live with strangers.\nIf people spend a lot of time hanging out with and playing with their siblings, then they often live at home. \nLuke either is a baby born in a multiple birth and live with strangers, or is not a baby born in a multiple birth and does not live with strangers\n\nHypothesis:\nLuke complains often about annoying siblings.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 40.886887
+    },
+    {
+      "token": "\u2581are",
+      "score": 103.147438
+    },
+    {
+      "token": "\u2581a",
+      "score": 25.809954
+    },
+    {
+      "token": "\u2581Log",
+      "score": 67.914917
+    },
+    {
+      "token": "ical",
+      "score": 271.809021
+    },
+    {
+      "token": "\u2581Re",
+      "score": 300.758972
+    },
+    {
+      "token": "ason",
+      "score": 0.839413
+    },
+    {
+      "token": "ing",
+      "score": 23.439089
+    },
+    {
+      "token": "\u2581System",
+      "score": 24.04438
+    },
+    {
+      "token": ".",
+      "score": 6.374011
+    },
+    {
+      "token": "<0x0A>",
+      "score": 13.129579
+    },
+    {
+      "token": "<0x0A>",
+      "score": 12.72798
+    },
+    {
+      "token": "P",
+      "score": 9.171831
+    },
+    {
+      "token": "rem",
+      "score": 11.925366
+    },
+    {
+      "token": "ises",
+      "score": 45.634037
+    },
+    {
+      "token": ":",
+      "score": 9.88173
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.728403
+    },
+    {
+      "token": "Pe",
+      "score": 4.31556
+    },
+    {
+      "token": "ople",
+      "score": 0.483008
+    },
+    {
+      "token": "\u2581who",
+      "score": 6.560939
+    },
+    {
+      "token": "\u2581are",
+      "score": 1.794015
+    },
+    {
+      "token": "\u2581born",
+      "score": 8.509266
+    },
+    {
+      "token": "\u2581in",
+      "score": 11.842958
+    },
+    {
+      "token": "\u2581a",
+      "score": 10.042897
+    },
+    {
+      "token": "\u2581multiple",
+      "score": 0.062263
+    },
+    {
+      "token": "\u2581birth",
+      "score": 2.550041
+    },
+    {
+      "token": "\u2581with",
+      "score": 0.835755
+    },
+    {
+      "token": "\u2581sib",
+      "score": 4.44958
+    },
+    {
+      "token": "lings",
+      "score": 12.047591
+    },
+    {
+      "token": "\u2581spend",
+      "score": 0.539818
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.259948
+    },
+    {
+      "token": "\u2581lot",
+      "score": 6.890354
+    },
+    {
+      "token": "\u2581of",
+      "score": 0.406126
+    },
+    {
+      "token": "\u2581time",
+      "score": 1.889347
+    },
+    {
+      "token": "\u2581h",
+      "score": 6.57911
+    },
+    {
+      "token": "anging",
+      "score": 0.182724
+    },
+    {
+      "token": "\u2581out",
+      "score": 4.795193
+    },
+    {
+      "token": "\u2581with",
+      "score": 6.57073
+    },
+    {
+      "token": "\u2581and",
+      "score": 9.341427
+    },
+    {
+      "token": "\u2581playing",
+      "score": 25.378975
+    },
+    {
+      "token": "\u2581with",
+      "score": 9.934647
+    },
+    {
+      "token": "\u2581their",
+      "score": 53.031734
+    },
+    {
+      "token": "\u2581sib",
+      "score": 84.74395
+    },
+    {
+      "token": "lings",
+      "score": 4.821636
+    },
+    {
+      "token": ".",
+      "score": 1.295537
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.069103
+    },
+    {
+      "token": "If",
+      "score": 1.654675
+    },
+    {
+      "token": "\u2581people",
+      "score": 1.198752
+    },
+    {
+      "token": "\u2581have",
+      "score": 0.807912
+    },
+    {
+      "token": "\u2581sib",
+      "score": 1.190838
+    },
+    {
+      "token": "lings",
+      "score": 3.311234
+    },
+    {
+      "token": "\u2581who",
+      "score": 1.419135
+    },
+    {
+      "token": "\u2581were",
+      "score": 3.566208
+    },
+    {
+      "token": "\u2581born",
+      "score": 0.983447
+    },
+    {
+      "token": "\u2581together",
+      "score": 0.648779
+    },
+    {
+      "token": ",",
+      "score": 0.201261
+    },
+    {
+      "token": "\u2581then",
+      "score": 3.299957
+    },
+    {
+      "token": "\u2581they",
+      "score": 0.149942
+    },
+    {
+      "token": "\u2581were",
+      "score": 1.439932
+    },
+    {
+      "token": "\u2581born",
+      "score": 0.74261
+    },
+    {
+      "token": "\u2581in",
+      "score": 1.47413
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.849104
+    },
+    {
+      "token": "\u2581multiple",
+      "score": 0.668518
+    },
+    {
+      "token": "\u2581birth",
+      "score": 0.405873
+    },
+    {
+      "token": ".",
+      "score": 6.295988
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.976927
+    },
+    {
+      "token": "If",
+      "score": 3.643712
+    },
+    {
+      "token": "\u2581people",
+      "score": 4.257951
+    },
+    {
+      "token": "\u2581comp",
+      "score": 6.42083
+    },
+    {
+      "token": "lain",
+      "score": 1.105184
+    },
+    {
+      "token": "\u2581often",
+      "score": 0.540481
+    },
+    {
+      "token": "\u2581about",
+      "score": 0.29386
+    },
+    {
+      "token": "\u2581anno",
+      "score": 0.311189
+    },
+    {
+      "token": "ying",
+      "score": 0.279229
+    },
+    {
+      "token": "\u2581sib",
+      "score": 2.13622
+    },
+    {
+      "token": "lings",
+      "score": 1.445551
+    },
+    {
+      "token": ",",
+      "score": 5.326822
+    },
+    {
+      "token": "\u2581then",
+      "score": 8.151864
+    },
+    {
+      "token": "\u2581they",
+      "score": 1.382165
+    },
+    {
+      "token": "\u2581have",
+      "score": 1.588725
+    },
+    {
+      "token": "\u2581sib",
+      "score": 1.832582
+    },
+    {
+      "token": "lings",
+      "score": 0.30736
+    },
+    {
+      "token": "\u2581who",
+      "score": 1.255902
+    },
+    {
+      "token": "\u2581were",
+      "score": 1.065127
+    },
+    {
+      "token": "\u2581born",
+      "score": 0.042341
+    },
+    {
+      "token": "\u2581together",
+      "score": 0.884786
+    },
+    {
+      "token": ".",
+      "score": 7.739547
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.100199
+    },
+    {
+      "token": "If",
+      "score": 1.061838
+    },
+    {
+      "token": "\u2581people",
+      "score": 0.437322
+    },
+    {
+      "token": "\u2581live",
+      "score": 2.259979
+    },
+    {
+      "token": "\u2581at",
+      "score": 6.770966
+    },
+    {
+      "token": "\u2581home",
+      "score": 0.622169
+    },
+    {
+      "token": ",",
+      "score": 6.731752
+    },
+    {
+      "token": "\u2581then",
+      "score": 12.687284
+    },
+    {
+      "token": "\u2581they",
+      "score": 1.354325
+    },
+    {
+      "token": "\u2581do",
+      "score": 0.49158
+    },
+    {
+      "token": "\u2581not",
+      "score": 0.592538
+    },
+    {
+      "token": "\u2581live",
+      "score": 0.195253
+    },
+    {
+      "token": "\u2581with",
+      "score": 2.317501
+    },
+    {
+      "token": "\u2581str",
+      "score": 0.773357
+    },
+    {
+      "token": "angers",
+      "score": 0.065591
+    },
+    {
+      "token": ".",
+      "score": 4.096336
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.254377
+    },
+    {
+      "token": "If",
+      "score": 3.049234
+    },
+    {
+      "token": "\u2581people",
+      "score": 2.167376
+    },
+    {
+      "token": "\u2581spend",
+      "score": 0.608894
+    },
+    {
+      "token": "\u2581a",
+      "score": 6.980947
+    },
+    {
+      "token": "\u2581lot",
+      "score": 1.631046
+    },
+    {
+      "token": "\u2581of",
+      "score": 2.382613
+    },
+    {
+      "token": "\u2581time",
+      "score": 1.164307
+    },
+    {
+      "token": "\u2581h",
+      "score": 0.062654
+    },
+    {
+      "token": "anging",
+      "score": 1.219933
+    },
+    {
+      "token": "\u2581out",
+      "score": 1.382208
+    },
+    {
+      "token": "\u2581with",
+      "score": 3.048506
+    },
+    {
+      "token": "\u2581and",
+      "score": 0.993531
+    },
+    {
+      "token": "\u2581playing",
+      "score": 0.454226
+    },
+    {
+      "token": "\u2581with",
+      "score": 2.437158
+    },
+    {
+      "token": "\u2581their",
+      "score": 1.582795
+    },
+    {
+      "token": "\u2581sib",
+      "score": 1.270662
+    },
+    {
+      "token": "lings",
+      "score": 0.55145
+    },
+    {
+      "token": ",",
+      "score": 8.390078
+    },
+    {
+      "token": "\u2581then",
+      "score": 17.787525
+    },
+    {
+      "token": "\u2581they",
+      "score": 2.426014
+    },
+    {
+      "token": "\u2581often",
+      "score": 4.161706
+    },
+    {
+      "token": "\u2581live",
+      "score": 1.294764
+    },
+    {
+      "token": "\u2581at",
+      "score": 2.02161
+    },
+    {
+      "token": "\u2581home",
+      "score": 2.055078
+    },
+    {
+      "token": ".",
+      "score": 1.90943
+    },
+    {
+      "token": "\u2581",
+      "score": 11.565687
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.141996
+    },
+    {
+      "token": "Lu",
+      "score": 2.145422
+    },
+    {
+      "token": "ke",
+      "score": 0.721702
+    },
+    {
+      "token": "\u2581either",
+      "score": 17.09396
+    },
+    {
+      "token": "\u2581is",
+      "score": 2.133697
+    },
+    {
+      "token": "\u2581a",
+      "score": 11.214645
+    },
+    {
+      "token": "\u2581baby",
+      "score": 2.293832
+    },
+    {
+      "token": "\u2581born",
+      "score": 0.086696
+    },
+    {
+      "token": "\u2581in",
+      "score": 0.514645
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.63997
+    },
+    {
+      "token": "\u2581multiple",
+      "score": 0.767543
+    },
+    {
+      "token": "\u2581birth",
+      "score": 0.150991
+    },
+    {
+      "token": "\u2581and",
+      "score": 0.693442
+    },
+    {
+      "token": "\u2581live",
+      "score": 0.369141
+    },
+    {
+      "token": "\u2581with",
+      "score": 0.112241
+    },
+    {
+      "token": "\u2581str",
+      "score": 1.03221
+    },
+    {
+      "token": "angers",
+      "score": 2.023994
+    },
+    {
+      "token": ",",
+      "score": 1.506174
+    },
+    {
+      "token": "\u2581or",
+      "score": 1.645027
+    },
+    {
+      "token": "\u2581is",
+      "score": 6.516418
+    },
+    {
+      "token": "\u2581not",
+      "score": 0.470792
+    },
+    {
+      "token": "\u2581a",
+      "score": 0.076927
+    },
+    {
+      "token": "\u2581baby",
+      "score": 1.754472
+    },
+    {
+      "token": "\u2581born",
+      "score": 0.37077
+    },
+    {
+      "token": "\u2581in",
+      "score": 1.876255
+    },
+    {
+      "token": "\u2581a",
+      "score": 0.646938
+    },
+    {
+      "token": "\u2581multiple",
+      "score": 1.620223
+    },
+    {
+      "token": "\u2581birth",
+      "score": 0.869503
+    },
+    {
+      "token": "\u2581and",
+      "score": 1.056149
+    },
+    {
+      "token": "\u2581does",
+      "score": 5.061256
+    },
+    {
+      "token": "\u2581not",
+      "score": 2.695868
+    },
+    {
+      "token": "\u2581live",
+      "score": 2.245786
+    },
+    {
+      "token": "\u2581with",
+      "score": 4.674599
+    },
+    {
+      "token": "\u2581str",
+      "score": 1.96106
+    },
+    {
+      "token": "angers",
+      "score": 2.072108
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.753511
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.656426
+    },
+    {
+      "token": "H",
+      "score": 0.911027
+    },
+    {
+      "token": "yp",
+      "score": 0.559301
+    },
+    {
+      "token": "oth",
+      "score": 1.287861
+    },
+    {
+      "token": "esis",
+      "score": 1.226606
+    },
+    {
+      "token": ":",
+      "score": 2.41947
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.747718
+    },
+    {
+      "token": "Lu",
+      "score": 2.65784
+    },
+    {
+      "token": "ke",
+      "score": 1.757926
+    },
+    {
+      "token": "\u2581compla",
+      "score": 5.853122
+    },
+    {
+      "token": "ins",
+      "score": 0.422745
+    },
+    {
+      "token": "\u2581often",
+      "score": 2.860579
+    },
+    {
+      "token": "\u2581about",
+      "score": 3.460328
+    },
+    {
+      "token": "\u2581anno",
+      "score": 0.477956
+    },
+    {
+      "token": "ying",
+      "score": 7.151448
+    },
+    {
+      "token": "\u2581sib",
+      "score": 9.167264
+    },
+    {
+      "token": "lings",
+      "score": 2.008491
+    },
+    {
+      "token": ".",
+      "score": 6.03185
+    },
+    {
+      "token": "<0x0A>",
+      "score": 12.325562
+    },
+    {
+      "token": "<0x0A>",
+      "score": 12.55576
+    },
+    {
+      "token": "Question",
+      "score": 8.161367
+    },
+    {
+      "token": ":",
+      "score": 59.350044
+    },
+    {
+      "token": "<0x0A>",
+      "score": 8.366916
+    },
+    {
+      "token": "Is",
+      "score": 3.548763
+    },
+    {
+      "token": "\u2581the",
+      "score": 10.259424
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 6.747046
+    },
+    {
+      "token": "\u2581True",
+      "score": 3.004637
+    },
+    {
+      "token": ",",
+      "score": 0.638872
+    },
+    {
+      "token": "\u2581False",
+      "score": 6.448847
+    },
+    {
+      "token": ",",
+      "score": 5.528813
+    },
+    {
+      "token": "\u2581or",
+      "score": 16.600964
+    },
+    {
+      "token": "\u2581Un",
+      "score": 2.630095
+    },
+    {
+      "token": "certain",
+      "score": 2.677752
+    },
+    {
+      "token": "?",
+      "score": 31.200855
+    },
+    {
+      "token": "<0x0A>",
+      "score": 9.551932
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.247203
+    },
+    {
+      "token": "Answer",
+      "score": 9.772734
+    },
+    {
+      "token": ":",
+      "score": 0.37188
+    },
+    {
+      "token": "<0x0A>",
+      "score": 8.250073
+    }
+  ]
+}

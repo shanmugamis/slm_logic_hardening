@@ -1,0 +1,721 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "index": 115,
+  "ground_truth": "True",
+  "no_of_premises": 6,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf a man is taller than another man, the taller one can block the other's shooting.\nMichael is a man who is taller than everyone else in his class.\nIf person x is taller than person y, and person y is taller than person z, then x is taller than z\nPeter is a man who is taller than Michael.\nMichael can block any shooting from a person as long as the person does not jump when shooting.\nMichael cannot block Windy's shooting.\nEvery shooter who can jump when shooting is a great shooter.\n\nHypothesis:\nWindy is a great shooter.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 201.296814
+    },
+    {
+      "token": "\u2581are",
+      "score": 15.028633
+    },
+    {
+      "token": "\u2581a",
+      "score": 165.23056
+    },
+    {
+      "token": "\u2581Log",
+      "score": 568.388977
+    },
+    {
+      "token": "ical",
+      "score": 557.205322
+    },
+    {
+      "token": "\u2581Re",
+      "score": 778.876465
+    },
+    {
+      "token": "ason",
+      "score": 17.784609
+    },
+    {
+      "token": "ing",
+      "score": 38.762001
+    },
+    {
+      "token": "\u2581System",
+      "score": 36.933037
+    },
+    {
+      "token": ".",
+      "score": 69.590164
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.565305
+    },
+    {
+      "token": "<0x0A>",
+      "score": 45.747902
+    },
+    {
+      "token": "P",
+      "score": 82.824936
+    },
+    {
+      "token": "rem",
+      "score": 48.122864
+    },
+    {
+      "token": "ises",
+      "score": 131.747726
+    },
+    {
+      "token": ":",
+      "score": 52.808704
+    },
+    {
+      "token": "<0x0A>",
+      "score": 30.084999
+    },
+    {
+      "token": "If",
+      "score": 51.285385
+    },
+    {
+      "token": "\u2581a",
+      "score": 0.255354
+    },
+    {
+      "token": "\u2581man",
+      "score": 93.713737
+    },
+    {
+      "token": "\u2581is",
+      "score": 40.978394
+    },
+    {
+      "token": "\u2581t",
+      "score": 59.513512
+    },
+    {
+      "token": "aller",
+      "score": 22.947483
+    },
+    {
+      "token": "\u2581than",
+      "score": 110.577805
+    },
+    {
+      "token": "\u2581another",
+      "score": 53.916161
+    },
+    {
+      "token": "\u2581man",
+      "score": 61.703053
+    },
+    {
+      "token": ",",
+      "score": 5.729142
+    },
+    {
+      "token": "\u2581the",
+      "score": 9.33299
+    },
+    {
+      "token": "\u2581t",
+      "score": 60.068771
+    },
+    {
+      "token": "aller",
+      "score": 17.522329
+    },
+    {
+      "token": "\u2581one",
+      "score": 32.05928
+    },
+    {
+      "token": "\u2581can",
+      "score": 25.354736
+    },
+    {
+      "token": "\u2581block",
+      "score": 71.817627
+    },
+    {
+      "token": "\u2581the",
+      "score": 26.758301
+    },
+    {
+      "token": "\u2581other",
+      "score": 4.399484
+    },
+    {
+      "token": "'",
+      "score": 27.915556
+    },
+    {
+      "token": "s",
+      "score": 3.083723
+    },
+    {
+      "token": "\u2581shooting",
+      "score": 3.756743
+    },
+    {
+      "token": ".",
+      "score": 19.764585
+    },
+    {
+      "token": "<0x0A>",
+      "score": 16.293804
+    },
+    {
+      "token": "Michael",
+      "score": 87.955978
+    },
+    {
+      "token": "\u2581is",
+      "score": 6.353045
+    },
+    {
+      "token": "\u2581a",
+      "score": 12.578712
+    },
+    {
+      "token": "\u2581man",
+      "score": 62.568207
+    },
+    {
+      "token": "\u2581who",
+      "score": 16.106453
+    },
+    {
+      "token": "\u2581is",
+      "score": 15.543566
+    },
+    {
+      "token": "\u2581t",
+      "score": 78.424362
+    },
+    {
+      "token": "aller",
+      "score": 85.341553
+    },
+    {
+      "token": "\u2581than",
+      "score": 160.856323
+    },
+    {
+      "token": "\u2581everyone",
+      "score": 46.792297
+    },
+    {
+      "token": "\u2581else",
+      "score": 44.834297
+    },
+    {
+      "token": "\u2581in",
+      "score": 7.511863
+    },
+    {
+      "token": "\u2581his",
+      "score": 47.595585
+    },
+    {
+      "token": "\u2581class",
+      "score": 46.732239
+    },
+    {
+      "token": ".",
+      "score": 22.322142
+    },
+    {
+      "token": "<0x0A>",
+      "score": 27.328821
+    },
+    {
+      "token": "If",
+      "score": 18.832911
+    },
+    {
+      "token": "\u2581person",
+      "score": 4.199694
+    },
+    {
+      "token": "\u2581x",
+      "score": 20.833422
+    },
+    {
+      "token": "\u2581is",
+      "score": 7.656547
+    },
+    {
+      "token": "\u2581t",
+      "score": 41.019333
+    },
+    {
+      "token": "aller",
+      "score": 24.672001
+    },
+    {
+      "token": "\u2581than",
+      "score": 74.670143
+    },
+    {
+      "token": "\u2581person",
+      "score": 3.586088
+    },
+    {
+      "token": "\u2581y",
+      "score": 23.863407
+    },
+    {
+      "token": ",",
+      "score": 6.878313
+    },
+    {
+      "token": "\u2581and",
+      "score": 3.21418
+    },
+    {
+      "token": "\u2581person",
+      "score": 8.345359
+    },
+    {
+      "token": "\u2581y",
+      "score": 27.53344
+    },
+    {
+      "token": "\u2581is",
+      "score": 2.274768
+    },
+    {
+      "token": "\u2581t",
+      "score": 51.565205
+    },
+    {
+      "token": "aller",
+      "score": 6.947624
+    },
+    {
+      "token": "\u2581than",
+      "score": 60.454025
+    },
+    {
+      "token": "\u2581person",
+      "score": 1.721482
+    },
+    {
+      "token": "\u2581z",
+      "score": 45.67062
+    },
+    {
+      "token": ",",
+      "score": 7.258283
+    },
+    {
+      "token": "\u2581then",
+      "score": 13.321361
+    },
+    {
+      "token": "\u2581x",
+      "score": 9.147417
+    },
+    {
+      "token": "\u2581is",
+      "score": 8.782545
+    },
+    {
+      "token": "\u2581t",
+      "score": 32.719357
+    },
+    {
+      "token": "aller",
+      "score": 18.77659
+    },
+    {
+      "token": "\u2581than",
+      "score": 45.207703
+    },
+    {
+      "token": "\u2581z",
+      "score": 34.835938
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.132199
+    },
+    {
+      "token": "Peter",
+      "score": 41.467232
+    },
+    {
+      "token": "\u2581is",
+      "score": 3.867029
+    },
+    {
+      "token": "\u2581a",
+      "score": 7.097007
+    },
+    {
+      "token": "\u2581man",
+      "score": 22.544395
+    },
+    {
+      "token": "\u2581who",
+      "score": 6.716757
+    },
+    {
+      "token": "\u2581is",
+      "score": 15.411457
+    },
+    {
+      "token": "\u2581t",
+      "score": 32.606422
+    },
+    {
+      "token": "aller",
+      "score": 19.351364
+    },
+    {
+      "token": "\u2581than",
+      "score": 61.062721
+    },
+    {
+      "token": "\u2581Michael",
+      "score": 67.648048
+    },
+    {
+      "token": ".",
+      "score": 1.980479
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.767217
+    },
+    {
+      "token": "Michael",
+      "score": 75.099541
+    },
+    {
+      "token": "\u2581can",
+      "score": 6.444571
+    },
+    {
+      "token": "\u2581block",
+      "score": 28.121525
+    },
+    {
+      "token": "\u2581any",
+      "score": 27.155994
+    },
+    {
+      "token": "\u2581shooting",
+      "score": 25.65889
+    },
+    {
+      "token": "\u2581from",
+      "score": 47.563339
+    },
+    {
+      "token": "\u2581a",
+      "score": 77.462448
+    },
+    {
+      "token": "\u2581person",
+      "score": 91.32135
+    },
+    {
+      "token": "\u2581as",
+      "score": 19.902414
+    },
+    {
+      "token": "\u2581long",
+      "score": 35.659672
+    },
+    {
+      "token": "\u2581as",
+      "score": 78.069382
+    },
+    {
+      "token": "\u2581the",
+      "score": 14.197966
+    },
+    {
+      "token": "\u2581person",
+      "score": 1.184563
+    },
+    {
+      "token": "\u2581does",
+      "score": 2.453411
+    },
+    {
+      "token": "\u2581not",
+      "score": 1.375201
+    },
+    {
+      "token": "\u2581jump",
+      "score": 2.133905
+    },
+    {
+      "token": "\u2581when",
+      "score": 1.085144
+    },
+    {
+      "token": "\u2581shooting",
+      "score": 0.042488
+    },
+    {
+      "token": ".",
+      "score": 0.0667
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.747458
+    },
+    {
+      "token": "Michael",
+      "score": 5.713933
+    },
+    {
+      "token": "\u2581cannot",
+      "score": 0.182655
+    },
+    {
+      "token": "\u2581block",
+      "score": 3.065618
+    },
+    {
+      "token": "\u2581Wind",
+      "score": 5.792349
+    },
+    {
+      "token": "y",
+      "score": 4.428185
+    },
+    {
+      "token": "'",
+      "score": 9.614819
+    },
+    {
+      "token": "s",
+      "score": 0.281123
+    },
+    {
+      "token": "\u2581shooting",
+      "score": 0.190491
+    },
+    {
+      "token": ".",
+      "score": 1.842001
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.259171
+    },
+    {
+      "token": "Every",
+      "score": 1.841848
+    },
+    {
+      "token": "\u2581shoot",
+      "score": 1.787354
+    },
+    {
+      "token": "er",
+      "score": 5.446808
+    },
+    {
+      "token": "\u2581who",
+      "score": 3.053086
+    },
+    {
+      "token": "\u2581can",
+      "score": 3.763271
+    },
+    {
+      "token": "\u2581jump",
+      "score": 4.763441
+    },
+    {
+      "token": "\u2581when",
+      "score": 3.792428
+    },
+    {
+      "token": "\u2581shooting",
+      "score": 6.850482
+    },
+    {
+      "token": "\u2581is",
+      "score": 14.185505
+    },
+    {
+      "token": "\u2581a",
+      "score": 12.917423
+    },
+    {
+      "token": "\u2581great",
+      "score": 5.475934
+    },
+    {
+      "token": "\u2581shoot",
+      "score": 9.503763
+    },
+    {
+      "token": "er",
+      "score": 0.75328
+    },
+    {
+      "token": ".",
+      "score": 2.801393
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.112266
+    },
+    {
+      "token": "<0x0A>",
+      "score": 8.262558
+    },
+    {
+      "token": "H",
+      "score": 2.676798
+    },
+    {
+      "token": "yp",
+      "score": 2.349679
+    },
+    {
+      "token": "oth",
+      "score": 0.770289
+    },
+    {
+      "token": "esis",
+      "score": 1.500454
+    },
+    {
+      "token": ":",
+      "score": 8.217625
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.680492
+    },
+    {
+      "token": "W",
+      "score": 2.243295
+    },
+    {
+      "token": "ind",
+      "score": 1.376442
+    },
+    {
+      "token": "y",
+      "score": 8.697451
+    },
+    {
+      "token": "\u2581is",
+      "score": 3.04093
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.246131
+    },
+    {
+      "token": "\u2581great",
+      "score": 4.035118
+    },
+    {
+      "token": "\u2581shoot",
+      "score": 0.560429
+    },
+    {
+      "token": "er",
+      "score": 1.596427
+    },
+    {
+      "token": ".",
+      "score": 1.373787
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.012884
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.929741
+    },
+    {
+      "token": "Question",
+      "score": 6.568346
+    },
+    {
+      "token": ":",
+      "score": 17.390743
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.525612
+    },
+    {
+      "token": "Is",
+      "score": 1.876042
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.616769
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 1.386767
+    },
+    {
+      "token": "\u2581True",
+      "score": 5.536039
+    },
+    {
+      "token": ",",
+      "score": 4.599294
+    },
+    {
+      "token": "\u2581False",
+      "score": 0.961489
+    },
+    {
+      "token": ",",
+      "score": 4.782629
+    },
+    {
+      "token": "\u2581or",
+      "score": 5.046556
+    },
+    {
+      "token": "\u2581Un",
+      "score": 0.176988
+    },
+    {
+      "token": "certain",
+      "score": 0.554385
+    },
+    {
+      "token": "?",
+      "score": 1.768535
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.841888
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.355265
+    },
+    {
+      "token": "Answer",
+      "score": 3.873459
+    },
+    {
+      "token": ":",
+      "score": 5.292029
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.048183
+    }
+  ]
+}

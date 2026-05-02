@@ -1,0 +1,601 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "index": 195,
+  "ground_truth": "Uncertain",
+  "no_of_premises": 7,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nJane does not like any animals that bark.\nAll dogs are animals that bark.\nJane likes all animals that jump.\nIf an animal has legs, then it jumps.\nIf an animal is terricolous, then it has legs. \nKiKi is an animal.\nIf KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.\n\nHypothesis:\nKiKi is terricolous.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 74.806335
+    },
+    {
+      "token": "\u2581are",
+      "score": 121.119125
+    },
+    {
+      "token": "\u2581a",
+      "score": 127.266747
+    },
+    {
+      "token": "\u2581Log",
+      "score": 242.627991
+    },
+    {
+      "token": "ical",
+      "score": 306.316498
+    },
+    {
+      "token": "\u2581Re",
+      "score": 436.143738
+    },
+    {
+      "token": "ason",
+      "score": 7.445077
+    },
+    {
+      "token": "ing",
+      "score": 140.506653
+    },
+    {
+      "token": "\u2581System",
+      "score": 220.522308
+    },
+    {
+      "token": ".",
+      "score": 60.258522
+    },
+    {
+      "token": "<0x0A>",
+      "score": 33.041653
+    },
+    {
+      "token": "<0x0A>",
+      "score": 39.651691
+    },
+    {
+      "token": "P",
+      "score": 44.278698
+    },
+    {
+      "token": "rem",
+      "score": 46.248779
+    },
+    {
+      "token": "ises",
+      "score": 90.271904
+    },
+    {
+      "token": ":",
+      "score": 9.106384
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.018291
+    },
+    {
+      "token": "J",
+      "score": 21.231735
+    },
+    {
+      "token": "ane",
+      "score": 6.613973
+    },
+    {
+      "token": "\u2581does",
+      "score": 70.376129
+    },
+    {
+      "token": "\u2581not",
+      "score": 28.521811
+    },
+    {
+      "token": "\u2581like",
+      "score": 17.459511
+    },
+    {
+      "token": "\u2581any",
+      "score": 24.041517
+    },
+    {
+      "token": "\u2581animals",
+      "score": 14.496255
+    },
+    {
+      "token": "\u2581that",
+      "score": 6.484294
+    },
+    {
+      "token": "\u2581b",
+      "score": 39.86694
+    },
+    {
+      "token": "ark",
+      "score": 3.954223
+    },
+    {
+      "token": ".",
+      "score": 1.254178
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.586391
+    },
+    {
+      "token": "All",
+      "score": 8.129822
+    },
+    {
+      "token": "\u2581dogs",
+      "score": 8.521038
+    },
+    {
+      "token": "\u2581are",
+      "score": 21.46843
+    },
+    {
+      "token": "\u2581animals",
+      "score": 0.112982
+    },
+    {
+      "token": "\u2581that",
+      "score": 13.004622
+    },
+    {
+      "token": "\u2581b",
+      "score": 28.879091
+    },
+    {
+      "token": "ark",
+      "score": 6.54775
+    },
+    {
+      "token": ".",
+      "score": 12.022236
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.636226
+    },
+    {
+      "token": "J",
+      "score": 15.868516
+    },
+    {
+      "token": "ane",
+      "score": 4.869322
+    },
+    {
+      "token": "\u2581lik",
+      "score": 47.510349
+    },
+    {
+      "token": "es",
+      "score": 13.810303
+    },
+    {
+      "token": "\u2581all",
+      "score": 6.753648
+    },
+    {
+      "token": "\u2581animals",
+      "score": 12.790799
+    },
+    {
+      "token": "\u2581that",
+      "score": 2.548884
+    },
+    {
+      "token": "\u2581jump",
+      "score": 38.049217
+    },
+    {
+      "token": ".",
+      "score": 0.432916
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.792274
+    },
+    {
+      "token": "If",
+      "score": 5.179687
+    },
+    {
+      "token": "\u2581an",
+      "score": 3.790161
+    },
+    {
+      "token": "\u2581animal",
+      "score": 59.776371
+    },
+    {
+      "token": "\u2581has",
+      "score": 10.784257
+    },
+    {
+      "token": "\u2581legs",
+      "score": 0.671392
+    },
+    {
+      "token": ",",
+      "score": 16.777924
+    },
+    {
+      "token": "\u2581then",
+      "score": 20.302977
+    },
+    {
+      "token": "\u2581it",
+      "score": 9.296723
+    },
+    {
+      "token": "\u2581j",
+      "score": 15.384708
+    },
+    {
+      "token": "umps",
+      "score": 5.046852
+    },
+    {
+      "token": ".",
+      "score": 7.369687
+    },
+    {
+      "token": "<0x0A>",
+      "score": 21.657963
+    },
+    {
+      "token": "If",
+      "score": 31.244646
+    },
+    {
+      "token": "\u2581an",
+      "score": 10.918779
+    },
+    {
+      "token": "\u2581animal",
+      "score": 158.162842
+    },
+    {
+      "token": "\u2581is",
+      "score": 0.58702
+    },
+    {
+      "token": "\u2581ter",
+      "score": 0.747704
+    },
+    {
+      "token": "ric",
+      "score": 4.07091
+    },
+    {
+      "token": "ol",
+      "score": 11.317488
+    },
+    {
+      "token": "ous",
+      "score": 20.361124
+    },
+    {
+      "token": ",",
+      "score": 4.495844
+    },
+    {
+      "token": "\u2581then",
+      "score": 0.130624
+    },
+    {
+      "token": "\u2581it",
+      "score": 4.706818
+    },
+    {
+      "token": "\u2581has",
+      "score": 4.704189
+    },
+    {
+      "token": "\u2581legs",
+      "score": 8.095417
+    },
+    {
+      "token": ".",
+      "score": 17.717197
+    },
+    {
+      "token": "\u2581",
+      "score": 6.134589
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.838328
+    },
+    {
+      "token": "K",
+      "score": 5.514184
+    },
+    {
+      "token": "i",
+      "score": 5.771484
+    },
+    {
+      "token": "K",
+      "score": 6.711522
+    },
+    {
+      "token": "i",
+      "score": 15.43837
+    },
+    {
+      "token": "\u2581is",
+      "score": 4.322001
+    },
+    {
+      "token": "\u2581an",
+      "score": 0.257789
+    },
+    {
+      "token": "\u2581animal",
+      "score": 2.005335
+    },
+    {
+      "token": ".",
+      "score": 1.57061
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.191113
+    },
+    {
+      "token": "If",
+      "score": 3.835576
+    },
+    {
+      "token": "\u2581Ki",
+      "score": 7.783085
+    },
+    {
+      "token": "K",
+      "score": 0.853691
+    },
+    {
+      "token": "i",
+      "score": 71.63932
+    },
+    {
+      "token": "\u2581neither",
+      "score": 64.599609
+    },
+    {
+      "token": "\u2581j",
+      "score": 20.721558
+    },
+    {
+      "token": "umps",
+      "score": 0.025177
+    },
+    {
+      "token": "\u2581nor",
+      "score": 4.449153
+    },
+    {
+      "token": "\u2581has",
+      "score": 0.219482
+    },
+    {
+      "token": "\u2581legs",
+      "score": 0.872401
+    },
+    {
+      "token": ",",
+      "score": 0.997459
+    },
+    {
+      "token": "\u2581then",
+      "score": 1.105839
+    },
+    {
+      "token": "\u2581Ki",
+      "score": 4.197364
+    },
+    {
+      "token": "K",
+      "score": 2.751155
+    },
+    {
+      "token": "i",
+      "score": 8.821532
+    },
+    {
+      "token": "\u2581is",
+      "score": 0.964647
+    },
+    {
+      "token": "\u2581ter",
+      "score": 2.759944
+    },
+    {
+      "token": "ric",
+      "score": 4.228476
+    },
+    {
+      "token": "ol",
+      "score": 2.270112
+    },
+    {
+      "token": "ous",
+      "score": 37.140732
+    },
+    {
+      "token": "\u2581or",
+      "score": 2.841069
+    },
+    {
+      "token": "\u2581has",
+      "score": 5.657312
+    },
+    {
+      "token": "\u2581legs",
+      "score": 0.624439
+    },
+    {
+      "token": ".",
+      "score": 1.645506
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.377209
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.25454
+    },
+    {
+      "token": "H",
+      "score": 6.850066
+    },
+    {
+      "token": "yp",
+      "score": 3.402051
+    },
+    {
+      "token": "oth",
+      "score": 8.931837
+    },
+    {
+      "token": "esis",
+      "score": 11.180227
+    },
+    {
+      "token": ":",
+      "score": 5.568231
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.762358
+    },
+    {
+      "token": "K",
+      "score": 1.160954
+    },
+    {
+      "token": "i",
+      "score": 1.039185
+    },
+    {
+      "token": "K",
+      "score": 0.541101
+    },
+    {
+      "token": "i",
+      "score": 0.609547
+    },
+    {
+      "token": "\u2581is",
+      "score": 3.607634
+    },
+    {
+      "token": "\u2581ter",
+      "score": 0.349595
+    },
+    {
+      "token": "ric",
+      "score": 2.687646
+    },
+    {
+      "token": "ol",
+      "score": 0.652747
+    },
+    {
+      "token": "ous",
+      "score": 2.7757
+    },
+    {
+      "token": ".",
+      "score": 1.303745
+    },
+    {
+      "token": "<0x0A>",
+      "score": 8.283439
+    },
+    {
+      "token": "<0x0A>",
+      "score": 12.73571
+    },
+    {
+      "token": "Question",
+      "score": 8.452139
+    },
+    {
+      "token": ":",
+      "score": 7.839121
+    },
+    {
+      "token": "<0x0A>",
+      "score": 14.285894
+    },
+    {
+      "token": "Is",
+      "score": 14.213327
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.047623
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 1.718403
+    },
+    {
+      "token": "\u2581True",
+      "score": 1.2255
+    },
+    {
+      "token": ",",
+      "score": 1.167691
+    },
+    {
+      "token": "\u2581False",
+      "score": 5.699128
+    },
+    {
+      "token": ",",
+      "score": 0.221848
+    },
+    {
+      "token": "\u2581or",
+      "score": 1.213795
+    },
+    {
+      "token": "\u2581Un",
+      "score": 3.934728
+    },
+    {
+      "token": "certain",
+      "score": 7.019364
+    },
+    {
+      "token": "?",
+      "score": 3.819334
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.725821
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.740168
+    },
+    {
+      "token": "Answer",
+      "score": 11.178699
+    },
+    {
+      "token": ":",
+      "score": 10.410626
+    },
+    {
+      "token": "<0x0A>",
+      "score": 13.453544
+    }
+  ]
+}

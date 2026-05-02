@@ -1,0 +1,701 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "index": 144,
+  "ground_truth": "Uncertain",
+  "no_of_premises": 6,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nEveryone who can register to vote in the United States can participate in the 2024 United States presidential election.\nIf someone has United States citizenship, then they can register to vote in the United States.\nA person either has United States citizenship or Taiwanese citizenship.\nNo Russian Federation officials hold Taiwanese citizenship. \nVladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom. \nEkaterina she can register to vote in the United States, or she is a Russian federation official.\n\nHypothesis:\nVladimir is a Russian federation official\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 29.576015
+    },
+    {
+      "token": "\u2581are",
+      "score": 132.878647
+    },
+    {
+      "token": "\u2581a",
+      "score": 99.477295
+    },
+    {
+      "token": "\u2581Log",
+      "score": 78.198982
+    },
+    {
+      "token": "ical",
+      "score": 103.71476
+    },
+    {
+      "token": "\u2581Re",
+      "score": 117.955757
+    },
+    {
+      "token": "ason",
+      "score": 3.711121
+    },
+    {
+      "token": "ing",
+      "score": 8.404622
+    },
+    {
+      "token": "\u2581System",
+      "score": 3.474494
+    },
+    {
+      "token": ".",
+      "score": 84.460213
+    },
+    {
+      "token": "<0x0A>",
+      "score": 58.091934
+    },
+    {
+      "token": "<0x0A>",
+      "score": 51.44912
+    },
+    {
+      "token": "P",
+      "score": 39.889771
+    },
+    {
+      "token": "rem",
+      "score": 36.674786
+    },
+    {
+      "token": "ises",
+      "score": 26.955956
+    },
+    {
+      "token": ":",
+      "score": 3.238579
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.001488
+    },
+    {
+      "token": "Every",
+      "score": 5.799801
+    },
+    {
+      "token": "one",
+      "score": 18.803604
+    },
+    {
+      "token": "\u2581who",
+      "score": 8.27876
+    },
+    {
+      "token": "\u2581can",
+      "score": 2.71593
+    },
+    {
+      "token": "\u2581register",
+      "score": 2.96867
+    },
+    {
+      "token": "\u2581to",
+      "score": 11.099489
+    },
+    {
+      "token": "\u2581vote",
+      "score": 6.690756
+    },
+    {
+      "token": "\u2581in",
+      "score": 18.545328
+    },
+    {
+      "token": "\u2581the",
+      "score": 30.12479
+    },
+    {
+      "token": "\u2581United",
+      "score": 1.192583
+    },
+    {
+      "token": "\u2581States",
+      "score": 0.667381
+    },
+    {
+      "token": "\u2581can",
+      "score": 4.183547
+    },
+    {
+      "token": "\u2581particip",
+      "score": 0.615585
+    },
+    {
+      "token": "ate",
+      "score": 2.441716
+    },
+    {
+      "token": "\u2581in",
+      "score": 9.938428
+    },
+    {
+      "token": "\u2581the",
+      "score": 21.668161
+    },
+    {
+      "token": "\u2581",
+      "score": 5.617304
+    },
+    {
+      "token": "2",
+      "score": 2.527016
+    },
+    {
+      "token": "0",
+      "score": 0.702378
+    },
+    {
+      "token": "2",
+      "score": 9.738391
+    },
+    {
+      "token": "4",
+      "score": 3.246394
+    },
+    {
+      "token": "\u2581United",
+      "score": 0.174947
+    },
+    {
+      "token": "\u2581States",
+      "score": 0.340901
+    },
+    {
+      "token": "\u2581president",
+      "score": 0.2766
+    },
+    {
+      "token": "ial",
+      "score": 21.806101
+    },
+    {
+      "token": "\u2581election",
+      "score": 3.090936
+    },
+    {
+      "token": ".",
+      "score": 0.747792
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.105916
+    },
+    {
+      "token": "If",
+      "score": 4.219083
+    },
+    {
+      "token": "\u2581someone",
+      "score": 0.932548
+    },
+    {
+      "token": "\u2581has",
+      "score": 14.997808
+    },
+    {
+      "token": "\u2581United",
+      "score": 0.368193
+    },
+    {
+      "token": "\u2581States",
+      "score": 0.995252
+    },
+    {
+      "token": "\u2581citizens",
+      "score": 4.137781
+    },
+    {
+      "token": "hip",
+      "score": 2.323729
+    },
+    {
+      "token": ",",
+      "score": 2.649865
+    },
+    {
+      "token": "\u2581then",
+      "score": 8.333288
+    },
+    {
+      "token": "\u2581they",
+      "score": 4.141058
+    },
+    {
+      "token": "\u2581can",
+      "score": 7.922558
+    },
+    {
+      "token": "\u2581register",
+      "score": 0.424718
+    },
+    {
+      "token": "\u2581to",
+      "score": 0.538717
+    },
+    {
+      "token": "\u2581vote",
+      "score": 1.226926
+    },
+    {
+      "token": "\u2581in",
+      "score": 4.943958
+    },
+    {
+      "token": "\u2581the",
+      "score": 19.066557
+    },
+    {
+      "token": "\u2581United",
+      "score": 0.087584
+    },
+    {
+      "token": "\u2581States",
+      "score": 0.541459
+    },
+    {
+      "token": ".",
+      "score": 0.200456
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.758059
+    },
+    {
+      "token": "A",
+      "score": 12.010412
+    },
+    {
+      "token": "\u2581person",
+      "score": 3.110805
+    },
+    {
+      "token": "\u2581either",
+      "score": 3.673127
+    },
+    {
+      "token": "\u2581has",
+      "score": 0.090808
+    },
+    {
+      "token": "\u2581United",
+      "score": 0.601976
+    },
+    {
+      "token": "\u2581States",
+      "score": 0.132946
+    },
+    {
+      "token": "\u2581citizens",
+      "score": 9.873743
+    },
+    {
+      "token": "hip",
+      "score": 3.040939
+    },
+    {
+      "token": "\u2581or",
+      "score": 7.923375
+    },
+    {
+      "token": "\u2581Taiwan",
+      "score": 10.625183
+    },
+    {
+      "token": "ese",
+      "score": 1.894989
+    },
+    {
+      "token": "\u2581citizens",
+      "score": 3.365558
+    },
+    {
+      "token": "hip",
+      "score": 2.855152
+    },
+    {
+      "token": ".",
+      "score": 0.874548
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.082139
+    },
+    {
+      "token": "No",
+      "score": 4.279041
+    },
+    {
+      "token": "\u2581Russian",
+      "score": 0.143916
+    },
+    {
+      "token": "\u2581Federation",
+      "score": 0.04765
+    },
+    {
+      "token": "\u2581officials",
+      "score": 2.757574
+    },
+    {
+      "token": "\u2581hold",
+      "score": 5.813302
+    },
+    {
+      "token": "\u2581Taiwan",
+      "score": 4.552959
+    },
+    {
+      "token": "ese",
+      "score": 6.392523
+    },
+    {
+      "token": "\u2581citizens",
+      "score": 2.165262
+    },
+    {
+      "token": "hip",
+      "score": 1.53432
+    },
+    {
+      "token": ".",
+      "score": 1.736076
+    },
+    {
+      "token": "\u2581",
+      "score": 1.006009
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.533276
+    },
+    {
+      "token": "V",
+      "score": 0.777826
+    },
+    {
+      "token": "lad",
+      "score": 0.853252
+    },
+    {
+      "token": "imir",
+      "score": 0.876266
+    },
+    {
+      "token": "\u2581neither",
+      "score": 2.128808
+    },
+    {
+      "token": "\u2581holds",
+      "score": 1.505845
+    },
+    {
+      "token": "\u2581Taiwan",
+      "score": 0.991177
+    },
+    {
+      "token": "ese",
+      "score": 5.019379
+    },
+    {
+      "token": "\u2581citizens",
+      "score": 1.998943
+    },
+    {
+      "token": "hip",
+      "score": 2.00649
+    },
+    {
+      "token": "\u2581nor",
+      "score": 3.650541
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.853902
+    },
+    {
+      "token": "\u2581he",
+      "score": 2.19406
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.647366
+    },
+    {
+      "token": "\u2581manager",
+      "score": 3.50181
+    },
+    {
+      "token": "\u2581at",
+      "score": 4.126517
+    },
+    {
+      "token": "\u2581Gaz",
+      "score": 2.660907
+    },
+    {
+      "token": "prom",
+      "score": 1.999757
+    },
+    {
+      "token": ".",
+      "score": 0.82185
+    },
+    {
+      "token": "\u2581",
+      "score": 0.955306
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.103868
+    },
+    {
+      "token": "E",
+      "score": 2.219078
+    },
+    {
+      "token": "k",
+      "score": 2.555624
+    },
+    {
+      "token": "ater",
+      "score": 0.280703
+    },
+    {
+      "token": "ina",
+      "score": 0.390849
+    },
+    {
+      "token": "\u2581she",
+      "score": 1.851842
+    },
+    {
+      "token": "\u2581can",
+      "score": 1.772623
+    },
+    {
+      "token": "\u2581register",
+      "score": 1.476098
+    },
+    {
+      "token": "\u2581to",
+      "score": 3.182026
+    },
+    {
+      "token": "\u2581vote",
+      "score": 1.959369
+    },
+    {
+      "token": "\u2581in",
+      "score": 2.812357
+    },
+    {
+      "token": "\u2581the",
+      "score": 4.741785
+    },
+    {
+      "token": "\u2581United",
+      "score": 1.48424
+    },
+    {
+      "token": "\u2581States",
+      "score": 1.005305
+    },
+    {
+      "token": ",",
+      "score": 11.860281
+    },
+    {
+      "token": "\u2581or",
+      "score": 6.209172
+    },
+    {
+      "token": "\u2581she",
+      "score": 2.743054
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.649915
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.415474
+    },
+    {
+      "token": "\u2581Russian",
+      "score": 0.365014
+    },
+    {
+      "token": "\u2581feder",
+      "score": 1.295233
+    },
+    {
+      "token": "ation",
+      "score": 1.412409
+    },
+    {
+      "token": "\u2581official",
+      "score": 2.055916
+    },
+    {
+      "token": ".",
+      "score": 0.697012
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.706947
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.677837
+    },
+    {
+      "token": "H",
+      "score": 0.585091
+    },
+    {
+      "token": "yp",
+      "score": 0.039899
+    },
+    {
+      "token": "oth",
+      "score": 2.820554
+    },
+    {
+      "token": "esis",
+      "score": 5.391279
+    },
+    {
+      "token": ":",
+      "score": 2.269453
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.791976
+    },
+    {
+      "token": "V",
+      "score": 1.014652
+    },
+    {
+      "token": "lad",
+      "score": 0.60637
+    },
+    {
+      "token": "imir",
+      "score": 1.738344
+    },
+    {
+      "token": "\u2581is",
+      "score": 7.631138
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.962268
+    },
+    {
+      "token": "\u2581Russian",
+      "score": 4.918264
+    },
+    {
+      "token": "\u2581feder",
+      "score": 0.767468
+    },
+    {
+      "token": "ation",
+      "score": 1.655893
+    },
+    {
+      "token": "\u2581official",
+      "score": 5.141728
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.445402
+    },
+    {
+      "token": "<0x0A>",
+      "score": 13.80196
+    },
+    {
+      "token": "Question",
+      "score": 5.726951
+    },
+    {
+      "token": ":",
+      "score": 87.50383
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.674665
+    },
+    {
+      "token": "Is",
+      "score": 2.181911
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.054082
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 2.118968
+    },
+    {
+      "token": "\u2581True",
+      "score": 1.612921
+    },
+    {
+      "token": ",",
+      "score": 0.134265
+    },
+    {
+      "token": "\u2581False",
+      "score": 2.99126
+    },
+    {
+      "token": ",",
+      "score": 2.411898
+    },
+    {
+      "token": "\u2581or",
+      "score": 1.950588
+    },
+    {
+      "token": "\u2581Un",
+      "score": 1.883407
+    },
+    {
+      "token": "certain",
+      "score": 5.043936
+    },
+    {
+      "token": "?",
+      "score": 30.301987
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.711997
+    },
+    {
+      "token": "<0x0A>",
+      "score": 15.403582
+    },
+    {
+      "token": "Answer",
+      "score": 9.49312
+    },
+    {
+      "token": ":",
+      "score": 18.527702
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.037901
+    }
+  ]
+}

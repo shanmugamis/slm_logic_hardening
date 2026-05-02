@@ -1,0 +1,293 @@
+{
+  "experiment_id": "phi35_baseline",
+  "index": 45,
+  "ground_truth": "Uncertain",
+  "no_of_premises": 2,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nAll cats are mammals.\nSome pets are not mammals.\n\nHypothesis:\nNo pets are cats.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 16.854067
+    },
+    {
+      "token": "\u2581are",
+      "score": 27.747562
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.605395
+    },
+    {
+      "token": "\u2581Log",
+      "score": 65.503082
+    },
+    {
+      "token": "ical",
+      "score": 125.731255
+    },
+    {
+      "token": "\u2581Re",
+      "score": 141.051331
+    },
+    {
+      "token": "ason",
+      "score": 3.620477
+    },
+    {
+      "token": "ing",
+      "score": 3.658048
+    },
+    {
+      "token": "\u2581System",
+      "score": 19.372936
+    },
+    {
+      "token": ".",
+      "score": 8.588752
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.210912
+    },
+    {
+      "token": "<0x0A>",
+      "score": 9.905735
+    },
+    {
+      "token": "P",
+      "score": 7.67407
+    },
+    {
+      "token": "rem",
+      "score": 19.706701
+    },
+    {
+      "token": "ises",
+      "score": 13.212437
+    },
+    {
+      "token": ":",
+      "score": 6.034324
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.942615
+    },
+    {
+      "token": "All",
+      "score": 0.701201
+    },
+    {
+      "token": "\u2581c",
+      "score": 9.880319
+    },
+    {
+      "token": "ats",
+      "score": 5.157811
+    },
+    {
+      "token": "\u2581are",
+      "score": 31.585236
+    },
+    {
+      "token": "\u2581m",
+      "score": 5.056129
+    },
+    {
+      "token": "amm",
+      "score": 10.993948
+    },
+    {
+      "token": "als",
+      "score": 0.175394
+    },
+    {
+      "token": ".",
+      "score": 0.559461
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.35082
+    },
+    {
+      "token": "Some",
+      "score": 49.714813
+    },
+    {
+      "token": "\u2581p",
+      "score": 54.682209
+    },
+    {
+      "token": "ets",
+      "score": 4.573426
+    },
+    {
+      "token": "\u2581are",
+      "score": 2.767504
+    },
+    {
+      "token": "\u2581not",
+      "score": 1.821664
+    },
+    {
+      "token": "\u2581m",
+      "score": 2.990106
+    },
+    {
+      "token": "amm",
+      "score": 3.579144
+    },
+    {
+      "token": "als",
+      "score": 7.012784
+    },
+    {
+      "token": ".",
+      "score": 5.32842
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.44223
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.750203
+    },
+    {
+      "token": "H",
+      "score": 2.334017
+    },
+    {
+      "token": "yp",
+      "score": 4.425318
+    },
+    {
+      "token": "oth",
+      "score": 4.990859
+    },
+    {
+      "token": "esis",
+      "score": 14.210928
+    },
+    {
+      "token": ":",
+      "score": 11.314133
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.372993
+    },
+    {
+      "token": "No",
+      "score": 10.055448
+    },
+    {
+      "token": "\u2581p",
+      "score": 20.711826
+    },
+    {
+      "token": "ets",
+      "score": 1.596117
+    },
+    {
+      "token": "\u2581are",
+      "score": 2.137815
+    },
+    {
+      "token": "\u2581c",
+      "score": 3.222084
+    },
+    {
+      "token": "ats",
+      "score": 5.036124
+    },
+    {
+      "token": ".",
+      "score": 8.822428
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.871608
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.593867
+    },
+    {
+      "token": "Question",
+      "score": 2.638053
+    },
+    {
+      "token": ":",
+      "score": 9.229694
+    },
+    {
+      "token": "<0x0A>",
+      "score": 9.031847
+    },
+    {
+      "token": "Is",
+      "score": 7.904912
+    },
+    {
+      "token": "\u2581the",
+      "score": 1.255338
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 0.607932
+    },
+    {
+      "token": "\u2581True",
+      "score": 0.056157
+    },
+    {
+      "token": ",",
+      "score": 6.931625
+    },
+    {
+      "token": "\u2581False",
+      "score": 2.216288
+    },
+    {
+      "token": ",",
+      "score": 3.209879
+    },
+    {
+      "token": "\u2581or",
+      "score": 5.747183
+    },
+    {
+      "token": "\u2581Un",
+      "score": 5.635341
+    },
+    {
+      "token": "certain",
+      "score": 1.130693
+    },
+    {
+      "token": "?",
+      "score": 5.91981
+    },
+    {
+      "token": "<0x0A>",
+      "score": 8.657885
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.241465
+    },
+    {
+      "token": "Answer",
+      "score": 10.854773
+    },
+    {
+      "token": ":",
+      "score": 0.270188
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.471525
+    }
+  ]
+}
