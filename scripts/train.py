@@ -131,6 +131,7 @@ def train(config_path: str, experiment_name_override: str | None = None):
         num_train_epochs=train_cfg["num_train_epochs"],
         per_device_train_batch_size=train_cfg["per_device_train_batch_size"],
         per_device_eval_batch_size=train_cfg["per_device_eval_batch_size"],
+        gradient_accumulation_steps=train_cfg.get("gradient_accumulation_steps", 1),
         learning_rate=train_cfg["learning_rate"],
         warmup_steps=train_cfg["warmup_steps"],
         max_grad_norm=train_cfg["max_grad_norm"],
