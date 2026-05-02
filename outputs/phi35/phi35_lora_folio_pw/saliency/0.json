@@ -1,5 +1,5 @@
 {
-  "experiment_id": "phi35_lora_folio_pw",
+  "experiment_id": "phi35_lora_folio",
   "index": 0,
   "ground_truth": "Uncertain",
   "no_of_premises": 6,
@@ -7,947 +7,947 @@
   "attributions": [
     {
       "token": "\u2581You",
-      "score": 12.17135
+      "score": 13.271576
     },
     {
       "token": "\u2581are",
-      "score": 1.084569
+      "score": 4.660655
     },
     {
       "token": "\u2581a",
-      "score": 14.051711
+      "score": 18.48724
     },
     {
       "token": "\u2581Log",
-      "score": 47.442616
+      "score": 9.364985
     },
     {
       "token": "ical",
-      "score": 16.461285
+      "score": 27.100048
     },
     {
       "token": "\u2581Re",
-      "score": 38.40015
+      "score": 31.849609
     },
     {
       "token": "ason",
-      "score": 0.804132
+      "score": 1.754127
     },
     {
       "token": "ing",
-      "score": 14.902659
+      "score": 8.472235
     },
     {
       "token": "\u2581System",
-      "score": 2.555394
+      "score": 19.631004
     },
     {
       "token": ".",
-      "score": 2.578973
+      "score": 19.532776
     },
     {
       "token": "<0x0A>",
-      "score": 4.482543
+      "score": 10.855207
     },
     {
       "token": "<0x0A>",
-      "score": 0.594414
+      "score": 0.715169
     },
     {
       "token": "P",
-      "score": 7.022712
+      "score": 3.231222
     },
     {
       "token": "rem",
-      "score": 0.5287
+      "score": 6.006252
     },
     {
       "token": "ises",
-      "score": 1.518343
+      "score": 10.081428
     },
     {
       "token": ":",
-      "score": 16.997456
+      "score": 15.069753
     },
     {
       "token": "<0x0A>",
-      "score": 1.389138
+      "score": 1.811249
     },
     {
       "token": "Pe",
-      "score": 3.768296
+      "score": 2.890624
     },
     {
       "token": "ople",
-      "score": 5.879276
+      "score": 4.409804
     },
     {
       "token": "\u2581in",
-      "score": 1.99163
+      "score": 3.099817
     },
     {
       "token": "\u2581this",
-      "score": 3.135857
+      "score": 1.176255
     },
     {
       "token": "\u2581club",
-      "score": 3.886556
+      "score": 2.545928
     },
     {
       "token": "\u2581who",
-      "score": 4.144741
+      "score": 3.002528
     },
     {
       "token": "\u2581perform",
-      "score": 3.3241
+      "score": 0.916558
     },
     {
       "token": "\u2581in",
-      "score": 6.579633
+      "score": 2.664326
     },
     {
       "token": "\u2581school",
-      "score": 0.54134
+      "score": 0.086817
     },
     {
       "token": "\u2581talent",
-      "score": 0.438053
+      "score": 2.720763
     },
     {
       "token": "\u2581shows",
-      "score": 4.493762
+      "score": 1.41292
     },
     {
       "token": "\u2581often",
-      "score": 3.822001
+      "score": 1.615197
     },
     {
       "token": "\u2581attend",
-      "score": 4.907234
+      "score": 1.288747
     },
     {
       "token": "\u2581and",
-      "score": 6.969652
+      "score": 9.114258
     },
     {
       "token": "\u2581are",
-      "score": 5.209801
+      "score": 2.936519
     },
     {
       "token": "\u2581very",
-      "score": 5.871137
+      "score": 0.137513
     },
     {
       "token": "\u2581engaged",
-      "score": 4.209041
+      "score": 1.826582
     },
     {
       "token": "\u2581with",
-      "score": 6.871695
+      "score": 0.379953
     },
     {
       "token": "\u2581school",
-      "score": 2.870983
+      "score": 0.117365
     },
     {
       "token": "\u2581events",
-      "score": 12.414225
+      "score": 1.740981
     },
     {
       "token": ".",
-      "score": 27.346546
+      "score": 12.093976
     },
     {
       "token": "<0x0A>",
-      "score": 7.382889
+      "score": 1.133281
     },
     {
       "token": "Pe",
-      "score": 1.291048
+      "score": 2.064906
     },
     {
       "token": "ople",
-      "score": 2.142971
+      "score": 4.382755
     },
     {
       "token": "\u2581in",
-      "score": 17.673378
+      "score": 13.876132
     },
     {
       "token": "\u2581this",
-      "score": 1.540514
+      "score": 1.163917
     },
     {
       "token": "\u2581club",
-      "score": 0.741349
+      "score": 2.32182
     },
     {
       "token": "\u2581either",
-      "score": 0.054813
+      "score": 2.881935
     },
     {
       "token": "\u2581perform",
-      "score": 0.700528
+      "score": 1.268241
     },
     {
       "token": "\u2581in",
-      "score": 0.179082
+      "score": 0.684165
     },
     {
       "token": "\u2581school",
-      "score": 2.355984
+      "score": 1.266548
     },
     {
       "token": "\u2581talent",
-      "score": 3.861104
+      "score": 5.045312
     },
     {
       "token": "\u2581shows",
-      "score": 0.199353
+      "score": 0.248271
     },
     {
       "token": "\u2581often",
-      "score": 8.007174
+      "score": 13.123816
     },
     {
       "token": "\u2581or",
-      "score": 3.682196
+      "score": 7.905603
     },
     {
       "token": "\u2581are",
-      "score": 11.702341
+      "score": 11.049213
     },
     {
       "token": "\u2581in",
-      "score": 3.619347
+      "score": 9.668097
     },
     {
       "token": "active",
-      "score": 5.242961
+      "score": 8.680223
     },
     {
       "token": "\u2581and",
-      "score": 2.155533
+      "score": 1.31203
     },
     {
       "token": "\u2581dis",
-      "score": 1.887696
+      "score": 3.780311
     },
     {
       "token": "inter",
-      "score": 0.961367
+      "score": 0.612049
     },
     {
       "token": "ested",
-      "score": 1.36913
+      "score": 0.730834
     },
     {
       "token": "\u2581community",
-      "score": 2.052608
+      "score": 3.884047
     },
     {
       "token": "\u2581members",
-      "score": 0.720879
+      "score": 0.275351
     },
     {
       "token": ".",
-      "score": 1.039683
+      "score": 0.943056
     },
     {
       "token": "<0x0A>",
-      "score": 0.253114
+      "score": 0.900569
     },
     {
       "token": "Pe",
-      "score": 2.641761
+      "score": 1.708079
     },
     {
       "token": "ople",
-      "score": 4.825241
+      "score": 2.147076
     },
     {
       "token": "\u2581in",
-      "score": 2.344568
+      "score": 2.397548
     },
     {
       "token": "\u2581this",
-      "score": 4.570318
+      "score": 1.186359
     },
     {
       "token": "\u2581club",
-      "score": 3.081372
+      "score": 1.420669
     },
     {
       "token": "\u2581who",
-      "score": 3.028704
+      "score": 3.841403
     },
     {
       "token": "\u2581ch",
-      "score": 10.45608
+      "score": 5.320275
     },
     {
       "token": "aper",
-      "score": 0.362396
+      "score": 1.094431
     },
     {
       "token": "one",
-      "score": 5.540924
+      "score": 13.030636
     },
     {
       "token": "\u2581high",
-      "score": 1.270269
+      "score": 2.086076
     },
     {
       "token": "\u2581school",
-      "score": 3.933158
+      "score": 7.740419
     },
     {
       "token": "\u2581d",
-      "score": 8.741304
+      "score": 11.169887
     },
     {
       "token": "ances",
-      "score": 0.699606
+      "score": 0.561126
     },
     {
       "token": "\u2581are",
-      "score": 4.756687
+      "score": 4.121199
     },
     {
       "token": "\u2581not",
-      "score": 0.149852
+      "score": 0.389028
     },
     {
       "token": "\u2581students",
-      "score": 3.281171
+      "score": 1.267794
     },
     {
       "token": "\u2581who",
-      "score": 0.579189
+      "score": 0.38677
     },
     {
       "token": "\u2581attend",
-      "score": 2.957345
+      "score": 1.671726
     },
     {
       "token": "\u2581the",
-      "score": 2.041858
+      "score": 5.70087
     },
     {
       "token": "\u2581school",
-      "score": 1.462011
+      "score": 0.092159
     },
     {
       "token": ".",
-      "score": 0.035906
+      "score": 1.056371
     },
     {
       "token": "<0x0A>",
-      "score": 2.48581
+      "score": 1.404652
     },
     {
       "token": "All",
-      "score": 1.236118
+      "score": 0.195124
     },
     {
       "token": "\u2581people",
-      "score": 3.770651
+      "score": 2.706358
     },
     {
       "token": "\u2581in",
-      "score": 2.239254
+      "score": 3.134827
     },
     {
       "token": "\u2581this",
-      "score": 0.565836
+      "score": 0.938089
     },
     {
       "token": "\u2581club",
-      "score": 0.638436
+      "score": 1.275485
     },
     {
       "token": "\u2581who",
-      "score": 2.084733
+      "score": 1.112532
     },
     {
       "token": "\u2581are",
-      "score": 6.80948
+      "score": 1.575526
     },
     {
       "token": "\u2581in",
-      "score": 2.457481
+      "score": 1.555307
     },
     {
       "token": "active",
-      "score": 6.985471
+      "score": 3.214849
     },
     {
       "token": "\u2581and",
-      "score": 0.438402
+      "score": 3.637483
     },
     {
       "token": "\u2581dis",
-      "score": 0.281199
+      "score": 0.157407
     },
     {
       "token": "inter",
-      "score": 1.147463
+      "score": 2.002569
     },
     {
       "token": "ested",
-      "score": 1.476753
+      "score": 2.005071
     },
     {
       "token": "\u2581members",
-      "score": 3.105259
+      "score": 3.535989
     },
     {
       "token": "\u2581of",
-      "score": 9.435118
+      "score": 5.707534
     },
     {
       "token": "\u2581their",
-      "score": 10.699556
+      "score": 10.309056
     },
     {
       "token": "\u2581community",
-      "score": 10.628395
+      "score": 1.349562
     },
     {
       "token": "\u2581ch",
-      "score": 6.672272
+      "score": 2.326582
     },
     {
       "token": "aper",
-      "score": 0.356894
+      "score": 1.954421
     },
     {
       "token": "one",
-      "score": 14.523201
+      "score": 22.45026
     },
     {
       "token": "\u2581high",
-      "score": 6.213531
+      "score": 0.563325
     },
     {
       "token": "\u2581school",
-      "score": 4.047122
+      "score": 1.117338
     },
     {
       "token": "\u2581d",
-      "score": 0.17569
+      "score": 3.575887
     },
     {
       "token": "ances",
-      "score": 0.176402
+      "score": 2.118072
     },
     {
       "token": ".",
-      "score": 3.82068
+      "score": 11.238324
     },
     {
       "token": "<0x0A>",
-      "score": 4.303955
+      "score": 1.581921
     },
     {
       "token": "All",
-      "score": 2.545439
+      "score": 0.351896
     },
     {
       "token": "\u2581young",
-      "score": 4.211109
+      "score": 0.806006
     },
     {
       "token": "\u2581children",
-      "score": 12.43618
+      "score": 7.931359
     },
     {
       "token": "\u2581and",
-      "score": 11.132336
+      "score": 10.842098
     },
     {
       "token": "\u2581te",
-      "score": 1.054067
+      "score": 0.390156
     },
     {
       "token": "en",
-      "score": 2.349019
+      "score": 9.044946
     },
     {
       "token": "agers",
-      "score": 2.768964
+      "score": 0.815125
     },
     {
       "token": "\u2581in",
-      "score": 14.283877
+      "score": 7.11149
     },
     {
       "token": "\u2581this",
-      "score": 5.83103
+      "score": 6.89065
     },
     {
       "token": "\u2581club",
-      "score": 1.606412
+      "score": 0.785055
     },
     {
       "token": "\u2581who",
-      "score": 0.621051
+      "score": 0.605817
     },
     {
       "token": "\u2581wish",
-      "score": 2.515061
+      "score": 0.494566
     },
     {
       "token": "\u2581to",
-      "score": 3.173705
+      "score": 0.139669
     },
     {
       "token": "\u2581further",
-      "score": 1.588311
+      "score": 0.047246
     },
     {
       "token": "\u2581their",
-      "score": 0.520611
+      "score": 2.633682
     },
     {
       "token": "\u2581academic",
-      "score": 0.201597
+      "score": 1.698346
     },
     {
       "token": "\u2581care",
-      "score": 0.258327
+      "score": 0.020986
     },
     {
       "token": "ers",
-      "score": 0.739241
+      "score": 3.760353
     },
     {
       "token": "\u2581and",
-      "score": 3.852675
+      "score": 2.817866
     },
     {
       "token": "\u2581educational",
-      "score": 3.483293
+      "score": 0.34004
     },
     {
       "token": "\u2581opportun",
-      "score": 5.332938
+      "score": 2.764306
     },
     {
       "token": "ities",
-      "score": 0.529858
+      "score": 0.233713
     },
     {
       "token": "\u2581are",
-      "score": 0.589091
+      "score": 3.839489
     },
     {
       "token": "\u2581students",
-      "score": 10.677044
+      "score": 0.232966
     },
     {
       "token": "\u2581who",
-      "score": 0.624569
+      "score": 1.217317
     },
     {
       "token": "\u2581attend",
-      "score": 2.187726
+      "score": 0.071221
     },
     {
       "token": "\u2581the",
-      "score": 29.830046
+      "score": 12.569582
     },
     {
       "token": "\u2581school",
-      "score": 12.221999
+      "score": 1.621824
     },
     {
       "token": ".",
-      "score": 5.784631
+      "score": 4.991111
     },
     {
       "token": "\u2581",
-      "score": 9.827881
+      "score": 3.310259
     },
     {
       "token": "<0x0A>",
-      "score": 8.569654
+      "score": 2.937934
     },
     {
       "token": "B",
-      "score": 6.086956
+      "score": 0.307641
     },
     {
       "token": "on",
-      "score": 1.387833
+      "score": 1.67263
     },
     {
       "token": "nie",
-      "score": 5.216983
+      "score": 6.727196
     },
     {
       "token": "\u2581is",
-      "score": 20.89419
+      "score": 6.037327
     },
     {
       "token": "\u2581in",
-      "score": 0.959468
+      "score": 2.591568
     },
     {
       "token": "\u2581this",
-      "score": 3.670307
+      "score": 1.836733
     },
     {
       "token": "\u2581club",
-      "score": 2.743836
+      "score": 3.60783
     },
     {
       "token": "\u2581and",
-      "score": 6.863842
+      "score": 1.084466
     },
     {
       "token": "\u2581she",
-      "score": 4.084651
+      "score": 2.525528
     },
     {
       "token": "\u2581either",
-      "score": 3.28198
+      "score": 1.862785
     },
     {
       "token": "\u2581both",
-      "score": 28.901812
+      "score": 12.264471
     },
     {
       "token": "\u2581att",
-      "score": 14.778244
+      "score": 7.606817
     },
     {
       "token": "ends",
-      "score": 2.556159
+      "score": 2.977112
     },
     {
       "token": "\u2581and",
-      "score": 29.021721
+      "score": 13.434175
     },
     {
       "token": "\u2581is",
-      "score": 4.897792
+      "score": 0.910093
     },
     {
       "token": "\u2581very",
-      "score": 0.067606
+      "score": 0.083515
     },
     {
       "token": "\u2581engaged",
-      "score": 0.18759
+      "score": 0.158519
     },
     {
       "token": "\u2581with",
-      "score": 0.085046
+      "score": 0.204996
     },
     {
       "token": "\u2581school",
-      "score": 1.285979
+      "score": 1.713896
     },
     {
       "token": "\u2581events",
-      "score": 1.361941
+      "score": 2.577528
     },
     {
       "token": "\u2581and",
-      "score": 0.07616
+      "score": 1.930416
     },
     {
       "token": "\u2581is",
-      "score": 2.352319
+      "score": 0.049165
     },
     {
       "token": "\u2581a",
-      "score": 2.947796
+      "score": 0.210152
     },
     {
       "token": "\u2581student",
-      "score": 3.314799
+      "score": 0.760245
     },
     {
       "token": "\u2581who",
-      "score": 1.755919
+      "score": 3.35072
     },
     {
       "token": "\u2581att",
-      "score": 3.156768
+      "score": 2.095788
     },
     {
       "token": "ends",
-      "score": 0.744707
+      "score": 2.972109
     },
     {
       "token": "\u2581the",
-      "score": 1.809119
+      "score": 0.8976
     },
     {
       "token": "\u2581school",
-      "score": 1.120638
+      "score": 2.7191
     },
     {
       "token": "\u2581or",
-      "score": 1.737599
+      "score": 1.192035
     },
     {
       "token": "\u2581is",
-      "score": 2.742484
+      "score": 6.286009
     },
     {
       "token": "\u2581not",
-      "score": 0.340003
+      "score": 0.628123
     },
     {
       "token": "\u2581someone",
-      "score": 1.141009
+      "score": 0.742113
     },
     {
       "token": "\u2581who",
-      "score": 0.313561
+      "score": 0.310317
     },
     {
       "token": "\u2581both",
-      "score": 0.18628
+      "score": 5.957541
     },
     {
       "token": "\u2581att",
-      "score": 0.069737
+      "score": 2.249418
     },
     {
       "token": "ends",
-      "score": 0.777353
+      "score": 1.205384
     },
     {
       "token": "\u2581and",
-      "score": 2.399826
+      "score": 1.346373
     },
     {
       "token": "\u2581is",
-      "score": 2.260411
+      "score": 0.423807
     },
     {
       "token": "\u2581very",
-      "score": 0.20316
+      "score": 0.140614
     },
     {
       "token": "\u2581engaged",
-      "score": 0.38346
+      "score": 2.244887
     },
     {
       "token": "\u2581with",
-      "score": 0.058421
+      "score": 2.251815
     },
     {
       "token": "\u2581school",
-      "score": 1.015826
+      "score": 2.701851
     },
     {
       "token": "\u2581events",
-      "score": 1.521918
+      "score": 1.047326
     },
     {
       "token": "\u2581and",
-      "score": 0.682613
+      "score": 0.436024
     },
     {
       "token": "\u2581is",
-      "score": 0.054649
+      "score": 2.565565
     },
     {
       "token": "\u2581not",
-      "score": 2.662436
+      "score": 1.899534
     },
     {
       "token": "\u2581a",
-      "score": 0.197993
+      "score": 4.690514
     },
     {
       "token": "\u2581student",
-      "score": 0.408919
+      "score": 8.486084
     },
     {
       "token": "\u2581who",
-      "score": 0.402267
+      "score": 5.139963
     },
     {
       "token": "\u2581att",
-      "score": 2.364859
+      "score": 2.815851
     },
     {
       "token": "ends",
-      "score": 1.316783
+      "score": 4.267947
     },
     {
       "token": "\u2581the",
-      "score": 2.3829
+      "score": 4.053009
     },
     {
       "token": "\u2581school",
-      "score": 0.838781
+      "score": 2.469946
     },
     {
       "token": ".",
-      "score": 0.543251
+      "score": 2.043657
     },
     {
       "token": "<0x0A>",
-      "score": 0.383061
+      "score": 4.657351
     },
     {
       "token": "<0x0A>",
-      "score": 1.664942
+      "score": 2.683518
     },
     {
       "token": "H",
-      "score": 3.745811
+      "score": 3.648091
     },
     {
       "token": "yp",
-      "score": 3.525214
+      "score": 1.057091
     },
     {
       "token": "oth",
-      "score": 2.849228
+      "score": 2.834323
     },
     {
       "token": "esis",
-      "score": 0.815867
+      "score": 1.751773
     },
     {
       "token": ":",
-      "score": 2.814558
+      "score": 7.90062
     },
     {
       "token": "<0x0A>",
-      "score": 0.308285
+      "score": 1.906094
     },
     {
       "token": "B",
-      "score": 1.150753
+      "score": 0.073555
     },
     {
       "token": "on",
-      "score": 1.864345
+      "score": 0.225689
     },
     {
       "token": "nie",
-      "score": 0.449965
+      "score": 9.113537
     },
     {
       "token": "\u2581performs",
-      "score": 0.034812
+      "score": 6.083868
     },
     {
       "token": "\u2581in",
-      "score": 1.898579
+      "score": 7.001401
     },
     {
       "token": "\u2581school",
-      "score": 0.704964
+      "score": 4.172183
     },
     {
       "token": "\u2581talent",
-      "score": 1.858748
+      "score": 0.872906
     },
     {
       "token": "\u2581shows",
-      "score": 0.850938
+      "score": 1.004445
     },
     {
       "token": "\u2581often",
-      "score": 7.663888
+      "score": 2.338665
     },
     {
       "token": ".",
-      "score": 6.600814
+      "score": 5.438076
     },
     {
       "token": "<0x0A>",
-      "score": 1.840609
+      "score": 0.188623
     },
     {
       "token": "<0x0A>",
-      "score": 1.246984
+      "score": 1.23186
     },
     {
       "token": "Question",
-      "score": 3.97066
+      "score": 11.198494
     },
     {
       "token": ":",
-      "score": 2.852588
+      "score": 9.188688
     },
     {
       "token": "<0x0A>",
-      "score": 3.777433
+      "score": 2.728426
     },
     {
       "token": "Is",
-      "score": 1.969188
+      "score": 5.261194
     },
     {
       "token": "\u2581the",
-      "score": 1.205247
+      "score": 3.755481
     },
     {
       "token": "\u2581hypothesis",
-      "score": 0.193621
+      "score": 3.963487
     },
     {
       "token": "\u2581True",
-      "score": 0.820243
+      "score": 0.352229
     },
     {
       "token": ",",
-      "score": 0.367521
+      "score": 3.277717
     },
     {
       "token": "\u2581False",
-      "score": 5.564277
+      "score": 13.28927
     },
     {
       "token": ",",
-      "score": 0.844405
+      "score": 3.146078
     },
     {
       "token": "\u2581or",
-      "score": 3.053921
+      "score": 12.015208
     },
     {
       "token": "\u2581Un",
-      "score": 4.951346
+      "score": 0.621822
     },
     {
       "token": "certain",
-      "score": 1.034552
+      "score": 3.881701
     },
     {
       "token": "?",
-      "score": 14.255189
+      "score": 67.085449
     },
     {
       "token": "<0x0A>",
-      "score": 2.100237
+      "score": 8.356888
     },
     {
       "token": "<0x0A>",
-      "score": 2.590292
+      "score": 1.963513
     },
     {
       "token": "Answer",
-      "score": 1.963379
+      "score": 9.737418
     },
     {
       "token": ":",
-      "score": 0.952211
+      "score": 3.891764
     },
     {
       "token": "<0x0A>",
-      "score": 3.97601
+      "score": 3.049842
     }
   ]
 }

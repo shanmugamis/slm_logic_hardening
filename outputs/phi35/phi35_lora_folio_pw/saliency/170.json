@@ -1,0 +1,781 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "index": 170,
+  "ground_truth": "True",
+  "no_of_premises": 6,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nIf something is a deadly disease, then it comes with a low survival rate. \nSevere cancers are deadly diseases.\nBile duct cancer is a severe form cancer. \nAll Cholangiocarcinoma is bile duct cancer.\nMild flu comes with a low survival rate.\nColorectal cancer is not both a bile duct cancer and with a low survival rate.\n\nHypothesis:\nIf colorectal cancer is a kind of bile duct cancer or a form of Cholangiocarcinoma, then colorectal cancer is a kind of bile duct cancer and a kind of mild flu.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 64.187485
+    },
+    {
+      "token": "\u2581are",
+      "score": 84.224342
+    },
+    {
+      "token": "\u2581a",
+      "score": 59.602982
+    },
+    {
+      "token": "\u2581Log",
+      "score": 15.412539
+    },
+    {
+      "token": "ical",
+      "score": 12.305662
+    },
+    {
+      "token": "\u2581Re",
+      "score": 72.334534
+    },
+    {
+      "token": "ason",
+      "score": 19.664558
+    },
+    {
+      "token": "ing",
+      "score": 25.120724
+    },
+    {
+      "token": "\u2581System",
+      "score": 0.846942
+    },
+    {
+      "token": ".",
+      "score": 34.897121
+    },
+    {
+      "token": "<0x0A>",
+      "score": 36.343811
+    },
+    {
+      "token": "<0x0A>",
+      "score": 8.16095
+    },
+    {
+      "token": "P",
+      "score": 5.577777
+    },
+    {
+      "token": "rem",
+      "score": 4.828188
+    },
+    {
+      "token": "ises",
+      "score": 10.327154
+    },
+    {
+      "token": ":",
+      "score": 25.454821
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.928493
+    },
+    {
+      "token": "If",
+      "score": 1.866781
+    },
+    {
+      "token": "\u2581something",
+      "score": 9.961612
+    },
+    {
+      "token": "\u2581is",
+      "score": 0.645889
+    },
+    {
+      "token": "\u2581a",
+      "score": 23.349859
+    },
+    {
+      "token": "\u2581dead",
+      "score": 0.066386
+    },
+    {
+      "token": "ly",
+      "score": 21.879662
+    },
+    {
+      "token": "\u2581disease",
+      "score": 15.456153
+    },
+    {
+      "token": ",",
+      "score": 11.757603
+    },
+    {
+      "token": "\u2581then",
+      "score": 0.226
+    },
+    {
+      "token": "\u2581it",
+      "score": 3.231876
+    },
+    {
+      "token": "\u2581comes",
+      "score": 11.358612
+    },
+    {
+      "token": "\u2581with",
+      "score": 12.262974
+    },
+    {
+      "token": "\u2581a",
+      "score": 24.364595
+    },
+    {
+      "token": "\u2581low",
+      "score": 2.643829
+    },
+    {
+      "token": "\u2581surv",
+      "score": 0.108554
+    },
+    {
+      "token": "ival",
+      "score": 0.897193
+    },
+    {
+      "token": "\u2581rate",
+      "score": 2.262078
+    },
+    {
+      "token": ".",
+      "score": 29.318592
+    },
+    {
+      "token": "\u2581",
+      "score": 20.902861
+    },
+    {
+      "token": "<0x0A>",
+      "score": 13.54409
+    },
+    {
+      "token": "S",
+      "score": 8.206503
+    },
+    {
+      "token": "ever",
+      "score": 6.774732
+    },
+    {
+      "token": "e",
+      "score": 43.402699
+    },
+    {
+      "token": "\u2581can",
+      "score": 3.787669
+    },
+    {
+      "token": "cers",
+      "score": 2.127491
+    },
+    {
+      "token": "\u2581are",
+      "score": 8.747642
+    },
+    {
+      "token": "\u2581dead",
+      "score": 1.199208
+    },
+    {
+      "token": "ly",
+      "score": 66.00383
+    },
+    {
+      "token": "\u2581dise",
+      "score": 5.990484
+    },
+    {
+      "token": "ases",
+      "score": 3.461793
+    },
+    {
+      "token": ".",
+      "score": 19.811375
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.307698
+    },
+    {
+      "token": "B",
+      "score": 2.741138
+    },
+    {
+      "token": "ile",
+      "score": 15.837404
+    },
+    {
+      "token": "\u2581du",
+      "score": 0.478089
+    },
+    {
+      "token": "ct",
+      "score": 5.584477
+    },
+    {
+      "token": "\u2581cancer",
+      "score": 4.948866
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.744148
+    },
+    {
+      "token": "\u2581a",
+      "score": 13.326605
+    },
+    {
+      "token": "\u2581severe",
+      "score": 3.617999
+    },
+    {
+      "token": "\u2581form",
+      "score": 15.72222
+    },
+    {
+      "token": "\u2581cancer",
+      "score": 9.556946
+    },
+    {
+      "token": ".",
+      "score": 13.067987
+    },
+    {
+      "token": "\u2581",
+      "score": 14.511175
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.929476
+    },
+    {
+      "token": "All",
+      "score": 3.055034
+    },
+    {
+      "token": "\u2581Ch",
+      "score": 21.186394
+    },
+    {
+      "token": "ol",
+      "score": 6.791023
+    },
+    {
+      "token": "ang",
+      "score": 7.37285
+    },
+    {
+      "token": "i",
+      "score": 102.842003
+    },
+    {
+      "token": "oc",
+      "score": 3.198844
+    },
+    {
+      "token": "arc",
+      "score": 2.290275
+    },
+    {
+      "token": "in",
+      "score": 24.849064
+    },
+    {
+      "token": "oma",
+      "score": 16.106936
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.659367
+    },
+    {
+      "token": "\u2581b",
+      "score": 10.036325
+    },
+    {
+      "token": "ile",
+      "score": 8.994156
+    },
+    {
+      "token": "\u2581du",
+      "score": 9.598129
+    },
+    {
+      "token": "ct",
+      "score": 11.389148
+    },
+    {
+      "token": "\u2581cancer",
+      "score": 4.876136
+    },
+    {
+      "token": ".",
+      "score": 7.824462
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.817359
+    },
+    {
+      "token": "M",
+      "score": 4.580375
+    },
+    {
+      "token": "ild",
+      "score": 29.066277
+    },
+    {
+      "token": "\u2581flu",
+      "score": 22.37756
+    },
+    {
+      "token": "\u2581comes",
+      "score": 43.287605
+    },
+    {
+      "token": "\u2581with",
+      "score": 3.405892
+    },
+    {
+      "token": "\u2581a",
+      "score": 0.429322
+    },
+    {
+      "token": "\u2581low",
+      "score": 3.385231
+    },
+    {
+      "token": "\u2581surv",
+      "score": 2.20072
+    },
+    {
+      "token": "ival",
+      "score": 2.339729
+    },
+    {
+      "token": "\u2581rate",
+      "score": 2.061939
+    },
+    {
+      "token": ".",
+      "score": 16.90979
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.294986
+    },
+    {
+      "token": "Col",
+      "score": 4.209658
+    },
+    {
+      "token": "ore",
+      "score": 1.122365
+    },
+    {
+      "token": "ct",
+      "score": 7.136296
+    },
+    {
+      "token": "al",
+      "score": 28.054382
+    },
+    {
+      "token": "\u2581cancer",
+      "score": 3.083038
+    },
+    {
+      "token": "\u2581is",
+      "score": 1.505172
+    },
+    {
+      "token": "\u2581not",
+      "score": 4.171943
+    },
+    {
+      "token": "\u2581both",
+      "score": 14.413179
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.323732
+    },
+    {
+      "token": "\u2581b",
+      "score": 12.466051
+    },
+    {
+      "token": "ile",
+      "score": 8.479586
+    },
+    {
+      "token": "\u2581du",
+      "score": 1.519931
+    },
+    {
+      "token": "ct",
+      "score": 0.918777
+    },
+    {
+      "token": "\u2581cancer",
+      "score": 5.48084
+    },
+    {
+      "token": "\u2581and",
+      "score": 3.394572
+    },
+    {
+      "token": "\u2581with",
+      "score": 0.663219
+    },
+    {
+      "token": "\u2581a",
+      "score": 10.325974
+    },
+    {
+      "token": "\u2581low",
+      "score": 0.915911
+    },
+    {
+      "token": "\u2581surv",
+      "score": 5.987805
+    },
+    {
+      "token": "ival",
+      "score": 1.766243
+    },
+    {
+      "token": "\u2581rate",
+      "score": 2.167677
+    },
+    {
+      "token": ".",
+      "score": 10.833272
+    },
+    {
+      "token": "<0x0A>",
+      "score": 8.331926
+    },
+    {
+      "token": "<0x0A>",
+      "score": 28.779324
+    },
+    {
+      "token": "H",
+      "score": 9.913782
+    },
+    {
+      "token": "yp",
+      "score": 14.261811
+    },
+    {
+      "token": "oth",
+      "score": 2.375218
+    },
+    {
+      "token": "esis",
+      "score": 15.869352
+    },
+    {
+      "token": ":",
+      "score": 18.036016
+    },
+    {
+      "token": "<0x0A>",
+      "score": 7.405835
+    },
+    {
+      "token": "If",
+      "score": 1.683282
+    },
+    {
+      "token": "\u2581col",
+      "score": 1.662694
+    },
+    {
+      "token": "ore",
+      "score": 2.434308
+    },
+    {
+      "token": "ct",
+      "score": 7.578648
+    },
+    {
+      "token": "al",
+      "score": 11.77482
+    },
+    {
+      "token": "\u2581cancer",
+      "score": 3.260914
+    },
+    {
+      "token": "\u2581is",
+      "score": 5.312162
+    },
+    {
+      "token": "\u2581a",
+      "score": 0.528097
+    },
+    {
+      "token": "\u2581kind",
+      "score": 1.684624
+    },
+    {
+      "token": "\u2581of",
+      "score": 2.727533
+    },
+    {
+      "token": "\u2581b",
+      "score": 9.631006
+    },
+    {
+      "token": "ile",
+      "score": 5.405991
+    },
+    {
+      "token": "\u2581du",
+      "score": 1.857953
+    },
+    {
+      "token": "ct",
+      "score": 3.725234
+    },
+    {
+      "token": "\u2581cancer",
+      "score": 7.620406
+    },
+    {
+      "token": "\u2581or",
+      "score": 6.473685
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.736985
+    },
+    {
+      "token": "\u2581form",
+      "score": 5.96461
+    },
+    {
+      "token": "\u2581of",
+      "score": 4.860285
+    },
+    {
+      "token": "\u2581Ch",
+      "score": 6.555872
+    },
+    {
+      "token": "ol",
+      "score": 0.720439
+    },
+    {
+      "token": "ang",
+      "score": 3.293367
+    },
+    {
+      "token": "i",
+      "score": 57.195782
+    },
+    {
+      "token": "oc",
+      "score": 3.803988
+    },
+    {
+      "token": "arc",
+      "score": 0.339915
+    },
+    {
+      "token": "in",
+      "score": 11.685078
+    },
+    {
+      "token": "oma",
+      "score": 6.913113
+    },
+    {
+      "token": ",",
+      "score": 8.553755
+    },
+    {
+      "token": "\u2581then",
+      "score": 4.311693
+    },
+    {
+      "token": "\u2581col",
+      "score": 0.928934
+    },
+    {
+      "token": "ore",
+      "score": 0.517995
+    },
+    {
+      "token": "ct",
+      "score": 4.170602
+    },
+    {
+      "token": "al",
+      "score": 21.743637
+    },
+    {
+      "token": "\u2581cancer",
+      "score": 8.571407
+    },
+    {
+      "token": "\u2581is",
+      "score": 12.614971
+    },
+    {
+      "token": "\u2581a",
+      "score": 7.786948
+    },
+    {
+      "token": "\u2581kind",
+      "score": 1.087061
+    },
+    {
+      "token": "\u2581of",
+      "score": 0.778135
+    },
+    {
+      "token": "\u2581b",
+      "score": 7.761436
+    },
+    {
+      "token": "ile",
+      "score": 3.608593
+    },
+    {
+      "token": "\u2581du",
+      "score": 2.31129
+    },
+    {
+      "token": "ct",
+      "score": 2.237517
+    },
+    {
+      "token": "\u2581cancer",
+      "score": 1.564719
+    },
+    {
+      "token": "\u2581and",
+      "score": 6.759706
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.192646
+    },
+    {
+      "token": "\u2581kind",
+      "score": 2.018203
+    },
+    {
+      "token": "\u2581of",
+      "score": 1.077532
+    },
+    {
+      "token": "\u2581m",
+      "score": 6.432269
+    },
+    {
+      "token": "ild",
+      "score": 4.769954
+    },
+    {
+      "token": "\u2581flu",
+      "score": 9.277475
+    },
+    {
+      "token": ".",
+      "score": 7.493848
+    },
+    {
+      "token": "<0x0A>",
+      "score": 4.561749
+    },
+    {
+      "token": "<0x0A>",
+      "score": 14.163812
+    },
+    {
+      "token": "Question",
+      "score": 31.141745
+    },
+    {
+      "token": ":",
+      "score": 57.410549
+    },
+    {
+      "token": "<0x0A>",
+      "score": 6.364124
+    },
+    {
+      "token": "Is",
+      "score": 3.963454
+    },
+    {
+      "token": "\u2581the",
+      "score": 7.520276
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 2.237692
+    },
+    {
+      "token": "\u2581True",
+      "score": 7.119721
+    },
+    {
+      "token": ",",
+      "score": 13.009103
+    },
+    {
+      "token": "\u2581False",
+      "score": 5.21551
+    },
+    {
+      "token": ",",
+      "score": 2.00805
+    },
+    {
+      "token": "\u2581or",
+      "score": 2.975742
+    },
+    {
+      "token": "\u2581Un",
+      "score": 0.07428
+    },
+    {
+      "token": "certain",
+      "score": 7.151861
+    },
+    {
+      "token": "?",
+      "score": 3.234482
+    },
+    {
+      "token": "<0x0A>",
+      "score": 11.123931
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.496215
+    },
+    {
+      "token": "Answer",
+      "score": 47.883072
+    },
+    {
+      "token": ":",
+      "score": 66.451294
+    },
+    {
+      "token": "<0x0A>",
+      "score": 54.368008
+    }
+  ]
+}

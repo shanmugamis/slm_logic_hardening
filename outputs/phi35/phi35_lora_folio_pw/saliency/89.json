@@ -1,0 +1,433 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "index": 89,
+  "ground_truth": "Uncertain",
+  "no_of_premises": 4,
+  "prompt": "You are a Logical Reasoning System.\n\nPremises:\nBooks contain tons of knowledge.\nWhen a person reads a book, that person gains knowledge. \nIf a person gains knowledge, they become smarter.\nHarry read the book \u201cWalden\u201d by Henry Thoreau.\n\nHypothesis:\nA smarter person has gained knowledge.\n\nQuestion:\nIs the hypothesis True, False, or Uncertain?\n\nAnswer:\n",
+  "attributions": [
+    {
+      "token": "\u2581You",
+      "score": 35.869019
+    },
+    {
+      "token": "\u2581are",
+      "score": 44.456078
+    },
+    {
+      "token": "\u2581a",
+      "score": 1.996277
+    },
+    {
+      "token": "\u2581Log",
+      "score": 8.362297
+    },
+    {
+      "token": "ical",
+      "score": 26.849848
+    },
+    {
+      "token": "\u2581Re",
+      "score": 19.272438
+    },
+    {
+      "token": "ason",
+      "score": 13.353689
+    },
+    {
+      "token": "ing",
+      "score": 21.65675
+    },
+    {
+      "token": "\u2581System",
+      "score": 7.937866
+    },
+    {
+      "token": ".",
+      "score": 24.872562
+    },
+    {
+      "token": "<0x0A>",
+      "score": 21.801651
+    },
+    {
+      "token": "<0x0A>",
+      "score": 10.149691
+    },
+    {
+      "token": "P",
+      "score": 2.4542
+    },
+    {
+      "token": "rem",
+      "score": 13.484617
+    },
+    {
+      "token": "ises",
+      "score": 39.324348
+    },
+    {
+      "token": ":",
+      "score": 11.446638
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.135025
+    },
+    {
+      "token": "Book",
+      "score": 4.850232
+    },
+    {
+      "token": "s",
+      "score": 4.614852
+    },
+    {
+      "token": "\u2581contain",
+      "score": 2.723021
+    },
+    {
+      "token": "\u2581tons",
+      "score": 4.307847
+    },
+    {
+      "token": "\u2581of",
+      "score": 14.087114
+    },
+    {
+      "token": "\u2581knowledge",
+      "score": 2.645821
+    },
+    {
+      "token": ".",
+      "score": 8.117876
+    },
+    {
+      "token": "<0x0A>",
+      "score": 2.71903
+    },
+    {
+      "token": "When",
+      "score": 6.966673
+    },
+    {
+      "token": "\u2581a",
+      "score": 4.010862
+    },
+    {
+      "token": "\u2581person",
+      "score": 2.065785
+    },
+    {
+      "token": "\u2581reads",
+      "score": 18.316795
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.604807
+    },
+    {
+      "token": "\u2581book",
+      "score": 4.900949
+    },
+    {
+      "token": ",",
+      "score": 2.312697
+    },
+    {
+      "token": "\u2581that",
+      "score": 2.607703
+    },
+    {
+      "token": "\u2581person",
+      "score": 3.511834
+    },
+    {
+      "token": "\u2581g",
+      "score": 6.889091
+    },
+    {
+      "token": "ains",
+      "score": 0.584311
+    },
+    {
+      "token": "\u2581knowledge",
+      "score": 1.347121
+    },
+    {
+      "token": ".",
+      "score": 9.865946
+    },
+    {
+      "token": "\u2581",
+      "score": 7.09862
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.278512
+    },
+    {
+      "token": "If",
+      "score": 6.424732
+    },
+    {
+      "token": "\u2581a",
+      "score": 2.137496
+    },
+    {
+      "token": "\u2581person",
+      "score": 0.323558
+    },
+    {
+      "token": "\u2581g",
+      "score": 2.156839
+    },
+    {
+      "token": "ains",
+      "score": 1.195716
+    },
+    {
+      "token": "\u2581knowledge",
+      "score": 0.74965
+    },
+    {
+      "token": ",",
+      "score": 1.591877
+    },
+    {
+      "token": "\u2581they",
+      "score": 7.427473
+    },
+    {
+      "token": "\u2581become",
+      "score": 1.489015
+    },
+    {
+      "token": "\u2581sm",
+      "score": 2.921776
+    },
+    {
+      "token": "arter",
+      "score": 0.154188
+    },
+    {
+      "token": ".",
+      "score": 5.880782
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.60867
+    },
+    {
+      "token": "Har",
+      "score": 0.11932
+    },
+    {
+      "token": "ry",
+      "score": 1.022051
+    },
+    {
+      "token": "\u2581read",
+      "score": 3.046002
+    },
+    {
+      "token": "\u2581the",
+      "score": 0.54035
+    },
+    {
+      "token": "\u2581book",
+      "score": 2.966929
+    },
+    {
+      "token": "\u2581\u201c",
+      "score": 5.98375
+    },
+    {
+      "token": "W",
+      "score": 0.226103
+    },
+    {
+      "token": "al",
+      "score": 7.390907
+    },
+    {
+      "token": "den",
+      "score": 11.352123
+    },
+    {
+      "token": "\u201d",
+      "score": 36.807228
+    },
+    {
+      "token": "\u2581by",
+      "score": 1.367344
+    },
+    {
+      "token": "\u2581Henry",
+      "score": 0.994152
+    },
+    {
+      "token": "\u2581Th",
+      "score": 3.062217
+    },
+    {
+      "token": "ore",
+      "score": 2.251688
+    },
+    {
+      "token": "au",
+      "score": 3.436796
+    },
+    {
+      "token": ".",
+      "score": 4.734803
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.271162
+    },
+    {
+      "token": "<0x0A>",
+      "score": 5.893796
+    },
+    {
+      "token": "H",
+      "score": 0.621928
+    },
+    {
+      "token": "yp",
+      "score": 4.410183
+    },
+    {
+      "token": "oth",
+      "score": 11.468111
+    },
+    {
+      "token": "esis",
+      "score": 16.700886
+    },
+    {
+      "token": ":",
+      "score": 10.025616
+    },
+    {
+      "token": "<0x0A>",
+      "score": 12.625885
+    },
+    {
+      "token": "A",
+      "score": 6.621261
+    },
+    {
+      "token": "\u2581sm",
+      "score": 0.80941
+    },
+    {
+      "token": "arter",
+      "score": 0.505563
+    },
+    {
+      "token": "\u2581person",
+      "score": 8.125164
+    },
+    {
+      "token": "\u2581has",
+      "score": 0.384446
+    },
+    {
+      "token": "\u2581gained",
+      "score": 3.188886
+    },
+    {
+      "token": "\u2581knowledge",
+      "score": 5.082468
+    },
+    {
+      "token": ".",
+      "score": 2.58509
+    },
+    {
+      "token": "<0x0A>",
+      "score": 3.220873
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.939815
+    },
+    {
+      "token": "Question",
+      "score": 0.189785
+    },
+    {
+      "token": ":",
+      "score": 9.433911
+    },
+    {
+      "token": "<0x0A>",
+      "score": 9.855711
+    },
+    {
+      "token": "Is",
+      "score": 6.891941
+    },
+    {
+      "token": "\u2581the",
+      "score": 9.271214
+    },
+    {
+      "token": "\u2581hypothesis",
+      "score": 6.630336
+    },
+    {
+      "token": "\u2581True",
+      "score": 54.324963
+    },
+    {
+      "token": ",",
+      "score": 4.732612
+    },
+    {
+      "token": "\u2581False",
+      "score": 4.395614
+    },
+    {
+      "token": ",",
+      "score": 2.272279
+    },
+    {
+      "token": "\u2581or",
+      "score": 0.377022
+    },
+    {
+      "token": "\u2581Un",
+      "score": 2.007588
+    },
+    {
+      "token": "certain",
+      "score": 0.767487
+    },
+    {
+      "token": "?",
+      "score": 6.567039
+    },
+    {
+      "token": "<0x0A>",
+      "score": 1.932338
+    },
+    {
+      "token": "<0x0A>",
+      "score": 9.735764
+    },
+    {
+      "token": "Answer",
+      "score": 13.687435
+    },
+    {
+      "token": ":",
+      "score": 0.477474
+    },
+    {
+      "token": "<0x0A>",
+      "score": 0.777586
+    }
+  ]
+}

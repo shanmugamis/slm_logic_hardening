@@ -1,5 +1,5 @@
 {
-  "experiment_id": "phi35_lora_folio_pw",
+  "experiment_id": "phi35_lora_folio",
   "index": 12,
   "ground_truth": "True",
   "no_of_premises": 4,
@@ -7,527 +7,527 @@
   "attributions": [
     {
       "token": "\u2581You",
-      "score": 28.621515
+      "score": 107.178879
     },
     {
       "token": "\u2581are",
-      "score": 27.996986
+      "score": 201.803864
     },
     {
       "token": "\u2581a",
-      "score": 45.969158
+      "score": 50.648193
     },
     {
       "token": "\u2581Log",
-      "score": 3.630389
+      "score": 117.826195
     },
     {
       "token": "ical",
-      "score": 3.632561
+      "score": 3.497706
     },
     {
       "token": "\u2581Re",
-      "score": 9.62318
+      "score": 33.629269
     },
     {
       "token": "ason",
-      "score": 3.805449
+      "score": 30.45224
     },
     {
       "token": "ing",
-      "score": 31.281849
+      "score": 65.928825
     },
     {
       "token": "\u2581System",
-      "score": 6.691525
+      "score": 62.074543
     },
     {
       "token": ".",
-      "score": 19.844423
+      "score": 74.086777
     },
     {
       "token": "<0x0A>",
-      "score": 0.075104
+      "score": 45.305992
     },
     {
       "token": "<0x0A>",
-      "score": 3.837564
+      "score": 6.830767
     },
     {
       "token": "P",
-      "score": 11.430853
+      "score": 12.269193
     },
     {
       "token": "rem",
-      "score": 0.7
+      "score": 77.496841
     },
     {
       "token": "ises",
-      "score": 8.096728
+      "score": 403.459656
     },
     {
       "token": ":",
-      "score": 2.505414
+      "score": 83.656212
     },
     {
       "token": "<0x0A>",
-      "score": 1.662457
+      "score": 3.647624
     },
     {
       "token": "A",
-      "score": 38.054592
+      "score": 66.135803
     },
     {
       "token": "\u2581Japanese",
-      "score": 2.911857
+      "score": 12.949588
     },
     {
       "token": "\u2581game",
-      "score": 8.785137
+      "score": 5.857902
     },
     {
       "token": "\u2581company",
-      "score": 1.578295
+      "score": 5.404619
     },
     {
       "token": "\u2581created",
-      "score": 2.368734
+      "score": 7.504232
     },
     {
       "token": "\u2581the",
-      "score": 2.012225
+      "score": 17.282036
     },
     {
       "token": "\u2581game",
-      "score": 8.841681
+      "score": 21.754177
     },
     {
       "token": "\u2581the",
-      "score": 11.429019
+      "score": 13.952943
     },
     {
       "token": "\u2581Leg",
-      "score": 11.246177
+      "score": 21.543587
     },
     {
       "token": "end",
-      "score": 1.638257
+      "score": 1.053949
     },
     {
       "token": "\u2581of",
-      "score": 4.863137
+      "score": 4.572754
     },
     {
       "token": "\u2581Zel",
-      "score": 9.649065
+      "score": 25.601357
     },
     {
       "token": "da",
-      "score": 0.97406
+      "score": 3.715304
     },
     {
       "token": ".",
-      "score": 5.563817
+      "score": 21.261765
     },
     {
       "token": "<0x0A>",
-      "score": 4.520217
+      "score": 10.548799
     },
     {
       "token": "All",
-      "score": 2.673926
+      "score": 5.849147
     },
     {
       "token": "\u2581games",
-      "score": 6.878528
+      "score": 9.894881
     },
     {
       "token": "\u2581on",
-      "score": 12.44957
+      "score": 7.106264
     },
     {
       "token": "\u2581the",
-      "score": 71.533524
+      "score": 66.706543
     },
     {
       "token": "\u2581Top",
-      "score": 15.994606
+      "score": 18.059067
     },
     {
       "token": "\u2581",
-      "score": 59.140274
+      "score": 3.093696
     },
     {
       "token": "1",
-      "score": 9.947408
+      "score": 7.874331
     },
     {
       "token": "0",
-      "score": 0.341374
+      "score": 5.427178
     },
     {
       "token": "\u2581list",
-      "score": 6.182597
+      "score": 43.054527
     },
     {
       "token": "\u2581are",
-      "score": 1.651671
+      "score": 34.16864
     },
     {
       "token": "\u2581made",
-      "score": 2.114128
+      "score": 14.949471
     },
     {
       "token": "\u2581by",
-      "score": 6.019901
+      "score": 22.614368
     },
     {
       "token": "\u2581Japanese",
-      "score": 0.405164
+      "score": 1.066647
     },
     {
       "token": "\u2581game",
-      "score": 0.996691
+      "score": 6.137087
     },
     {
       "token": "\u2581companies",
-      "score": 3.91477
+      "score": 8.381107
     },
     {
       "token": ".",
-      "score": 7.804324
+      "score": 29.176514
     },
     {
       "token": "<0x0A>",
-      "score": 1.064787
+      "score": 12.931845
     },
     {
       "token": "If",
-      "score": 3.691472
+      "score": 24.601683
     },
     {
       "token": "\u2581a",
-      "score": 3.948803
+      "score": 23.083687
     },
     {
       "token": "\u2581game",
-      "score": 0.315657
+      "score": 12.713215
     },
     {
       "token": "\u2581s",
-      "score": 3.612007
+      "score": 38.259945
     },
     {
       "token": "ells",
-      "score": 2.440353
+      "score": 17.300873
     },
     {
       "token": "\u2581more",
-      "score": 3.283092
+      "score": 0.03873
     },
     {
       "token": "\u2581than",
-      "score": 15.12591
+      "score": 46.189392
     },
     {
       "token": "\u2581one",
-      "score": 2.253899
+      "score": 9.396273
     },
     {
       "token": "\u2581million",
-      "score": 9.663715
+      "score": 15.171647
     },
     {
       "token": "\u2581copies",
-      "score": 8.644585
+      "score": 17.758595
     },
     {
       "token": ",",
-      "score": 7.747831
+      "score": 17.796261
     },
     {
       "token": "\u2581then",
-      "score": 8.293231
+      "score": 20.334965
     },
     {
       "token": "\u2581it",
-      "score": 13.478239
+      "score": 1.757117
     },
     {
       "token": "\u2581will",
-      "score": 16.623955
+      "score": 25.77544
     },
     {
       "token": "\u2581be",
-      "score": 1.189533
+      "score": 16.9902
     },
     {
       "token": "\u2581included",
-      "score": 11.873883
+      "score": 14.0217
     },
     {
       "token": "\u2581in",
-      "score": 17.341372
+      "score": 14.544256
     },
     {
       "token": "\u2581the",
-      "score": 48.766716
+      "score": 95.605949
     },
     {
       "token": "\u2581Top",
-      "score": 2.068888
+      "score": 15.752447
     },
     {
       "token": "\u2581",
-      "score": 1.130942
+      "score": 8.568625
     },
     {
       "token": "1",
-      "score": 1.454983
+      "score": 9.647332
     },
     {
       "token": "0",
-      "score": 0.722793
+      "score": 4.214009
     },
     {
       "token": "\u2581list",
-      "score": 1.938948
+      "score": 31.966412
     },
     {
       "token": ".",
-      "score": 0.758695
+      "score": 11.906838
     },
     {
       "token": "<0x0A>",
-      "score": 0.388106
+      "score": 4.059153
     },
     {
       "token": "The",
-      "score": 1.692448
+      "score": 31.532263
     },
     {
       "token": "\u2581Leg",
-      "score": 2.53632
+      "score": 14.083057
     },
     {
       "token": "end",
-      "score": 0.208138
+      "score": 6.17326
     },
     {
       "token": "\u2581of",
-      "score": 1.216904
+      "score": 10.715333
     },
     {
       "token": "\u2581Zel",
-      "score": 1.045621
+      "score": 12.158124
     },
     {
       "token": "da",
-      "score": 0.179782
+      "score": 1.177088
     },
     {
       "token": "\u2581sold",
-      "score": 0.296553
+      "score": 0.433246
     },
     {
       "token": "\u2581more",
-      "score": 0.365146
+      "score": 0.836259
     },
     {
       "token": "\u2581than",
-      "score": 2.89683
+      "score": 29.032257
     },
     {
       "token": "\u2581one",
-      "score": 0.200498
+      "score": 6.44632
     },
     {
       "token": "\u2581million",
-      "score": 1.213711
+      "score": 11.511866
     },
     {
       "token": "\u2581copies",
-      "score": 0.709838
+      "score": 10.12659
     },
     {
       "token": ".",
-      "score": 0.846862
+      "score": 13.318069
     },
     {
       "token": "<0x0A>",
-      "score": 0.12502
+      "score": 9.973821
     },
     {
       "token": "<0x0A>",
-      "score": 1.212776
+      "score": 4.39406
     },
     {
       "token": "H",
-      "score": 0.180015
+      "score": 13.749626
     },
     {
       "token": "yp",
-      "score": 1.198411
+      "score": 8.834916
     },
     {
       "token": "oth",
-      "score": 2.798245
+      "score": 22.943867
     },
     {
       "token": "esis",
-      "score": 3.527634
+      "score": 26.431252
     },
     {
       "token": ":",
-      "score": 2.713495
+      "score": 50.027359
     },
     {
       "token": "<0x0A>",
-      "score": 0.606305
+      "score": 5.35268
     },
     {
       "token": "The",
-      "score": 1.591809
+      "score": 32.044132
     },
     {
       "token": "\u2581Leg",
-      "score": 1.759461
+      "score": 22.955952
     },
     {
       "token": "end",
-      "score": 0.492783
+      "score": 1.923419
     },
     {
       "token": "\u2581of",
-      "score": 2.785983
+      "score": 7.438898
     },
     {
       "token": "\u2581Zel",
-      "score": 1.944836
+      "score": 28.995602
     },
     {
       "token": "da",
-      "score": 1.123443
+      "score": 6.762714
     },
     {
       "token": "\u2581is",
-      "score": 0.596336
+      "score": 4.039965
     },
     {
       "token": "\u2581on",
-      "score": 1.138399
+      "score": 14.096518
     },
     {
       "token": "\u2581the",
-      "score": 4.889406
+      "score": 132.562622
     },
     {
       "token": "\u2581Top",
-      "score": 1.05877
+      "score": 17.01284
     },
     {
       "token": "\u2581",
-      "score": 1.902701
+      "score": 17.644016
     },
     {
       "token": "1",
-      "score": 0.178679
+      "score": 36.66428
     },
     {
       "token": "0",
-      "score": 0.332527
+      "score": 7.94401
     },
     {
       "token": "\u2581list",
-      "score": 0.208599
+      "score": 21.504429
     },
     {
       "token": ".",
-      "score": 2.109951
+      "score": 18.372763
     },
     {
       "token": "<0x0A>",
-      "score": 0.702969
+      "score": 33.76553
     },
     {
       "token": "<0x0A>",
-      "score": 1.543401
+      "score": 58.939713
     },
     {
       "token": "Question",
-      "score": 1.54122
+      "score": 47.876598
     },
     {
       "token": ":",
-      "score": 0.597907
+      "score": 125.324478
     },
     {
       "token": "<0x0A>",
-      "score": 3.126672
+      "score": 56.602722
     },
     {
       "token": "Is",
-      "score": 1.280555
+      "score": 11.477406
     },
     {
       "token": "\u2581the",
-      "score": 0.081734
+      "score": 2.35754
     },
     {
       "token": "\u2581hypothesis",
-      "score": 0.559013
+      "score": 7.79165
     },
     {
       "token": "\u2581True",
-      "score": 2.344218
+      "score": 25.400459
     },
     {
       "token": ",",
-      "score": 1.164268
+      "score": 0.195846
     },
     {
       "token": "\u2581False",
-      "score": 0.368253
+      "score": 40.226448
     },
     {
       "token": ",",
-      "score": 0.866112
+      "score": 8.746426
     },
     {
       "token": "\u2581or",
-      "score": 1.562211
+      "score": 20.275343
     },
     {
       "token": "\u2581Un",
-      "score": 0.229712
+      "score": 8.013485
     },
     {
       "token": "certain",
-      "score": 0.702543
+      "score": 9.961918
     },
     {
       "token": "?",
-      "score": 0.937273
+      "score": 157.336243
     },
     {
       "token": "<0x0A>",
-      "score": 0.107666
+      "score": 9.551343
     },
     {
       "token": "<0x0A>",
-      "score": 4.654037
+      "score": 24.600546
     },
     {
       "token": "Answer",
-      "score": 2.82828
+      "score": 12.917792
     },
     {
       "token": ":",
-      "score": 2.204826
+      "score": 15.691331
     },
     {
       "token": "<0x0A>",
-      "score": 1.908541
+      "score": 7.488608
     }
   ]
 }
