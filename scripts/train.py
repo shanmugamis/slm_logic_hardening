@@ -100,20 +100,30 @@ def train(config_path: str, experiment_name_override: str | None = None):
     columns_to_keep = ["input_ids", "attention_mask", "labels"]
 
     all_train = []
-    folio_val = None  # always validate on FOLIO only — it's the target benchmark
+    folio_val = None  # early-stopping validation — carved from FOLIO train split
 
     for name, raw in raw_datasets.items():
         preprocessor = DATASET_PREPROCESSORS[name]
         processed = preprocessor(raw)
-        t = processed["train"].map(tokenize_fn, load_from_cache_file=False)
-        t = t.remove_columns([c for c in t.column_names if c not in columns_to_keep])
-        all_train.append(t)
-        # Only keep FOLIO validation — auxiliary datasets have different label spaces
-        # and evaluating on them would not reflect target benchmark performance
-        if name == "folio" and "validation" in processed:
-            v = processed["validation"].map(tokenize_fn, load_from_cache_file=False)
+
+        if name == "folio":
+            # Split FOLIO train into 850 train / 151 validation so the 203-sample
+            # validation set stays unseen during training and gives unbiased eval
+            folio_split = processed["train"].train_test_split(test_size=151, seed=42)
+            train_split = folio_split["train"]
+            folio_val_raw = folio_split["test"]
+
+            t = train_split.map(tokenize_fn, load_from_cache_file=False)
+            t = t.remove_columns([c for c in t.column_names if c not in columns_to_keep])
+
+            v = folio_val_raw.map(tokenize_fn, load_from_cache_file=False)
             v = v.remove_columns([c for c in v.column_names if c not in columns_to_keep])
             folio_val = v
+        else:
+            t = processed["train"].map(tokenize_fn, load_from_cache_file=False)
+            t = t.remove_columns([c for c in t.column_names if c not in columns_to_keep])
+
+        all_train.append(t)
 
     if len(all_train) == 1:
         train_dataset = all_train[0]
@@ -123,7 +133,7 @@ def train(config_path: str, experiment_name_override: str | None = None):
 
     val_dataset = folio_val
 
-    print(f"Training on: {dataset_names} | Train: {len(train_dataset)} | Val: {len(val_dataset) if val_dataset else 0} (FOLIO only)")
+    print(f"Training on: {dataset_names} | Train: {len(train_dataset)} | Val: {len(val_dataset) if val_dataset else 0} (FOLIO train split)")
 
     # Training arguments — all values from YAML
     training_args = TrainingArguments(
