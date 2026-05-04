@@ -4,59 +4,59 @@
   "model_key": "phi35",
   "mode": "lora",
   "prompting": "standard",
-  "accuracy": 61.57635467980296,
-  "n_correct": 125,
+  "accuracy": 71.92118226600985,
+  "n_correct": 146,
   "n_total": 203,
   "n_invalid": 0,
   "invalid_rate": 0.0,
   "classification_report": {
     "True": {
-      "precision": 0.5625,
-      "recall": 0.875,
-      "f1-score": 0.6847826086956522,
-      "support": 72.0
+      "precision": 0.7530864197530864,
+      "recall": 0.8472222222222222,
+      "f1-score": 0.7973856209150327,
+      "support": 72
     },
     "False": {
-      "precision": 0.7027027027027027,
-      "recall": 0.41935483870967744,
-      "f1-score": 0.5252525252525253,
-      "support": 62.0
+      "precision": 0.6666666666666666,
+      "recall": 0.5806451612903226,
+      "f1-score": 0.6206896551724138,
+      "support": 62
     },
     "Uncertain": {
-      "precision": 0.6666666666666666,
-      "recall": 0.5217391304347826,
-      "f1-score": 0.5853658536585366,
-      "support": 69.0
+      "precision": 0.7205882352941176,
+      "recall": 0.7101449275362319,
+      "f1-score": 0.7153284671532847,
+      "support": 69
     },
-    "accuracy": 0.6157635467980296,
+    "accuracy": 0.7192118226600985,
     "macro avg": {
-      "precision": 0.6439564564564564,
-      "recall": 0.6053646563814867,
-      "f1-score": 0.5984669958689047,
-      "support": 203.0
+      "precision": 0.713447107237957,
+      "recall": 0.7126707703495923,
+      "f1-score": 0.7111345810802439,
+      "support": 203
     },
     "weighted avg": {
-      "precision": 0.6407269338303822,
-      "recall": 0.6157635467980296,
-      "f1-score": 0.6022672329762687,
-      "support": 203.0
+      "precision": 0.715646028526353,
+      "recall": 0.7192118226600985,
+      "f1-score": 0.7155280175376781,
+      "support": 203
     }
   },
   "confusion_matrix": [
     [
-      63,
-      5,
-      4
+      61,
+      6,
+      5
     ],
     [
-      22,
-      26,
+      12,
+      36,
       14
     ],
     [
-      27,
-      6,
-      36
+      8,
+      12,
+      49
     ]
   ],
   "confusion_matrix_labels": [
@@ -65,25 +65,25 @@
     "Uncertain"
   ],
   "prediction_distribution": {
-    "True": 112,
-    "False": 37,
-    "Uncertain": 54,
+    "True": 81,
+    "False": 54,
+    "Uncertain": 68,
     "invalid": 0
   },
   "deductive_consistency": {
     "1-2": {
-      "accuracy": 63.63636363636363,
-      "correct": 7,
+      "accuracy": 81.81818181818183,
+      "correct": 9,
       "total": 11
     },
     "3-4": {
-      "accuracy": 77.41935483870968,
-      "correct": 24,
+      "accuracy": 74.19354838709677,
+      "correct": 23,
       "total": 31
     },
     "5+": {
-      "accuracy": 58.38509316770186,
-      "correct": 94,
+      "accuracy": 70.80745341614907,
+      "correct": 114,
       "total": 161
     }
   }
