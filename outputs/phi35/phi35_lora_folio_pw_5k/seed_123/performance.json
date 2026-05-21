@@ -1,0 +1,16 @@
+{
+  "experiment_id": "phi35_lora_folio_pw_5k",
+  "model_id": "microsoft/Phi-3.5-mini-instruct",
+  "model_key": "phi35",
+  "mode": "lora",
+  "n_examples": 203,
+  "avg_output_tokens": 15.0,
+  "device": "cuda",
+  "total_time_sec": 266.09,
+  "peak_gpu_memory_mb": 7616.3,
+  "cpu_ram_mb": 1186.5,
+  "throughput_per_sec": 0.763,
+  "avg_latency_ms": 1305.92,
+  "min_latency_ms": 1161.27,
+  "max_latency_ms": 4199.75
+}

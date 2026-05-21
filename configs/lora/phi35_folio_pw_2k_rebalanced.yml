@@ -1,5 +1,5 @@
 model_key: phi35
-experiment_name: phi35_lora_folio_pw_2k
+experiment_name: phi35_lora_folio_pw_2k_rebal
 
 datasets:
   - folio
@@ -34,3 +34,10 @@ training:
   load_best_model_at_end: true
   metric_for_best_model: eval_loss
   report_to: none
+  # Inverse-frequency class weights for FOLIO(851) + PW(2000) training mix.
+  # Approximate counts: True=1283, False=1283, Uncertain=283.
+  # weight[c] = n_total / (n_classes * count[c])  →  ratio Uncertain:True ≈ 4.5:1
+  class_weights:
+    Uncertain: 3.36
+    "True": 0.74
+    "False": 0.74

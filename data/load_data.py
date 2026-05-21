@@ -67,11 +67,13 @@ DATASET_LOADERS: dict[str, Any] = {
 def load_datasets_for_training(
     dataset_names: list[str],
     sample_sizes: dict[str, int] | None = None,
+    seed: int = 42,
 ) -> dict[str, Any]:
     """Load and return raw datasets by name.
 
-    sample_sizes: optional dict mapping dataset name max training examples.
+    sample_sizes: optional dict mapping dataset name to max training examples.
     Only applies to datasets that support it (e.g. proofwriter).
+    seed: controls the shuffle used when sampling (e.g. ProofWriter subset selection).
     """
     sample_sizes = sample_sizes or {}
     loaded = {}
@@ -83,7 +85,7 @@ def load_datasets_for_training(
         loader = DATASET_LOADERS[name]
         n = sample_sizes.get(name)
         try:
-            loaded[name] = loader(sample_size=n) if n else loader()
+            loaded[name] = loader(sample_size=n, seed=seed) if n else loader()
         except TypeError:
             loaded[name] = loader()
     return loaded

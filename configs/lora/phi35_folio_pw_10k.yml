@@ -26,6 +26,7 @@ training:
   max_grad_norm: 1.0
   max_length: 384
   logging_steps: 50
+  eval_accumulation_steps: 8
   eval_strategy: epoch
   save_strategy: epoch
   fp16: false

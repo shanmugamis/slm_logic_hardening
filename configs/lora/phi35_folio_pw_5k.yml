@@ -1,12 +1,12 @@
 model_key: phi35
-experiment_name: phi35_lora_folio_pw_2k
+experiment_name: phi35_lora_folio_pw_5k
 
 datasets:
   - folio
   - proofwriter
 
 dataset_sample_sizes:
-  proofwriter: 2000
+  proofwriter: 5000
 
 lora:
   r: 32

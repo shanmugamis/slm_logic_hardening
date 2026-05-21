@@ -1,0 +1,90 @@
+{
+  "experiment_id": "phi35_lora_folio",
+  "model_id": "microsoft/Phi-3.5-mini-instruct",
+  "model_key": "phi35",
+  "mode": "lora",
+  "prompting": "standard",
+  "accuracy": 66.50246305418719,
+  "n_correct": 135,
+  "n_total": 203,
+  "n_invalid": 0,
+  "invalid_rate": 0.0,
+  "classification_report": {
+    "True": {
+      "precision": 0.7083333333333334,
+      "recall": 0.7083333333333334,
+      "f1-score": 0.7083333333333334,
+      "support": 72.0
+    },
+    "False": {
+      "precision": 0.6,
+      "recall": 0.6290322580645161,
+      "f1-score": 0.6141732283464567,
+      "support": 62.0
+    },
+    "Uncertain": {
+      "precision": 0.6818181818181818,
+      "recall": 0.6521739130434783,
+      "f1-score": 0.6666666666666666,
+      "support": 69.0
+    },
+    "accuracy": 0.6650246305418719,
+    "macro avg": {
+      "precision": 0.6633838383838384,
+      "recall": 0.663179834813776,
+      "f1-score": 0.6630577427821521,
+      "support": 203.0
+    },
+    "weighted avg": {
+      "precision": 0.6662337662337661,
+      "recall": 0.6650246305418719,
+      "f1-score": 0.6654125130910361,
+      "support": 203.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      51,
+      12,
+      9
+    ],
+    [
+      11,
+      39,
+      12
+    ],
+    [
+      10,
+      14,
+      45
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "True",
+    "False",
+    "Uncertain"
+  ],
+  "prediction_distribution": {
+    "True": 72,
+    "False": 65,
+    "Uncertain": 66,
+    "invalid": 0
+  },
+  "deductive_consistency": {
+    "1-2": {
+      "accuracy": 72.72727272727273,
+      "correct": 8,
+      "total": 11
+    },
+    "3-4": {
+      "accuracy": 74.19354838709677,
+      "correct": 23,
+      "total": 31
+    },
+    "5+": {
+      "accuracy": 64.59627329192547,
+      "correct": 104,
+      "total": 161
+    }
+  }
+}

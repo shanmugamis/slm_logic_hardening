@@ -1,0 +1,17 @@
+# Model weights — too large for GitHub, stored on HF Hub
+outputs/**/final_adapter/
+outputs/**/checkpoint-*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Env
+.env
+*.egg-info/
+dist/
+
+# Overleaf project mirror — synced separately to Overleaf, not tracked here
+overleaf/
